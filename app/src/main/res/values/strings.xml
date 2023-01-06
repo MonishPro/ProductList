@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">ProductList</string>
+    <string-array name="product_name">
+        <item>Earphones</item>
+        <item>Speakers</item>
+        <item>SmartPhones</item>
+        <item>Lamp</item>
+        <item>Vases</item>
+    </string-array>
+
+    <string-array name="product_prices">
+        <item>Rs 350</item>
+        <item>Rs 1500</item>
+        <item>Rs 17500</item>
+        <item>Rs 3500</item>
+        <item>Rs 5100</item>
+    </string-array>
+
+    <string-array name="images">
+        <item>R.drawable.earphones</item>
+        <item>R.drawable.smartphone</item>
+        <item>R.drawable.lamp</item>
+        <item>R.drawable.vase</item>
+        <item>R.drawable.earphones</item>
+    </string-array>
+</resources>
