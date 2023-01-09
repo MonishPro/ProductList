@@ -23,4 +23,96 @@
         <item>R.drawable.vase</item>
         <item>R.drawable.earphones</item>
     </string-array>
+
+    <string-array name="phones">
+        <item>OPPO A74 5G (Fantastic Purple,6GB RAM,128GB Storage) with No Cost EMI/Additional Exchange Offers</item>
+        <item>Redmi 9A Sport (Coral Green, 2GB RAM, 32GB Storage) | 2GHz Octa-core Helio G25 Processor | 5000 mAh Battery</item>
+        <item>Redmi A1 (Light Blue, 2GB RAM, 32GB Storage) | Segment Best AI Dual Cam | 5000mAh Battery | Leather Texture Design | Android 12</item>
+        <item>Redmi 10A (Slate Grey, 4GB RAM, 64GB Storage) | 2 Ghz Octa Core Helio G25 | 5000 mAh Battery | Finger Print Sensor | Upto 5GB RAM with RAM Booster</item>
+        <item>Samsung Galaxy M04 Light Green, 4GB RAM, 64GB Storage | Upto 8GB RAM with RAM Plus | MediaTek Helio P35 | 5000 mAh Battery</item>
+        <item>OPPO A31 (Mystery Black, 6GB RAM, 128GB Storage) with No Cost EMI/Additional Exchange Offers</item>
+        <item>Samsung Galaxy M13 (Aqua Green, 4GB, 64GB Storage) | 6000mAh Battery | Upto 8GB RAM with RAM Plus</item>
+        <item>realme narzo 50i (Carbon Black, 2GB RAM+32GB Storage) Octa Core Processor | 6.5" inch Large Display</item>
+        <item>Redmi 10A (Charcoal Black, 4GB RAM, 64GB Storage) | 2 Ghz Octa Core Helio G25 | 5000 mAh Battery | Finger Print Sensor | Upto 5GB RAM with RAM Booster</item>
+        <item>Samsung Galaxy S20 FE 5G (Cloud Mint, 8GB RAM, 128GB Storage)</item>
+        <item>(Renewed) Samsung Galaxy S22 Plus 5G (Phantom Black, 8GB, 128GB Storage) with No Cost EMI/Additional Exchange Offers</item>
+        <item>Vivo Y16 (Stellar Black, 4GB RAM, 64GB Storage) with No Cost EMI/Additional Exchange Offers</item>
+        <item>OnePlus Nord CE 2 Lite 5G (Blue Tide, 6GB RAM, 128GB Storage)</item>
+        <item>iQOO Z6 44W by vivo (Lumina Blue, 4GB RAM, 128GB Storage) | 6.44" FHD+ AMOLED Display </item>
+        <item>Vivo Y02 (Orchid Blue, 3GB RAM, 32GB Storage) with No Cost EMI/Additional Exchange Offers</item>
+        <item>IKALL K350 Smartphone with 6 Inch Display Android 10(3GB RAM, 32GB Internal Memory) (Blue)</item>
+        <item>Tecno Phantom X2 5G Moonlight Silver (8GB RAM,256GB Storage) </item>
+        <item>Tecno POVA 4 (Uranolith Grey,8GB RAM,128GB Storage)| Helio G99 Processor | 6000mAh Battery 18W Charger Included| 50MP Rear Camera</item>
+        <item>Tecno POVA 5G (8GB RAM,128GB Storage,Aether Black) | FHD+ Screen | 6000mAh | 50MP AI Triple Rear Camera</item>
+        <item>Apple iPhone 13 (128GB) - Starlight</item>
+    </string-array>
+
+    <string-array name="books">
+        <item>Hindutva: Origin, Evolution and Future</item>
+        <item>The Psychology of Money</item>
+        <item>Do It Today: Overcome procrastination, improve productivity and achieve more meaningful things [Paperback] Foroux, Darius </item>
+        <item>You Can</item>
+        <item>Doglapan: The Hard Truth about Life and Start-Ups</item>
+        <item>Brijbhoomi Books And Handicrafts® Bhagavad Gita: Yatharoop</item>
+        <item>Greatest Works of H.G. Wells (Deluxe Hardbound Edition) </item>
+        <item>Greatest Works of Oscar Wilde (Deluxe Hardbound Edition)</item>
+        <item>One Day, Life Will Change: A story of love and inspiration to win life when it hits you hard </item>
+        <item>You Only Live Once: One for Passion Two for Love Three for Friendship </item>
+        <item>The Blue Umbrella</item>
+        <item>The Canterville Ghost </item>
+        <item>The Adventures of Sherlock Holmes for Kids : illustrated Abridged Children Classics English Novel with Review Questions </item>
+        <item>The Power of Your Subconscious Mind</item>
+        <item>That Night: Four Friends. Twenty Years. One Haunting Secret.</item>
+        <item>Silent Child</item>
+        <item>The Red Spy </item>
+        <item>Ikigai: The Japanese secret to a long and happy life [Hardcover] García, Héctor and Miralles, Francesc</item>
+        <item>A Cry of Honor: 04 (Sorcerers Ring) </item>
+        <item>Rogue, Prisoner, Princess (Of Crowns and Glory-Book 2) </item>
+    </string-array>
+
+    <string-array name="booksprice">
+        <item>Rs 770</item>
+        <item>Rs 220</item>
+        <item>Rs 98</item>
+        <item>Rs 99</item>
+        <item>Rs 218</item>
+        <item>Rs 189</item>
+        <item>Rs 459</item>
+        <item>Rs 403</item>
+        <item>Rs 129</item>
+        <item>Rs 170</item>
+        <item>Rs 94</item>
+        <item>Rs 99</item>
+        <item>Rs 149</item>
+        <item>Rs 105</item>
+        <item>Rs 153</item>
+        <item>Rs 657</item>
+        <item>Rs 240</item>
+        <item>Rs 368</item>
+        <item>Rs 842</item>
+        <item>Rs 714</item>
+    </string-array>
+
+    <string-array name="phone_prices">
+        <item>Rs 15,490</item>
+        <item>Rs 6,499</item>
+        <item>Rs 6,199</item>
+        <item>Rs 8,299</item>
+        <item>Rs 9,499</item>
+        <item>Rs 12,490</item>
+        <item>Rs 11,999</item>
+        <item>Rs 7,499</item>
+        <item>Rs 8,299</item>
+        <item>Rs 37,990</item>
+        <item>Rs 72,248</item>
+        <item>Rs 12,499</item>
+        <item>Rs 18,999</item>
+        <item>Rs 14,499</item>
+        <item>Rs 8,999</item>
+        <item>Rs 4,999</item>
+        <item>Rs 39,999</item>
+        <item>Rs 11,999</item>
+        <item>Rs 15,299</item>
+        <item>Rs 61,999</item>
+    </string-array>
 </resources>

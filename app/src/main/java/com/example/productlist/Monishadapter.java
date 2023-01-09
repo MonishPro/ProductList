@@ -60,6 +60,9 @@ public class Monishadapter extends RecyclerView.Adapter<Monishadapter.ViewHolder
             public void onClick(View view) {
                 Intent i=new Intent(context,Screen2.class);
                 i.putExtra("key",a);
+                i.putExtra("key1",productname[a]);
+                i.putExtra("key2",productprices[a]);
+                i.putExtra("key3",productimages[a]);
                 context.startActivity(i);
             }
         });

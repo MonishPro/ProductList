@@ -9,6 +9,7 @@ import android.content.res.Resources;
 import android.media.Image;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -19,6 +20,7 @@ public class Screen2 extends AppCompatActivity {
     private ImageView imageView;
     private TextView Name,Price,Description;
     private ImageButton Back;
+    private Button Carty;
 
     @SuppressLint("MissingInflatedId")
     @Override
@@ -31,11 +33,13 @@ public class Screen2 extends AppCompatActivity {
         Price=findViewById(R.id.textView11);
         Description=findViewById(R.id.textView14);
         Back=findViewById(R.id.imageButton2);
+        Carty=findViewById(R.id.button2);
 
-        int position=getIntent().getIntExtra("key",0);
+        int productimage=getIntent().getIntExtra("key3",0);
+        String productname=getIntent().getStringExtra("key1");
+        String productprice=getIntent().getStringExtra("key2");
 
-        resource(position);
-        imageretrieve(position);
+        resource(productname,productprice,productimage);
 
         Back.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -46,33 +50,19 @@ public class Screen2 extends AppCompatActivity {
             }
         });
 
+//        Carty.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//
+//            }
+//        });
     }
 
-    void resource(int position)
+    void resource(String name,String price,int Image)
     {
-        Resources resources=getResources();
-        String [] name=resources.getStringArray(R.array.product_name);
-        String [] prices=resources.getStringArray(R.array.product_prices);
-
-        Name.setText(name[position]);
-        Price.setText(prices[position]);
+        Name.setText(name);
+        Price.setText(price);
+        imageView.setImageResource(Image);
     }
 
-    void imageretrieve(int position)
-    {
-        SharedPreferences sharedPreferences=getSharedPreferences("Database",MODE_PRIVATE);
-        String img=sharedPreferences.getString("data1",null);
-
-        String[] image = img.split(",");
-        int[] images=new int[image.length];
-
-        for (int i = 0; i < image.length; i++) {
-            images[i]= Integer.parseInt(image[i]);
-        }
-
-        try {
-            imageView.setImageResource(images[position]);
-        }
-        catch (Exception e){};
-    }
 }
