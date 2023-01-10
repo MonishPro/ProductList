@@ -19,6 +19,7 @@ private RecyclerView recyclerView;
 private Monishadapter monishadapter;
 private ImageButton button0,button1,button2,button3,button4,button5,button6;
 private final Context context=MainActivity.this;
+private int code=0;
 
     @SuppressLint("MissingInflatedId")
     @Override
@@ -77,7 +78,7 @@ private final Context context=MainActivity.this;
             public void onClick(View view) {
                 Toast.makeText(MainActivity.this, "Hello 0", Toast.LENGTH_SHORT).show();
 
-                monishadapter=new Monishadapter(products,prices,images, (MainActivity) context);
+                monishadapter=new Monishadapter(products,prices,images, context);
 
                 recyclerView.setAdapter(monishadapter);
 
@@ -90,6 +91,7 @@ private final Context context=MainActivity.this;
             @Override
             public void onClick(View view) {
 
+                code=1;
                 Resources resources=getResources();
                 String [] products=resources.getStringArray(R.array.phones);
                 String [] prices=resources.getStringArray(R.array.phone_prices);
@@ -100,6 +102,12 @@ private final Context context=MainActivity.this;
                 recyclerView.setAdapter(monishadapter);
 
                 recyclerView.setLayoutManager(new LinearLayoutManager(context));
+
+
+                SharedPreferences sharedPreferences=getSharedPreferences("Database",MODE_PRIVATE);
+                SharedPreferences.Editor editor= sharedPreferences.edit();
+                editor.putInt("code",code);
+                editor.apply();
 
             }
         });

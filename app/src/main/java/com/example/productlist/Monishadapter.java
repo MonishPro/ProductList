@@ -1,7 +1,10 @@
 package com.example.productlist;
 
+import static android.content.Context.MODE_PRIVATE;
+
 import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -32,11 +35,11 @@ public class Monishadapter extends RecyclerView.Adapter<Monishadapter.ViewHolder
         }
     }
 
-    public Monishadapter(String[] dataSet, String[] prices, int[] images, MainActivity mainActivity) {
+    public Monishadapter(String[] dataSet, String[] prices, int[] images, Context context) {
         productname = dataSet;
         productprices =prices;
         productimages=images;
-        context=mainActivity;
+        this.context=context;
     }
 
     @Override
