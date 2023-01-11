@@ -6,6 +6,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.res.Resources;
 import android.os.Bundle;
@@ -17,9 +18,9 @@ public class MainActivity extends AppCompatActivity {
 
 private RecyclerView recyclerView;
 private Monishadapter monishadapter;
-private ImageButton button0,button1,button2,button3,button4,button5,button6;
+private ImageButton button0,button1,button2,button3,button4,button5,button6,cart;
 private final Context context=MainActivity.this;
-private int code=0;
+private int code=0,show=0;
 
     @SuppressLint("MissingInflatedId")
     @Override
@@ -35,23 +36,74 @@ private int code=0;
         button4=findViewById(R.id.imageButton6);
         button5=findViewById(R.id.imageButton7);
         button6=findViewById(R.id.imageButton8);
+        cart=findViewById(R.id.imageButton12);
 
-        String [] products=resources.getStringArray(R.array.product_name);
-        String [] prices=resources.getStringArray(R.array.product_prices);
-        int [] images= {R.drawable.earphones,R.drawable.speakers,R.drawable.smartphone,R.drawable.lamp,R.drawable.vase};
 
-        imageshare(images);
+        SharedPreferences sharedPreferences=getSharedPreferences("Database",MODE_PRIVATE);
+        int code= sharedPreferences.getInt("code",0);
+        if(code==0)
+        {
+            String [] products=resources.getStringArray(R.array.product_name);
+            String [] prices=resources.getStringArray(R.array.product_prices);
+            int [] images= {R.drawable.earphones,R.drawable.speakers,R.drawable.smartphone,R.drawable.lamp,R.drawable.vase};
 
-        recyclerView=findViewById(R.id.recycler);
+            imageshare(images);
 
-        monishadapter=new Monishadapter(products,prices,images,this);
+            recyclerView=findViewById(R.id.recycler);
 
-        recyclerView.setAdapter(monishadapter);
+            monishadapter=new Monishadapter(products,prices,images,this);
 
-        recyclerView.setLayoutManager(new LinearLayoutManager(this));
+            recyclerView.setAdapter(monishadapter);
 
-        buttonarea(products,prices,images);
+            recyclerView.setLayoutManager(new LinearLayoutManager(this));
 
+            buttonarea();
+        }
+       else if(code==1)
+       {
+           String [] products=resources.getStringArray(R.array.phones);
+           String [] prices=resources.getStringArray(R.array.phone_prices);
+           int [] images= {R.drawable.phone1,R.drawable.phone20,R.drawable.phone2,R.drawable.phone3,R.drawable.phone4,R.drawable.phone5,R.drawable.phone6,R.drawable.phone7,R.drawable.phone8,R.drawable.phone9,R.drawable.phone10,R.drawable.phone11,R.drawable.phone12,R.drawable.phone13,R.drawable.phone14,R.drawable.phone15,R.drawable.phone16,R.drawable.phone17,R.drawable.phone18,R.drawable.phone19};
+
+           imageshare(images);
+
+           recyclerView=findViewById(R.id.recycler);
+
+           monishadapter=new Monishadapter(products,prices,images,this);
+
+           recyclerView.setAdapter(monishadapter);
+
+           recyclerView.setLayoutManager(new LinearLayoutManager(this));
+
+           buttonarea();
+       }
+       else if(code==2)
+       {
+            String [] products=resources.getStringArray(R.array.books);
+            String [] prices=resources.getStringArray(R.array.booksprice);
+            int[] images={R.raw.book1,R.raw.book2,R.raw.book3,R.raw.book4,R.raw.book5,R.raw.book6,R.raw.book7,R.raw.book8,R.raw.book9,R.raw.book10,R.raw.book11,R.raw.book12,R.raw.book13,R.raw.book14,R.raw.book15,R.raw.book16,R.raw.book17,R.raw.book18,R.raw.book19,R.raw.book20};
+
+            imageshare(images);
+
+            recyclerView=findViewById(R.id.recycler);
+
+            monishadapter=new Monishadapter(products,prices,images,this);
+
+            recyclerView.setAdapter(monishadapter);
+
+            recyclerView.setLayoutManager(new LinearLayoutManager(this));
+
+            buttonarea();
+       }
+       cart.setOnClickListener(new View.OnClickListener() {
+           @Override
+           public void onClick(View view) {
+               Intent i=new Intent(context,CartList.class);
+               i.putExtra("key5",show);
+               startActivity(i);
+               finish();
+           }
+       });
     }
 
     void imageshare(int [] images)
@@ -70,20 +122,28 @@ private int code=0;
         ed.apply();
     }
 
-    void buttonarea(String [] products,String [] prices, int [] images)
+    void buttonarea()
     {
-
+        Resources resources=getResources();
+        SharedPreferences sharedPreferences=getSharedPreferences("Database",MODE_PRIVATE);
+        SharedPreferences.Editor ed=sharedPreferences.edit();
         button0.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(MainActivity.this, "Hello 0", Toast.LENGTH_SHORT).show();
 
-                monishadapter=new Monishadapter(products,prices,images, context);
+                code=0;
+                String [] products=resources.getStringArray(R.array.product_name);
+                String [] prices=resources.getStringArray(R.array.product_prices);
+                int [] images= {R.drawable.earphones,R.drawable.speakers,R.drawable.smartphone,R.drawable.lamp,R.drawable.vase};
+
+                monishadapter=new Monishadapter(products,prices,images,context);
 
                 recyclerView.setAdapter(monishadapter);
 
                 recyclerView.setLayoutManager(new LinearLayoutManager(context));
 
+                ed.putInt("code",code);
+                ed.apply();
             }
         });
 
@@ -97,7 +157,7 @@ private int code=0;
                 String [] prices=resources.getStringArray(R.array.phone_prices);
                 int [] images= {R.drawable.phone1,R.drawable.phone20,R.drawable.phone2,R.drawable.phone3,R.drawable.phone4,R.drawable.phone5,R.drawable.phone6,R.drawable.phone7,R.drawable.phone8,R.drawable.phone9,R.drawable.phone10,R.drawable.phone11,R.drawable.phone12,R.drawable.phone13,R.drawable.phone14,R.drawable.phone15,R.drawable.phone16,R.drawable.phone17,R.drawable.phone18,R.drawable.phone19};
 
-                monishadapter=new Monishadapter(products,prices,images, (MainActivity) context);
+                monishadapter=new Monishadapter(products,prices,images,context);
 
                 recyclerView.setAdapter(monishadapter);
 
@@ -109,6 +169,8 @@ private int code=0;
                 editor.putInt("code",code);
                 editor.apply();
 
+                ed.putInt("code",code);
+                ed.apply();
             }
         });
 
@@ -116,17 +178,20 @@ private int code=0;
             @Override
             public void onClick(View view) {
 
+                code=2;
                 Resources resources=getResources();
                 String [] products=resources.getStringArray(R.array.books);
                 String [] prices=resources.getStringArray(R.array.booksprice);
                 int[] images={R.raw.book1,R.raw.book2,R.raw.book3,R.raw.book4,R.raw.book5,R.raw.book6,R.raw.book7,R.raw.book8,R.raw.book9,R.raw.book10,R.raw.book11,R.raw.book12,R.raw.book13,R.raw.book14,R.raw.book15,R.raw.book16,R.raw.book17,R.raw.book18,R.raw.book19,R.raw.book20};
 
-                monishadapter=new Monishadapter(products,prices,images, (MainActivity) context);
+                monishadapter=new Monishadapter(products,prices,images,context);
 
                 recyclerView.setAdapter(monishadapter);
 
                 recyclerView.setLayoutManager(new LinearLayoutManager(context));
 
+                ed.putInt("code",code);
+                ed.apply();
             }
         });
 

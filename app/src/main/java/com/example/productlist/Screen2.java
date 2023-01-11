@@ -19,9 +19,6 @@ public class Screen2 extends AppCompatActivity {
     private TextView Name,Price,Description;
     private ImageButton Back;
     private Button Buy,Cart;
-    private int length=0;
-    SharedPreferences sharedPreferences=getSharedPreferences("atabase",MODE_PRIVATE);
-    SharedPreferences.Editor editor= sharedPreferences.edit();
 
     @SuppressLint("MissingInflatedId")
     @Override
@@ -36,8 +33,6 @@ public class Screen2 extends AppCompatActivity {
         Back=findViewById(R.id.imageButton2);
         Buy=findViewById(R.id.button4);
         Cart=findViewById(R.id.button3);
-
-
 
         int productimage=getIntent().getIntExtra("key3",0);
         String productname=getIntent().getStringExtra("key1");
@@ -64,12 +59,15 @@ public class Screen2 extends AppCompatActivity {
         Cart.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                SharedPreferences sharedPreferences=getSharedPreferences("Database",MODE_PRIVATE);
+                int length=sharedPreferences.getInt("data2",0);
+                SharedPreferences.Editor editor= sharedPreferences.edit();
+
                 length++;
                 Intent i=new Intent(getApplicationContext(),CartList.class);
                 i.putExtra("key1",productname);
                 i.putExtra("key2",productprice);
                 i.putExtra("key3",productimage);
-
 
                 editor.putInt("data2",length);
                 editor.apply();

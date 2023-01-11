@@ -30,32 +30,113 @@ private ImageButton Back,Home;
         String productname=getIntent().getStringExtra("key1");
         String productprice=getIntent().getStringExtra("key2");
 
-        SharedPreferences sharedPreferences=getSharedPreferences("atabase",MODE_PRIVATE);
-        int length=sharedPreferences.getInt("data2",0);
-        Toast.makeText(this, length+"", Toast.LENGTH_SHORT).show();
+        int show=getIntent().getIntExtra("key5",1);
 
-        String [] pname=new String[length];
-        String [] pprice=new String[length];
-        int [] pimage=new int[length];
+        if(show==1)
+        {
+            try{
+                //SharedPreferences Array
+                SharedPreferences sharedPreferences=getSharedPreferences("Database",MODE_PRIVATE);
+                int length=sharedPreferences.getInt("data2",0);
+                String pnam= sharedPreferences.getString("data3",null);
+                String ppric= sharedPreferences.getString("data4",null);
+                String pimg= sharedPreferences.getString("data5",null);
 
-        for (int i = length-1; i <= length; i++) {
-            pname[i]=productname;
-            pprice[i]=productprice;
-            pimage[i]=productimage;
+//        actual formed SharedPreferences array
+                String [] pnames=pnam.split(",");
+                String [] pprices=ppric.split(",");
+                String [] pimag=pimg.split(",");
 
-            break;
+                int [] pimages=new int[pimag.length];
+                for (int i = 0; i < pimag.length; i++) {
+                    pimages[i]=Integer.parseInt(pimag[i]);
+                }
+
+                //Newly Initialised array
+                String [] pname=new String[length];
+                String [] pprice=new String[length];
+                int [] pimage=new int[length];
+
+                for (int i = 0; i < length-1; i++) {
+                    pname[i]=pnames[i];
+                    pprice[i]=pprices[i];
+                    pimage[i]=pimages[i];
+                }
+
+                pname[length-1]=productname;
+                pprice[length-1]=productprice;
+                pimage[length-1]=productimage;
+
+                recyclerView.setLayoutManager(new LinearLayoutManager(this));
+                Monishadapter monishadapter=new Monishadapter(pname,pprice,pimage, getApplicationContext());
+                recyclerView.setAdapter(monishadapter);
+
+                stringstorage(pname,pprice,pimage);
+            }
+            catch (Exception e)
+            {
+                SharedPreferences sharedPreferences=getSharedPreferences("Database",MODE_PRIVATE);
+                int length=sharedPreferences.getInt("data2",0);
+
+                String [] pname=new String[length];
+                String [] pprice=new String[length];
+                int [] pimage=new int[length];
+
+                pname[length-1]=productname;
+                pprice[length-1]=productprice;
+                pimage[length-1]=productimage;
+
+                recyclerView.setLayoutManager(new LinearLayoutManager(this));
+                Monishadapter monishadapter=new Monishadapter(pname,pprice,pimage, getApplicationContext());
+                recyclerView.setAdapter(monishadapter);
+
+                stringstorage(pname,pprice,pimage);
+            }
+        }
+        else {
+            SharedPreferences sharedPreferences=getSharedPreferences("Database",MODE_PRIVATE);
+            int length=sharedPreferences.getInt("data2",0);
+            String pnam= sharedPreferences.getString("data3",null);
+            String ppric= sharedPreferences.getString("data4",null);
+            String pimg= sharedPreferences.getString("data5",null);
+
+            String [] pnames=pnam.split(",");
+            String [] pprices=ppric.split(",");
+            String [] pimag=pimg.split(",");
+
+            String [] pname=new String[length];
+            String [] pprice=new String[length];
+            int [] pimage=new int[length];
+
+            int [] pimages=new int[pimag.length];
+            for (int i = 0; i < pimag.length; i++) {
+                pimages[i]=Integer.parseInt(pimag[i]);
+            }
+
+            for (int i = 0; i < length; i++) {
+                pname[i]=pnames[i];
+                pprice[i]=pprices[i];
+                pimage[i]=pimages[i];
+            }
+
+            recyclerView.setLayoutManager(new LinearLayoutManager(this));
+            Monishadapter monishadapter=new Monishadapter(pname,pprice,pimage, getApplicationContext());
+            recyclerView.setAdapter(monishadapter);
         }
 
-        recyclerView.setLayoutManager(new LinearLayoutManager(this));
-        Monishadapter monishadapter=new Monishadapter(pname,pprice,pimage, getApplicationContext());
-        recyclerView.setAdapter(monishadapter);
+
 
         Back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+
                 Intent i=new Intent(getApplicationContext(),Screen2.class);
+                i.putExtra("key1",productname);
+                i.putExtra("key2",productprice);
+                i.putExtra("key3",productimage);
                 startActivity(i);
                 finish();
+
             }
         });
 
@@ -68,4 +149,26 @@ private ImageButton Back,Home;
             }
         });
     }
+
+    void stringstorage(String[] pname,String[] pprice,int [] pimage)
+    {
+        SharedPreferences sharedPreferences=getSharedPreferences("Database",MODE_PRIVATE);
+        SharedPreferences.Editor ed=sharedPreferences.edit();
+
+        StringBuilder str1 = new StringBuilder();
+        StringBuilder str2 = new StringBuilder();
+        StringBuilder str3 = new StringBuilder();
+
+        for (int i = 0; i < pname.length; i++) {
+            str1.append(pname[i]).append(",");
+            str2.append(pprice[i]).append(",");
+            str3.append(pimage[i]).append(",");
+        }
+
+        ed.putString("data3",str1.toString());
+        ed.putString("data4",str2.toString());
+        ed.putString("data5",str3.toString());
+        ed.apply();
+    }
+
 }

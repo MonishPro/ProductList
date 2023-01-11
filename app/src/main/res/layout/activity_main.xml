@@ -45,7 +45,9 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView3"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="1.0" >
+
+    </androidx.recyclerview.widget.RecyclerView>
 
     <HorizontalScrollView
         android:id="@+id/horizontalScrollView"
@@ -116,5 +118,20 @@
 
         </LinearLayout>
     </HorizontalScrollView>
+
+    <ImageButton
+        android:id="@+id/imageButton12"
+        android:layout_width="105dp"
+        android:layout_height="95dp"
+        android:layout_marginTop="720dp"
+        android:backgroundTint="#FFFFFF"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:visibility="visible"
+        app:guidelineUseRtl="false"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/cart" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
