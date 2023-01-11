@@ -98,10 +98,24 @@ private int code=0,show=0;
        cart.setOnClickListener(new View.OnClickListener() {
            @Override
            public void onClick(View view) {
-               Intent i=new Intent(context,CartList.class);
-               i.putExtra("key5",show);
-               startActivity(i);
-               finish();
+               try {
+                   SharedPreferences sharedPreferences=getSharedPreferences("Database",MODE_PRIVATE);
+                   int length=sharedPreferences.getInt("data2",0);
+                   if(length!=0)
+                   {
+                       Intent i=new Intent(context,CartList.class);
+                       i.putExtra("key5",show);
+                       startActivity(i);
+                       finish();
+                   }
+                   else
+                   {
+                       Toast.makeText(MainActivity.this, "Not Items Currently present in the Cart !! Keep Shopping :)", Toast.LENGTH_SHORT).show();
+                   }
+               }
+               catch (Exception ignored){
+               }
+
            }
        });
     }

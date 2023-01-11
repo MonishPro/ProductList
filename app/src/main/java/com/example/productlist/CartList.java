@@ -87,7 +87,7 @@ private ImageButton Back,Home;
                 pimage[length-1]=productimage;
 
                 recyclerView.setLayoutManager(new LinearLayoutManager(this));
-                Monishadapter monishadapter=new Monishadapter(pname,pprice,pimage, getApplicationContext());
+                Monishadapter monishadapter=new Monishadapter(pname,pprice,pimage,getApplicationContext());
                 recyclerView.setAdapter(monishadapter);
 
                 stringstorage(pname,pprice,pimage);
@@ -120,11 +120,9 @@ private ImageButton Back,Home;
             }
 
             recyclerView.setLayoutManager(new LinearLayoutManager(this));
-            Monishadapter monishadapter=new Monishadapter(pname,pprice,pimage, getApplicationContext());
+            Monishadapter monishadapter=new Monishadapter(pname,pprice,pimage,getApplicationContext());
             recyclerView.setAdapter(monishadapter);
         }
-
-
 
         Back.setOnClickListener(new View.OnClickListener() {
             @Override

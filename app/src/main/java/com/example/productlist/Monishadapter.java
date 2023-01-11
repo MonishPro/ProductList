@@ -36,8 +36,8 @@ public class Monishadapter extends RecyclerView.Adapter<Monishadapter.ViewHolder
     }
 
     public Monishadapter(String[] dataSet, String[] prices, int[] images, Context context) {
-        productname = dataSet;
-        productprices =prices;
+        productname=dataSet;
+        productprices=prices;
         productimages=images;
         this.context=context;
     }
