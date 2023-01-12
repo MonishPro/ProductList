@@ -37,6 +37,12 @@ public class Screen2 extends AppCompatActivity {
         int productimage=getIntent().getIntExtra("key3",0);
         String productname=getIntent().getStringExtra("key1");
         String productprice=getIntent().getStringExtra("key2");
+        int visibility=getIntent().getIntExtra("key4",1);
+
+        if(visibility==0)
+        {
+          Cart.setVisibility(View.INVISIBLE);
+        }
 
         resource(productname,productprice,productimage);
 

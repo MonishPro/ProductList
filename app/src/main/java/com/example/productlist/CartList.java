@@ -29,7 +29,6 @@ private ImageButton Back,Home;
         int productimage=getIntent().getIntExtra("key3",0);
         String productname=getIntent().getStringExtra("key1");
         String productprice=getIntent().getStringExtra("key2");
-
         int show=getIntent().getIntExtra("key5",1);
 
         if(show==1)
