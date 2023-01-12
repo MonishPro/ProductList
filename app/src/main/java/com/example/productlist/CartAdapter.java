@@ -20,6 +20,7 @@ public class CartAdapter extends RecyclerView.Adapter<CartAdapter.ViewHolder> {
     private String[] productprices;
     private int[] productimages;
     private Context context;
+    private final CartListInterface cartListInterface;
 
     public static class ViewHolder extends RecyclerView.ViewHolder {
         private final TextView productname;
@@ -27,7 +28,7 @@ public class CartAdapter extends RecyclerView.Adapter<CartAdapter.ViewHolder> {
         private final ImageView productimagess;
         private final ImageButton removeimage,payment;
 
-        public ViewHolder(View view) {
+        public ViewHolder(View view,CartListInterface cartListInterface) {
             super(view);
 
             productname = (TextView) view.findViewById(R.id.textView12);
@@ -36,14 +37,29 @@ public class CartAdapter extends RecyclerView.Adapter<CartAdapter.ViewHolder> {
             removeimage=(ImageButton) view.findViewById(R.id.imageButton14);
             payment=(ImageButton) view.findViewById(R.id.imageButton16);
 
+            removeimage.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    if(cartListInterface != null)
+                    {
+                        int pos=getAdapterPosition();
+
+                        if (pos != RecyclerView.NO_POSITION)
+                        {
+                            cartListInterface.onItemClick(pos);
+                        }
+                    }
+                }
+            });
         }
     }
 
-    public CartAdapter(String[] dataSet, String[] prices, int[] images, Context context) {
+    public CartAdapter(String[] dataSet, String[] prices, int[] images, Context context, CartListInterface cartListInterface) {
         productname=dataSet;
         productprices=prices;
         productimages=images;
         this.context=context;
+        this.cartListInterface=cartListInterface;
     }
 
     @Override
@@ -51,7 +67,7 @@ public class CartAdapter extends RecyclerView.Adapter<CartAdapter.ViewHolder> {
         View view = LayoutInflater.from(viewGroup.getContext())
                 .inflate(R.layout.cart_layout, viewGroup, false);
 
-        return new ViewHolder(view);
+        return new ViewHolder(view,cartListInterface);
     }
 
     @Override
@@ -73,77 +89,6 @@ public class CartAdapter extends RecyclerView.Adapter<CartAdapter.ViewHolder> {
                 i.putExtra("key3",productimages[a]);
                 i.putExtra("key4",0);
                 context.startActivity(i);
-            }
-        });
-
-        viewHolder.removeimage.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-
-                SharedPreferences sharedPreferences=context.getSharedPreferences("Database",Context.MODE_PRIVATE);
-                int length=sharedPreferences.getInt("data2",0);
-                String pnam= sharedPreferences.getString("data3",null);
-                String ppric= sharedPreferences.getString("data4",null);
-                String pimg= sharedPreferences.getString("data5",null);
-
-                String [] pnames=pnam.split(",");
-                String [] pprices=ppric.split(",");
-                String [] pimag=pimg.split(",");
-
-                int [] pimages=new int[pimag.length];
-                for (int i = 0; i < pimag.length; i++) {
-                    pimages[i]=Integer.parseInt(pimag[i]);
-                }
-
-                for (int i = a; i < pnames.length; i++) {
-                    if(i<=pnames.length-2)
-                    {
-                        pnames[i]=pnames[i+1];
-                        pprices[i]=pprices[i+1];
-                        pimages[i]=pimages[i+1];
-                    }
-                    else {
-                        break;
-                    }
-                }
-
-                length=length-1;
-
-                String [] pname=new String[length];
-                String [] pprice=new String[length];
-                int [] pimage=new int[length];
-
-                for (int i = 0; i < length; i++) {
-                    pname[i]=pnames[i];
-                    pprice[i]=pprices[i];
-                    pimage[i]=pimages[i];
-                }
-
-                Toast.makeText(context, a+"", Toast.LENGTH_SHORT).show();
-
-//                CartList cartList=new CartList();
-//                RecyclerView recyclerview=cartList.findViewById(R.id.recyclerView);
-//                recyclerview.setLayoutManager(new LinearLayoutManager(context));
-//                CartAdapter cartAdapter=new CartAdapter(pname,pprice,pimage,context);
-//                recyclerview.setAdapter(cartAdapter);
-//
-                SharedPreferences.Editor ed= sharedPreferences.edit();
-                StringBuilder str1 = new StringBuilder();
-                StringBuilder str2 = new StringBuilder();
-                StringBuilder str3 = new StringBuilder();
-
-
-                for (int i = 0; i < pname.length; i++) {
-                    str1.append(pname[i]).append(",");
-                    str2.append(pprice[i]).append(",");
-                    str3.append(pimage[i]).append(",");
-                }
-
-                ed.putInt("data2",length);
-                ed.putString("data3",str1.toString());
-                ed.putString("data4",str2.toString());
-                ed.putString("data5",str3.toString());
-                ed.apply();
             }
         });
 
