@@ -58,7 +58,7 @@ public class Screen2 extends AppCompatActivity {
         Buy.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                Toast.makeText(Screen2.this, "Bought", Toast.LENGTH_SHORT).show();
             }
         });
 

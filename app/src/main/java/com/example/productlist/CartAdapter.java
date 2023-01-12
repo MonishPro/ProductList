@@ -80,10 +80,7 @@ public class CartAdapter extends RecyclerView.Adapter<CartAdapter.ViewHolder> {
             @Override
             public void onClick(View view) {
 
-//                CartList cartList=new CartList();
-//                RecyclerView recyclerview=cartList.findViewById(R.id.recyclerView);
-
-                SharedPreferences sharedPreferences= context.getSharedPreferences("Database",Context.MODE_PRIVATE);
+                SharedPreferences sharedPreferences=context.getSharedPreferences("Database",Context.MODE_PRIVATE);
                 int length=sharedPreferences.getInt("data2",0);
                 String pnam= sharedPreferences.getString("data3",null);
                 String ppric= sharedPreferences.getString("data4",null);
@@ -93,55 +90,60 @@ public class CartAdapter extends RecyclerView.Adapter<CartAdapter.ViewHolder> {
                 String [] pprices=ppric.split(",");
                 String [] pimag=pimg.split(",");
 
-                Toast.makeText(context, pnames[a]+""+pprices[a], Toast.LENGTH_SHORT).show();
+                int [] pimages=new int[pimag.length];
+                for (int i = 0; i < pimag.length; i++) {
+                    pimages[i]=Integer.parseInt(pimag[i]);
+                }
 
-//                int [] pimages=new int[pimag.length];
-//                for (int i = 0; i < pimag.length; i++) {
-//                    pimages[i]=Integer.parseInt(pimag[i]);
-//                }
-//
-//                for (int i = a; i < pnames.length; i++) {
-//                    if(i<=pnames.length-2)
-//                    {
-//                        pnames[i]=pnames[i+1];
-//                        pprices[i]=pprices[i+1];
-//                        pimages[i]=pimages[i+1];
-//                    }
-//                    else {
-//                        break;
-//                    }
-//                }
-//                length=length-1;
-//
-//                String [] pname=new String[length];
-//                String [] pprice=new String[length];
-//                int [] pimage=new int[length];
-//
-//                for (int i = 0; i < length; i++) {
-//                    pname[i]=pnames[i];
-//                    pprice[i]=pprices[i];
-//                    pimage[i]=pimages[i];
-//                }
-//
+                for (int i = a; i < pnames.length; i++) {
+                    if(i<=pnames.length-2)
+                    {
+                        pnames[i]=pnames[i+1];
+                        pprices[i]=pprices[i+1];
+                        pimages[i]=pimages[i+1];
+                    }
+                    else {
+                        break;
+                    }
+                }
+
+                length=length-1;
+
+                String [] pname=new String[length];
+                String [] pprice=new String[length];
+                int [] pimage=new int[length];
+
+                for (int i = 0; i < length; i++) {
+                    pname[i]=pnames[i];
+                    pprice[i]=pprices[i];
+                    pimage[i]=pimages[i];
+                }
+
+                Toast.makeText(context, a+"", Toast.LENGTH_SHORT).show();
+
+//                CartList cartList=new CartList();
+//                RecyclerView recyclerview=cartList.findViewById(R.id.recyclerView);
 //                recyclerview.setLayoutManager(new LinearLayoutManager(context));
 //                CartAdapter cartAdapter=new CartAdapter(pname,pprice,pimage,context);
 //                recyclerview.setAdapter(cartAdapter);
 //
-//                SharedPreferences.Editor ed= sharedPreferences.edit();
-//                StringBuilder str1 = new StringBuilder();
-//                StringBuilder str2 = new StringBuilder();
-//                StringBuilder str3 = new StringBuilder();
-//
-//                for (int i = 0; i < pname.length; i++) {
-//                    str1.append(pname[i]).append(",");
-//                    str2.append(pprice[i]).append(",");
-//                    str3.append(pimage[i]).append(",");
-//                }
-//
-//                ed.putString("data3",str1.toString());
-//                ed.putString("data4",str2.toString());
-//                ed.putString("data5",str3.toString());
-//                ed.apply();
+                SharedPreferences.Editor ed= sharedPreferences.edit();
+                StringBuilder str1 = new StringBuilder();
+                StringBuilder str2 = new StringBuilder();
+                StringBuilder str3 = new StringBuilder();
+
+
+                for (int i = 0; i < pname.length; i++) {
+                    str1.append(pname[i]).append(",");
+                    str2.append(pprice[i]).append(",");
+                    str3.append(pimage[i]).append(",");
+                }
+
+                ed.putInt("data2",length);
+                ed.putString("data3",str1.toString());
+                ed.putString("data4",str2.toString());
+                ed.putString("data5",str3.toString());
+                ed.apply();
             }
         });
 
