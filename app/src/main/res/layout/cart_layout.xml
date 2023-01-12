@@ -7,19 +7,18 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraintLayout"
-        android:layout_width="0dp"
-        android:layout_height="275dp"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@drawable/border"
+        android:padding="5dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:padding="5dp"
-        android:background="@drawable/border"
-        >
+        app:layout_constraintTop_toTopOf="parent">
 
         <ImageView
             android:id="@+id/imageView12"
             android:layout_width="299dp"
-            android:layout_height="216dp"
+            android:layout_height="175dp"
             android:layout_marginStart="50dp"
             android:layout_marginEnd="51dp"
             app:layout_constraintBottom_toTopOf="@+id/textView12"
@@ -54,6 +53,17 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/textView12"
             app:layout_constraintTop_toBottomOf="@+id/imageView12" />
+
+        <ImageButton
+            android:id="@+id/imageButton14"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="11dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/img" />
+
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

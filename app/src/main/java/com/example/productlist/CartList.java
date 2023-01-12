@@ -68,10 +68,24 @@ private ImageButton Back,Home;
                 pimage[length-1]=productimage;
 
                 recyclerView.setLayoutManager(new LinearLayoutManager(this));
-                Monishadapter monishadapter=new Monishadapter(pname,pprice,pimage, getApplicationContext());
-                recyclerView.setAdapter(monishadapter);
+                CartAdapter cartAdapter=new CartAdapter(pname,pprice,pimage,getApplicationContext());
+                recyclerView.setAdapter(cartAdapter);
 
                 stringstorage(pname,pprice,pimage);
+
+                Back.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+
+                        Intent i=new Intent(getApplicationContext(),Screen2.class);
+                        i.putExtra("key1",productname);
+                        i.putExtra("key2",productprice);
+                        i.putExtra("key3",productimage);
+                        startActivity(i);
+                        finish();
+
+                    }
+                });
             }
             catch (Exception e)
             {
@@ -87,13 +101,28 @@ private ImageButton Back,Home;
                 pimage[length-1]=productimage;
 
                 recyclerView.setLayoutManager(new LinearLayoutManager(this));
-                Monishadapter monishadapter=new Monishadapter(pname,pprice,pimage,getApplicationContext());
-                recyclerView.setAdapter(monishadapter);
+                CartAdapter cartAdapter=new CartAdapter(pname,pprice,pimage,getApplicationContext());
+                recyclerView.setAdapter(cartAdapter);
 
                 stringstorage(pname,pprice,pimage);
+
+                Back.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+
+                        Intent i=new Intent(getApplicationContext(),Screen2.class);
+                        i.putExtra("key1",productname);
+                        i.putExtra("key2",productprice);
+                        i.putExtra("key3",productimage);
+                        startActivity(i);
+                        finish();
+
+                    }
+                });
             }
         }
         else {
+            Back.setVisibility(View.INVISIBLE);
             SharedPreferences sharedPreferences=getSharedPreferences("Database",MODE_PRIVATE);
             int length=sharedPreferences.getInt("data2",0);
             String pnam= sharedPreferences.getString("data3",null);
@@ -120,23 +149,11 @@ private ImageButton Back,Home;
             }
 
             recyclerView.setLayoutManager(new LinearLayoutManager(this));
-            Monishadapter monishadapter=new Monishadapter(pname,pprice,pimage,getApplicationContext());
-            recyclerView.setAdapter(monishadapter);
+            CartAdapter cartAdapter=new CartAdapter(pname,pprice,pimage,getApplicationContext());
+            recyclerView.setAdapter(cartAdapter);
         }
 
-        Back.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
 
-                Intent i=new Intent(getApplicationContext(),Screen2.class);
-                i.putExtra("key1",productname);
-                i.putExtra("key2",productprice);
-                i.putExtra("key3",productimage);
-                startActivity(i);
-                finish();
-
-            }
-        });
 
         Home.setOnClickListener(new View.OnClickListener() {
             @Override

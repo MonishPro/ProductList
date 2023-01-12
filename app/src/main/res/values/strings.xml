@@ -94,25 +94,25 @@
     </string-array>
 
     <string-array name="phone_prices">
-        <item>Rs 15,490</item>
-        <item>Rs 6,499</item>
-        <item>Rs 6,199</item>
-        <item>Rs 8,299</item>
-        <item>Rs 9,499</item>
-        <item>Rs 12,490</item>
-        <item>Rs 11,999</item>
-        <item>Rs 7,499</item>
-        <item>Rs 8,299</item>
-        <item>Rs 37,990</item>
-        <item>Rs 72,248</item>
-        <item>Rs 12,499</item>
-        <item>Rs 18,999</item>
-        <item>Rs 14,499</item>
-        <item>Rs 8,999</item>
-        <item>Rs 4,999</item>
-        <item>Rs 39,999</item>
-        <item>Rs 11,999</item>
-        <item>Rs 15,299</item>
-        <item>Rs 61,999</item>
+        <item>Rs 15490</item>
+        <item>Rs 6499</item>
+        <item>Rs 6199</item>
+        <item>Rs 8299</item>
+        <item>Rs 9499</item>
+        <item>Rs 12490</item>
+        <item>Rs 11999</item>
+        <item>Rs 7499</item>
+        <item>Rs 8299</item>
+        <item>Rs 37990</item>
+        <item>Rs 72248</item>
+        <item>Rs 12499</item>
+        <item>Rs 18999</item>
+        <item>Rs 14499</item>
+        <item>Rs 8999</item>
+        <item>Rs 4999</item>
+        <item>Rs 39999</item>
+        <item>Rs 11999</item>
+        <item>Rs 15299</item>
+        <item>Rs 61999</item>
     </string-array>
 </resources>
