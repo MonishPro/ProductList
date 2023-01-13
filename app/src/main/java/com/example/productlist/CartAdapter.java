@@ -26,16 +26,16 @@ public class CartAdapter extends RecyclerView.Adapter<CartAdapter.ViewHolder> {
         private final TextView productname;
         private final TextView productprices;
         private final ImageView productimagess;
-        private final ImageButton removeimage,payment;
+        private final ImageView removeimage,payment;
 
         public ViewHolder(View view,CartListInterface cartListInterface) {
             super(view);
 
-            productname = (TextView) view.findViewById(R.id.textView12);
-            productprices=(TextView) view.findViewById(R.id.textView16);
-            productimagess=(ImageView) view.findViewById(R.id.imageView12);
-            removeimage=(ImageButton) view.findViewById(R.id.imageButton14);
-            payment=(ImageButton) view.findViewById(R.id.imageButton16);
+            productname =  view.findViewById(R.id.textView12);
+            productprices= view.findViewById(R.id.textView16);
+            productimagess= view.findViewById(R.id.imageView12);
+            removeimage= view.findViewById(R.id.imageButton14);
+            payment= view.findViewById(R.id.imageButton16);
 
             removeimage.setOnClickListener(new View.OnClickListener() {
                 @Override

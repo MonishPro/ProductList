@@ -11,11 +11,12 @@ import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
+import android.widget.ImageView;
 import android.widget.Toast;
 
 public class CartList extends AppCompatActivity implements CartListInterface {
 private RecyclerView recyclerView;
-private ImageButton Back,Home;
+private ImageView Back,Home;
 CartAdapter cartAdapter;
 
     @SuppressLint("MissingInflatedId")
@@ -157,8 +158,6 @@ CartAdapter cartAdapter;
         Home.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i=new Intent(getApplicationContext(),MainActivity.class);
-                startActivity(i);
                 finish();
             }
         });

@@ -12,13 +12,14 @@ import android.content.res.Resources;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
+import android.widget.ImageView;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
 private RecyclerView recyclerView;
 private Monishadapter monishadapter;
-private ImageButton button0,button1,button2,button3,button4,button5,button6,cart;
+private ImageView button0,button1,button2,button3,button4,button5,button6,cart;
 private final Context context=MainActivity.this;
 private int code=0,show=0;
 
