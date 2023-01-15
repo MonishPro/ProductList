@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Screen2">
+    tools:context=".DisplayProductActivity">
 
 
     <androidx.appcompat.widget.Toolbar
@@ -146,11 +146,11 @@
                 android:visibility="visible"
                 app:layout_constraintEnd_toStartOf="@+id/guideline3"
                 app:layout_constraintHorizontal_bias="0.5"
-                app:layout_constraintStart_toEndOf="@+id/button4"
-                app:layout_constraintTop_toTopOf="@+id/button4" />
+                app:layout_constraintStart_toEndOf="@+id/btn_buy_now"
+                app:layout_constraintTop_toTopOf="@+id/btn_buy_now" />
 
             <Button
-                android:id="@+id/button4"
+                android:id="@+id/btn_buy_now"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="131dp"

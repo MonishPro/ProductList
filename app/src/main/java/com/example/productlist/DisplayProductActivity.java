@@ -13,25 +13,27 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class Screen2 extends AppCompatActivity {
+import com.example.productlist.aman.BuyProductActivity;
+
+public class DisplayProductActivity extends AppCompatActivity {
 
     private ImageView imageView;
     private TextView Name,Price,Description;
     private ImageButton Back;
-    private Button Buy,Cart;
+    private Button btnBuyNow,Cart;
 
     @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.newlay);
+        setContentView(R.layout.activity_display_product);
 
         imageView=findViewById(R.id.imageView3);
         Name=findViewById(R.id.textView10);
         Price=findViewById(R.id.textView11);
         Description=findViewById(R.id.textView14);
         Back=findViewById(R.id.imageButton2);
-        Buy=findViewById(R.id.button4);
+        btnBuyNow =findViewById(R.id.btn_buy_now);
         Cart=findViewById(R.id.button3);
 
         int productimage=getIntent().getIntExtra("key3",0);
@@ -49,16 +51,18 @@ public class Screen2 extends AppCompatActivity {
         Back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i=new Intent(Screen2.this,MainActivity.class);
+                Intent i=new Intent(DisplayProductActivity.this,MainActivity.class);
                 startActivity(i);
                 finish();
             }
         });
 
-        Buy.setOnClickListener(new View.OnClickListener() {
+        btnBuyNow.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(Screen2.this, "Bought", Toast.LENGTH_SHORT).show();
+                Toast.makeText(DisplayProductActivity.this, "Bought", Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(DisplayProductActivity.this, BuyProductActivity.class);
+                startActivity(intent);
             }
         });
 

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_margin="5dp"
     app:cardCornerRadius="30dp"
-    android:layout_height="match_parent">
+    android:layout_height="wrap_content">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraintLayout"
@@ -19,9 +19,10 @@
 
         <ImageView
             android:id="@+id/imageView12"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
             android:layout_marginTop="4dp"
+            android:scaleType="centerCrop"
             app:layout_constraintEnd_toStartOf="@+id/imageButton16"
             app:layout_constraintStart_toEndOf="@+id/imageButton14"
             app:layout_constraintTop_toTopOf="parent"
@@ -31,25 +32,24 @@
             android:id="@+id/textView12"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="50dp"
+            android:layout_marginTop="20dp"
             android:paddingStart="20dp"
             android:text="TextView"
             android:textColor="?attr/colorOnSecondary"
             android:textSize="22sp"
             android:textStyle="bold"
-            app:layout_constraintStart_toStartOf="@+id/imageView12"
+            app:layout_constraintStart_toEndOf="@+id/imageButton14"
             app:layout_constraintTop_toBottomOf="@+id/imageView12" />
 
         <TextView
             android:id="@+id/textView16"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginEnd="17dp"
             android:text="TextView"
             android:textColor="?attr/colorOnSecondary"
             android:textSize="22sp"
             android:textStyle="bold"
-            app:layout_constraintEnd_toEndOf="@+id/imageView12"
+            app:layout_constraintEnd_toStartOf="@+id/imageButton16"
             app:layout_constraintTop_toTopOf="@+id/textView12" />
 
         <ImageView

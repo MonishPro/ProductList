@@ -10,9 +10,7 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.ImageButton;
 import android.widget.ImageView;
-import android.widget.Toast;
 
 public class CartList extends AppCompatActivity implements CartListInterface {
 private RecyclerView recyclerView;
@@ -79,7 +77,7 @@ CartAdapter cartAdapter;
                     @Override
                     public void onClick(View view) {
 
-                        Intent i=new Intent(getApplicationContext(),Screen2.class);
+                        Intent i=new Intent(getApplicationContext(), DisplayProductActivity.class);
                         i.putExtra("key1",productname);
                         i.putExtra("key2",productprice);
                         i.putExtra("key3",productimage);
@@ -112,7 +110,7 @@ CartAdapter cartAdapter;
                     @Override
                     public void onClick(View view) {
 
-                        Intent i=new Intent(getApplicationContext(),Screen2.class);
+                        Intent i=new Intent(getApplicationContext(), DisplayProductActivity.class);
                         i.putExtra("key1",productname);
                         i.putExtra("key2",productprice);
                         i.putExtra("key3",productimage);

@@ -57,7 +57,7 @@ public class Monishadapter extends RecyclerView.Adapter<Monishadapter.ViewHolder
         viewHolder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i=new Intent(context,Screen2.class);
+                Intent i=new Intent(context, DisplayProductActivity.class);
                 i.putExtra("key",a);
                 i.putExtra("key1",productname[a]);
                 i.putExtra("key2",productprices[a]);
