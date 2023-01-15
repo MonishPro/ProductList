@@ -132,6 +132,24 @@ public class MainActivity extends AppCompatActivity {
 
             buttonarea();
         }
+        else if(code==6)
+        {
+            String [] products=resources.getStringArray(R.array.clothes);
+            String [] prices=resources.getStringArray(R.array.clothes_prices);
+            int [] images={R.raw.clothes1,R.raw.clothes2,R.raw.clothes3,R.raw.clothes4,R.raw.clothes5,R.raw.clothes6,R.raw.clothes7,R.raw.clothes8,R.raw.clothes9,R.raw.clothes10,R.raw.clothes11,R.raw.clothes12,R.raw.clothes13,R.raw.clothes14,R.raw.clothes15,R.raw.clothes16,R.raw.clothes17,R.raw.clothes18,R.raw.clothes19,R.raw.clothes20};
+
+            imageshare(images);
+
+            recyclerView=findViewById(R.id.recycler);
+
+            monishadapter=new Monishadapter(products,prices,images,this);
+
+            recyclerView.setAdapter(monishadapter);
+
+            recyclerView.setLayoutManager(new LinearLayoutManager(this));
+
+            buttonarea();
+        }
         cart.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -289,14 +307,27 @@ public class MainActivity extends AppCompatActivity {
         button5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(MainActivity.this, "Hello 5", Toast.LENGTH_SHORT).show();
+
             }
         });
 
         button6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(MainActivity.this, "Hello 6", Toast.LENGTH_SHORT).show();
+                code=6;
+                Resources resources=getResources();
+                String [] products=resources.getStringArray(R.array.clothes);
+                String [] prices=resources.getStringArray(R.array.clothes_prices);
+                int [] images={R.raw.clothes1,R.raw.clothes2,R.raw.clothes3,R.raw.clothes4,R.raw.clothes5,R.raw.clothes6,R.raw.clothes7,R.raw.clothes8,R.raw.clothes9,R.raw.clothes10,R.raw.clothes11,R.raw.clothes12,R.raw.clothes13,R.raw.clothes14,R.raw.clothes15,R.raw.clothes16,R.raw.clothes17,R.raw.clothes18,R.raw.clothes19,R.raw.clothes20};
+
+                monishadapter=new Monishadapter(products,prices,images,context);
+
+                recyclerView.setAdapter(monishadapter);
+
+                recyclerView.setLayoutManager(new LinearLayoutManager(context));
+
+                ed.putInt("code",code);
+                ed.apply();
             }
         });
     }
