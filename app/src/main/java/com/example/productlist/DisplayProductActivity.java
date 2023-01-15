@@ -62,6 +62,9 @@ public class DisplayProductActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Toast.makeText(DisplayProductActivity.this, "Bought", Toast.LENGTH_SHORT).show();
                 Intent intent = new Intent(DisplayProductActivity.this, BuyProductActivity.class);
+                intent.putExtra("key1",productname);
+                intent.putExtra("key2",productprice);
+                intent.putExtra("key3",productimage);
                 startActivity(intent);
             }
         });

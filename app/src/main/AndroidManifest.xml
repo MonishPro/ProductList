@@ -13,7 +13,7 @@
         android:theme="@style/Theme.ProductList"
         tools:targetApi="31">
         <activity
-            android:name=".BuyProductActivity"
+            android:name=".aman.BuyProductActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
