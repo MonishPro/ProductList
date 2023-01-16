@@ -2,7 +2,9 @@ package com.example.productlist.aman;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 
 import com.example.productlist.R;
 import com.example.productlist.databinding.ActivityBuyProductBinding;
@@ -29,5 +31,19 @@ public class BuyProductActivity extends AppCompatActivity {
         binding.tvProductPriceShippingChargeValue.setText("50");
         int total = Integer.parseInt(price[1]) + gst + 50;
         binding.tvProductTotalPriceValue.setText(Integer.toString(total));
+        binding.btnConfirmOrder.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(BuyProductActivity.this, ThankYouActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        binding.btnBack.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                finish();
+            }
+        });
     }
 }
