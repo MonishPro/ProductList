@@ -33,7 +33,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/akaya_telivigala"
-            android:text="Online Shopping App"
+            android:text="e-Shopping"
             android:textColor="#F8F8F8"
             android:textColorLink="#F6F3F3"
             android:textSize="20sp"
@@ -47,9 +47,9 @@
 
     <ImageView
         android:id="@+id/imageButton10"
-        android:layout_width="58dp"
-        android:layout_height="52dp"
-        android:layout_marginTop="21dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_margin="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/toolbar"
         app:srcCompat="@drawable/home2" />
@@ -63,14 +63,13 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton10"
         tools:listitem="@layout/cart_layout" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="103dp"
         android:layout_height="30dp"
-        android:layout_marginTop="26dp"
         android:fontFamily="@font/akaya_telivigala"
         android:paddingStart="10dp"
         android:shadowColor="#000000"
@@ -78,8 +77,9 @@
         android:textColor="?attr/colorOnSecondary"
         android:textSize="25sp"
         android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageButton10"
         app:layout_constraintEnd_toStartOf="@+id/imageButton10"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+        app:layout_constraintTop_toTopOf="@+id/imageButton10" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

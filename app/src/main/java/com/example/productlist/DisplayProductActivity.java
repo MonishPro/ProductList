@@ -29,7 +29,7 @@ public class DisplayProductActivity extends AppCompatActivity {
         setContentView(R.layout.activity_display_product);
 
         imageView=findViewById(R.id.imageView3);
-        Name=findViewById(R.id.textView10);
+        Name=findViewById(R.id.tv_product_name);
         Price=findViewById(R.id.textView11);
         Description=findViewById(R.id.textView14);
         Back=findViewById(R.id.imageButton2);
