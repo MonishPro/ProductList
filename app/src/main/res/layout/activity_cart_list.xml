@@ -56,11 +56,12 @@
 
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recyclerView"
+        android:id="@+id/recyclerview_cart_list"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_marginTop="20dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_height="210dp"
+        android:layout_marginTop="40dp"
+        android:orientation="horizontal"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageButton10"
@@ -71,15 +72,41 @@
         android:layout_width="103dp"
         android:layout_height="30dp"
         android:fontFamily="@font/akaya_telivigala"
-        android:paddingStart="10dp"
         android:shadowColor="#000000"
+        android:layout_marginLeft="20dp"
         android:text="CartList"
         android:textColor="?attr/colorOnSecondary"
         android:textSize="25sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/imageButton10"
-        app:layout_constraintEnd_toStartOf="@+id/imageButton10"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/imageButton10" />
+
+    <TextView
+        android:id="@+id/tv_order_list"
+        android:layout_width="103dp"
+        android:layout_height="30dp"
+        android:fontFamily="@font/akaya_telivigala"
+        android:shadowColor="#000000"
+        android:text="Order List"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="?attr/colorOnSecondary"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/recyclerview_cart_list" />
+
+<!--    <androidx.recyclerview.widget.RecyclerView-->
+<!--        android:id="@+id/recyclerview_order_list"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="210dp"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:orientation="horizontal"-->
+<!--        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/tv_order_list"-->
+<!--        tools:listitem="@layout/cart_layout" />-->
 
 </androidx.constraintlayout.widget.ConstraintLayout>

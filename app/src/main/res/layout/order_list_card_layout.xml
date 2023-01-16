@@ -23,8 +23,8 @@
             android:layout_height="100dp"
             android:layout_marginTop="20dp"
             android:scaleType="centerCrop"
-            app:layout_constraintEnd_toStartOf="@+id/imageButton16"
-            app:layout_constraintStart_toEndOf="@+id/imageButton14"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@drawable/ic_launcher_background" />
 
@@ -58,25 +58,6 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="@+id/textView12" />
-
-        <ImageView
-            android:id="@+id/imageButton14"
-            android:layout_width="36dp"
-            android:layout_height="36dp"
-            android:layout_margin="15dp"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/img" />
-
-        <ImageView
-            android:id="@+id/imageButton16"
-            android:layout_width="36dp"
-            android:layout_height="36dp"
-            android:layout_margin="15dp"
-            android:backgroundTint="#FFFFFF"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/payment" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>

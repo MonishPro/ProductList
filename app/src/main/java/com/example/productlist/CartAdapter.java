@@ -87,6 +87,7 @@ public class CartAdapter extends RecyclerView.Adapter<CartAdapter.ViewHolder> {
                 i.putExtra("key2",productprices[a]);
                 i.putExtra("key3",productimages[a]);
                 i.putExtra("key4",0);
+                i.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                 context.startActivity(i);
             }
         });

@@ -25,7 +25,7 @@ CartAdapter cartAdapter;
 
         Back=findViewById(R.id.imageButton9);
         Home=findViewById(R.id.imageButton10);
-        recyclerView=findViewById(R.id.recyclerView);
+        recyclerView=findViewById(R.id.recyclerview_cart_list);
 
         int productimage=getIntent().getIntExtra("key3",0);
         String productname=getIntent().getStringExtra("key1");
@@ -122,7 +122,7 @@ CartAdapter cartAdapter;
             }
         }
         else {
-            Back.setVisibility(View.INVISIBLE);
+            Back.setVisibility(View.GONE);
             SharedPreferences sharedPreferences=getSharedPreferences("Database",MODE_PRIVATE);
             int length=sharedPreferences.getInt("data2",0);
             String pnam= sharedPreferences.getString("data3",null);
@@ -241,7 +241,7 @@ CartAdapter cartAdapter;
         ed.putString("data5",str3.toString());
         ed.apply();
 
-        recyclerView=findViewById(R.id.recyclerView);
+        recyclerView=findViewById(R.id.recyclerview_cart_list);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
         cartAdapter=new CartAdapter(pname,pprice,pimage,getApplicationContext(),this);
         recyclerView.setAdapter(cartAdapter);

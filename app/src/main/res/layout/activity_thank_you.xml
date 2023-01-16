@@ -17,13 +17,11 @@
         app:layout_constraintTop_toTopOf="parent"
         app:titleTextColor="#B44E4E">
 
-        <ImageButton
-            android:id="@+id/imageButton2"
+        <ImageView
+            android:id="@+id/img_btn_back"
             android:layout_width="60dp"
             android:layout_height="64dp"
-            app:srcCompat="@drawable/back"
-            tools:layout_editor_absoluteX="0dp"
-            tools:layout_editor_absoluteY="7dp" />
+            app:srcCompat="@drawable/back" />
 
         <TextView
             android:id="@+id/textView3"
@@ -68,7 +66,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/tv_more_shopping"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="58dp"
@@ -86,7 +84,7 @@
         android:text="View Order"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/textView5"
-        app:layout_constraintTop_toTopOf="@+id/textView5" />
+        app:layout_constraintStart_toEndOf="@+id/tv_more_shopping"
+        app:layout_constraintTop_toTopOf="@+id/tv_more_shopping" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

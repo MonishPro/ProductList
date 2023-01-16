@@ -134,7 +134,7 @@
                     android:id="@+id/tiet_address_district"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="Distirct" />
+                    android:hint="District" />
             </com.google.android.material.textfield.TextInputLayout>
 
             <com.google.android.material.textfield.TextInputLayout
@@ -153,16 +153,17 @@
 
 
             <com.google.android.material.textfield.TextInputLayout
-                android:id="@+id/textInputLayout"
+                android:id="@+id/til_upi"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="21dp"
                 app:layout_constraintTop_toBottomOf="@+id/tv_payment_info">
 
                 <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/tiet_upi"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="hint" />
+                    android:hint="Upi" />
             </com.google.android.material.textfield.TextInputLayout>
 
             <TextView
@@ -186,7 +187,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
                 android:text="Billing"
-                app:layout_constraintTop_toBottomOf="@+id/textInputLayout"
+                app:layout_constraintTop_toBottomOf="@+id/til_upi"
                 tools:layout_editor_absoluteX="10dp" />
 
             <TextView
@@ -266,12 +267,22 @@
                 android:id="@+id/btn_confirm_order"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="40dp"
+                android:layout_margin="60dp"
                 android:text="Confirm Order"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="@+id/tv_product_price_gst"
                 app:layout_constraintTop_toBottomOf="@+id/tv_product_total_price" />
+
+            <TextView
+                android:id="@+id/tv_error"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Complete the required field"
+                android:layout_marginBottom="10dp"
+                android:visibility="invisible"
+                app:layout_constraintBottom_toTopOf="@id/btn_confirm_order"
+                android:textColor="@color/design_default_color_error"/>
 
         </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>

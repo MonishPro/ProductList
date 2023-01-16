@@ -22,6 +22,8 @@ public class MainActivity extends AppCompatActivity {
     private ImageView button6,button0,button1,button2,button3,button4,button5,cart;
     private final Context context=MainActivity.this;
     private int code=0,show=0;
+    public static final String SHARED_PREF_DB = "Database";
+    private SharedPreferences sharedPreferences;
 
     @SuppressLint("MissingInflatedId")
     @Override
@@ -40,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
         cart=findViewById(R.id.imageButton12);
 
 
-        SharedPreferences sharedPreferences=getSharedPreferences("Database",MODE_PRIVATE);
+        sharedPreferences=getSharedPreferences(SHARED_PREF_DB,MODE_PRIVATE);
         int code= sharedPreferences.getInt("code",0);
         if(code==0)
         {
