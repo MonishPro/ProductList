@@ -98,7 +98,7 @@
                 android:id="@+id/imageButton7"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                app:srcCompat="@drawable/games" />
+                app:srcCompat="@drawable/tv" />
 
             <ImageView
                 android:id="@+id/imageButton8"
