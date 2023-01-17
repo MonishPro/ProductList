@@ -33,7 +33,7 @@ public class DisplayProductActivity extends AppCompatActivity {
         setContentView(R.layout.activity_display_product);
 
         imageView=findViewById(R.id.imageView3);
-        Name=findViewById(R.id.textView10);
+        Name=findViewById(R.id.tv_product_name);
         Price=findViewById(R.id.textView11);
         Description=findViewById(R.id.textView13);
         Back=findViewById(R.id.imageButton2);
@@ -106,6 +106,9 @@ public class DisplayProductActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Toast.makeText(DisplayProductActivity.this, "Bought", Toast.LENGTH_SHORT).show();
                 Intent intent = new Intent(DisplayProductActivity.this, BuyProductActivity.class);
+                intent.putExtra("key1",productname);
+                intent.putExtra("key2",productprice);
+                intent.putExtra("key3",productimage);
                 startActivity(intent);
             }
         });

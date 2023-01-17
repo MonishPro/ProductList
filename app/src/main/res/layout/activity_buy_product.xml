@@ -6,4 +6,288 @@
     android:layout_height="match_parent"
     tools:context=".aman.BuyProductActivity">
 
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:titleTextColor="#B44E4E">
+
+        <ImageView
+            android:id="@+id/btn_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            app:layout_constraintEnd_toStartOf="@+id/imageButton10"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/toolbar"
+            app:srcCompat="@drawable/back" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginTop="7dp"
+            android:fontFamily="@font/akaya_telivigala"
+            android:letterSpacing="0.2"
+            android:text="e-Shopping"
+            android:textColor="#F8F8F8"
+            android:textColorLink="#F6F3F3"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.appcompat.widget.Toolbar>
+
+
+    <TextView
+        android:id="@+id/tv_payment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Order Details"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+    <ImageView
+        android:id="@+id/img_order_product"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="10dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_payment"
+        tools:srcCompat="@drawable/earphones" />
+
+    <TextView
+        android:id="@+id/tv_product_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Product Name"
+        app:layout_constraintEnd_toStartOf="@+id/guideline5"
+        app:layout_constraintStart_toStartOf="@+id/guideline4"
+        app:layout_constraintTop_toBottomOf="@+id/img_order_product" />
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/guideline5"
+        app:layout_constraintStart_toStartOf="@+id/guideline4"
+        app:layout_constraintTop_toBottomOf="@+id/tv_product_name">
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/til_address_country"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="21dp"
+                app:layout_constraintTop_toBottomOf="@+id/tv_address">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/tiet_address_country"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Country" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/til_address_state"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                app:layout_constraintTop_toBottomOf="@+id/til_address_country">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/tiet_address_state"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="State" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/til_address_district"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="19dp"
+                app:layout_constraintTop_toBottomOf="@+id/til_address_state">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/tiet_address_district"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Distirct" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/til_address_pincode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                app:layout_constraintTop_toBottomOf="@+id/til_address_district">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/tiet_address_pincode"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Pin Code" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textInputLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="21dp"
+                app:layout_constraintTop_toBottomOf="@+id/tv_payment_info">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="hint" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+                android:id="@+id/tv_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Address"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tv_payment_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Payment info"
+                app:layout_constraintTop_toBottomOf="@+id/til_address_pincode" />
+
+            <TextView
+                android:id="@+id/tv_billing"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Billing"
+                app:layout_constraintTop_toBottomOf="@+id/textInputLayout"
+                tools:layout_editor_absoluteX="10dp" />
+
+            <TextView
+                android:id="@+id/tv_product_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Product Price"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_billing" />
+
+            <TextView
+                android:id="@+id/tv_product_price_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:text="Product Price"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_billing" />
+
+            <TextView
+                android:id="@+id/tv_product_price_gst"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="GST (18%)"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_product_price" />
+
+            <TextView
+                android:id="@+id/tv_product_price_gst_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="GST"
+                app:layout_constraintStart_toStartOf="@+id/tv_product_price_value"
+                app:layout_constraintTop_toBottomOf="@+id/tv_product_price" />
+
+            <TextView
+                android:id="@+id/tv_product_price_shipping_charge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Delivery Charge"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_product_price_gst" />
+
+            <TextView
+                android:id="@+id/tv_product_price_shipping_charge_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Delivery Charge"
+                app:layout_constraintStart_toStartOf="@+id/tv_product_price_value"
+                app:layout_constraintTop_toBottomOf="@+id/tv_product_price_gst" />
+
+            <TextView
+                android:id="@+id/tv_product_total_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Total Price"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_product_price_shipping_charge" />
+
+            <TextView
+                android:id="@+id/tv_product_total_price_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Total Price"
+                app:layout_constraintStart_toStartOf="@+id/tv_product_price_value"
+                app:layout_constraintTop_toBottomOf="@+id/tv_product_price_shipping_charge" />
+
+            <Button
+                android:id="@+id/btn_confirm_order"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="40dp"
+                android:text="Confirm Order"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/tv_product_price_gst"
+                app:layout_constraintTop_toBottomOf="@+id/tv_product_total_price" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="20dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_end="20dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

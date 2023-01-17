@@ -11,6 +11,8 @@ import android.widget.Toast;
 
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.productlist.aman.BuyProductActivity;
+
 public class CartAdapter extends RecyclerView.Adapter<CartAdapter.ViewHolder> {
 
     private String[] productname;
@@ -93,6 +95,12 @@ public class CartAdapter extends RecyclerView.Adapter<CartAdapter.ViewHolder> {
             @Override
             public void onClick(View view) {
                 Toast.makeText(context, "Bought", Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(context, BuyProductActivity.class);
+                intent.putExtra("key1",productname[a]);
+                intent.putExtra("key2",productprices[a]);
+                intent.putExtra("key3",productimages[a]);
+                intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                context.startActivity(intent);
             }
         });
     }
