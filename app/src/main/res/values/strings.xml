@@ -1365,28 +1365,28 @@ WHEN TO WEAR. Throw this soft hat | scarf | gloves on for any chilly outdoor act
     <item>Rs 389</item>
 </string-array>
 
-<!--    <string-array name="games">-->
-<!--        <item>Acer 139 cm (55 inches) I Series 4K Ultra HD Android Smart LED TV AR55AR2851UDFL (Black)</item>-->
-<!--        <item>TCL 163.9 cm (65 inches) ONKYO Soundbar Series 4K Ultra HD Certified Android Smart QLED TV 65C815 (Metallic Black)</item>-->
-<!--        <item>Kodak 139 cm (55 inches) Bezel-Less Design Series 4K Ultra HD Smart Android LED TV 55UHDX7XPROBL (Black)</item>-->
-<!--        <item>Westinghouse 139 cm (55 inches) 4K Ultra HD Smart Certified Android LED TV WH55UD45 (Black)</item>-->
-<!--        <item>Sony Bravia 139 cm (55 inches) 4K Ultra HD Smart LED Google TV KD-55X74K (Black)</item>-->
-<!--        <item>Sony Bravia 108 cm (43 inches) 4K Ultra HD Smart Android LED TV KD-43X75 (Black) (2021 Model) | with Alexa Compatibility</item>-->
-<!--        <item>Sony WH-1000XM5 Wireless Industry Leading Active Noise Cancelling Headphones | 8 Mics for Clear Calling | 30Hr Battery | 3 Min Quick Charge = 3 Hours Playback | Multi Point Connectivity | Alexa - Black</item>-->
-<!--        <item>JBL Quantum 300 | Wired Over Ear Gaming Headphone with Mic | Quantum Surround Sound | 3.5mm to USB Type-A Adapter | PC | Mobile | Laptop | PS4 | Xbox    and VR Compatible (Black)</item>-->
-<!--        <item>JBL Flip 4 | Wireless Portable Bluetooth Speaker with Mic | Signature Sound with Bass Radiator | Vibrant Colors with Rugged Fabric Design | Connect+ | IPX7 Waterproof    and AUX (Black)</item>-->
-<!--        <item>JB SUPER Bass Portable Wireless Bluetooth Speaker with inbuilt Phone Stand Built-in mic | TF Card Slot | USB Port - Multi Color</item>-->
-<!--        <item>Samsung 198 L 4 Star Inverter Direct-Cool Single Door Refrigerator (RR21T2H2XCR/HL | Camellia Purple | Base Stand with Drawer)</item>-->
-<!--        <item>LG 215 L 4 Star Inverter Direct-Cool Single Door Refrigerator (GL-B221ASCY | Scarlet Charm | Moist N Fresh)</item>-->
-<!--        <item>Whirlpool 190 L 4 Star Inverter Direct-Cool Single Door Refrigerator with Anti-bacterial gasket(WDE 205 PRM 4S INV MAGNUM STEEL | Magnum Steel)</item>-->
-<!--        <item>Carote Non Stick Cookware Set | Nonstick Induction Set Combo | Set of 4(24cm Fry Pan | 16cm Saucepan | 24cm Sauce Pot | 28cm Biryani Pot | 16cm Lid | 24cm Lid | 28cm LidGreen)</item>-->
-<!--        <item>Cello Instyle Vacuum Insulated Flask with Jacket | Hot and Cold Water Bottle | Double Walled Stainless Steel Bottle for Travel | Home | Office | School | 500ml | Silver</item>-->
-<!--        <item>LIGHT ANGLE Wooden Decorative Surface Mounted Classic Wall Fabric Lamp for Home Decor (W-Coral)</item>-->
-<!--        <item>SYSKA 9W B22D Led Cool Day Light Bulb | Pack Of 2 (Ssk-Srl)</item>-->
-<!--        <item>wipro Ns9400 9-Watt B22D Wifi Smart Led Bulb With Music Sync Compatible With Amazon Alexa And Google Assistant ( Warm White/Neutral White/White | Standard )</item>-->
-<!--        <item>LG 1.5 Ton 3 Star DUAL Inverter Split AC (Copper | Super Convertible 5-in-1 Cooling | HD Filter with Anti-Virus Protection | 2022 Model | PS-Q18RNXA1 | White)</item>-->
-<!--        <item>IFB 6 Kg 5 Star Front Load Washing Machine 2X Power Dual Steam (DIVA AQUA BXS 6008 | White    and Black | Active Color Protection | Hard Water Wash)</item>-->
-<!--    </string-array>-->
+    <string-array name="games">
+        <item>Acer 139 cm (55 inches) I Series 4K Ultra HD Android Smart LED TV AR55AR2851UDFL (Black)</item>
+        <item>TCL 163.9 cm (65 inches) ONKYO Soundbar Series 4K Ultra HD Certified Android Smart QLED TV 65C815 (Metallic Black)</item>
+        <item>Kodak 139 cm (55 inches) Bezel-Less Design Series 4K Ultra HD Smart Android LED TV 55UHDX7XPROBL (Black)</item>
+        <item>Westinghouse 139 cm (55 inches) 4K Ultra HD Smart Certified Android LED TV WH55UD45 (Black)</item>
+        <item>Sony Bravia 139 cm (55 inches) 4K Ultra HD Smart LED Google TV KD-55X74K (Black)</item>
+        <item>Sony Bravia 108 cm (43 inches) 4K Ultra HD Smart Android LED TV KD-43X75 (Black) (2021 Model) | with Alexa Compatibility</item>
+        <item>Sony WH-1000XM5 Wireless Industry Leading Active Noise Cancelling Headphones | 8 Mics for Clear Calling | 30Hr Battery | 3 Min Quick Charge = 3 Hours Playback | Multi Point Connectivity | Alexa - Black</item>
+        <item>JBL Quantum 300 | Wired Over Ear Gaming Headphone with Mic | Quantum Surround Sound | 3.5mm to USB Type-A Adapter | PC | Mobile | Laptop | PS4 | Xbox    and VR Compatible (Black)</item>
+        <item>JBL Flip 4 | Wireless Portable Bluetooth Speaker with Mic | Signature Sound with Bass Radiator | Vibrant Colors with Rugged Fabric Design | Connect+ | IPX7 Waterproof    and AUX (Black)</item>
+        <item>JB SUPER Bass Portable Wireless Bluetooth Speaker with inbuilt Phone Stand Built-in mic | TF Card Slot | USB Port - Multi Color</item>
+        <item>Samsung 198 L 4 Star Inverter Direct-Cool Single Door Refrigerator (RR21T2H2XCR/HL | Camellia Purple | Base Stand with Drawer)</item>
+        <item>LG 215 L 4 Star Inverter Direct-Cool Single Door Refrigerator (GL-B221ASCY | Scarlet Charm | Moist N Fresh)</item>
+        <item>Whirlpool 190 L 4 Star Inverter Direct-Cool Single Door Refrigerator with Anti-bacterial gasket(WDE 205 PRM 4S INV MAGNUM STEEL | Magnum Steel)</item>
+        <item>Carote Non Stick Cookware Set | Nonstick Induction Set Combo | Set of 4(24cm Fry Pan | 16cm Saucepan | 24cm Sauce Pot | 28cm Biryani Pot | 16cm Lid | 24cm Lid | 28cm LidGreen)</item>
+        <item>Cello Instyle Vacuum Insulated Flask with Jacket | Hot and Cold Water Bottle | Double Walled Stainless Steel Bottle for Travel | Home | Office | School | 500ml | Silver</item>
+        <item>LIGHT ANGLE Wooden Decorative Surface Mounted Classic Wall Fabric Lamp for Home Decor (W-Coral)</item>
+        <item>SYSKA 9W B22D Led Cool Day Light Bulb | Pack Of 2 (Ssk-Srl)</item>
+        <item>wipro Ns9400 9-Watt B22D Wifi Smart Led Bulb With Music Sync Compatible With Amazon Alexa And Google Assistant ( Warm White/Neutral White/White | Standard )</item>
+        <item>LG 1.5 Ton 3 Star DUAL Inverter Split AC (Copper | Super Convertible 5-in-1 Cooling | HD Filter with Anti-Virus Protection | 2022 Model | PS-Q18RNXA1 | White)</item>
+        <item>IFB 6 Kg 5 Star Front Load Washing Machine 2X Power Dual Steam (DIVA AQUA BXS 6008 | White    and Black | Active Color Protection | Hard Water Wash)</item>
+    </string-array>
 
     <string-array name="games_desc">
         <item>\nCOMBINED DELIVERY and INSTALLATION : Get brand-approved installation at the same time as delivery (Wall mount may be chargeable) Details\n\n
