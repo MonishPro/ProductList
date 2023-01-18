@@ -27,14 +27,14 @@ public class DisplayProductActivity extends AppCompatActivity {
     private TextView Name,Price,Description;
     private ImageButton Back;
     private Button btnBuyNow,Cart;
-    private SharedPreferences sharedPreferences;
+
 
     @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_display_product);
-        sharedPreferences = getSharedPreferences("Database",MODE_PRIVATE);
+         SharedPreferences sharedPreferences = getSharedPreferences("Database",MODE_PRIVATE);
 
         imageView=findViewById(R.id.imageView3);
         Name=findViewById(R.id.tv_product_name);
@@ -52,7 +52,6 @@ public class DisplayProductActivity extends AppCompatActivity {
 
         Resources resources=getResources();
 
-        SharedPreferences sharedPreferences=getSharedPreferences("Database",MODE_PRIVATE);
         int code= sharedPreferences.getInt("code",0);
         if(code==0)
         {
@@ -108,7 +107,6 @@ public class DisplayProductActivity extends AppCompatActivity {
         btnBuyNow.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(DisplayProductActivity.this, "Bought", Toast.LENGTH_SHORT).show();
                 Intent intent = new Intent(DisplayProductActivity.this, BuyProductActivity.class);
                 intent.putExtra(OrderListAdapter.REQUEST_CODE,REQUEST_CODE_NAME);
                 intent.putExtra("key1",productname);
@@ -135,6 +133,7 @@ public class DisplayProductActivity extends AppCompatActivity {
                 editor.apply();
 
                 startActivity(i);
+                finish();
             }
         });
     }

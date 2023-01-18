@@ -19,12 +19,7 @@ import com.example.productlist.aman.BuyProductActivity;
 import com.example.productlist.aman.OrderListAdapter;
 import com.example.productlist.aman.OrderListModelClass;
 import com.google.common.reflect.TypeToken;
-import com.google.firebase.auth.FirebaseAuth;
-import com.google.firebase.database.ChildEventListener;
-import com.google.firebase.database.DataSnapshot;
-import com.google.firebase.database.DatabaseError;
-import com.google.firebase.database.DatabaseReference;
-import com.google.firebase.database.FirebaseDatabase;
+
 import com.google.gson.Gson;
 
 import java.lang.reflect.Type;
@@ -33,7 +28,7 @@ import java.util.List;
 
 public class CartList extends AppCompatActivity implements CartListInterface {
     public RecyclerView recyclerViewCartList, recyclerViewOrderList;
-    private ImageView Back;
+    private ImageView Back,Home;
     CartAdapter cartAdapter;
     OrderListAdapter orderListAdapter;
     ArrayList<OrderListModelClass> orderListDataHolder;
@@ -48,7 +43,7 @@ public class CartList extends AppCompatActivity implements CartListInterface {
         sharedPreferences=getSharedPreferences("Database",MODE_PRIVATE);
 
         Back = findViewById(R.id.imageButton9);
-//        Home = findViewById(R.id.imageButton10);
+        Home = findViewById(R.id.imageButton10);
         recyclerViewCartList = findViewById(R.id.recyclerview_cart_list);
         recyclerViewOrderList = findViewById(R.id.recyclerview_order_list);
 
@@ -62,11 +57,11 @@ public class CartList extends AppCompatActivity implements CartListInterface {
             @Override
             public void onClick(View view) {
 
-//                        Intent i = new Intent(getApplicationContext(), DisplayProductActivity.class);
-//                        i.putExtra("key1", productname);
-//                        i.putExtra("key2", productprice);
-//                        i.putExtra("key3", productimage);
-//                        startActivity(i);
+                        Intent i = new Intent(getApplicationContext(), DisplayProductActivity.class);
+                        i.putExtra("key1", productname);
+                        i.putExtra("key2", productprice);
+                        i.putExtra("key3", productimage);
+                        startActivity(i);
                 finish();
 
             }
@@ -159,12 +154,12 @@ public class CartList extends AppCompatActivity implements CartListInterface {
             recyclerViewCartList.setAdapter(cartAdapter);
         }
 
-//        Home.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                finish();
-//            }
-//        });
+        Home.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                finish();
+            }
+        });
     }
 
     void stringstorage(String[] pname, String[] pprice, int[] pimage) {
@@ -245,7 +240,7 @@ public class CartList extends AppCompatActivity implements CartListInterface {
         ed.apply();
 
         recyclerViewCartList = findViewById(R.id.recyclerview_cart_list);
-//        recyclerViewCartList.setLayoutManager(new LinearLayoutManager(this));
+        recyclerViewCartList.setLayoutManager(new LinearLayoutManager(this));
         cartAdapter = new CartAdapter(pname, pprice, pimage, getApplicationContext(), this);
         recyclerViewCartList.setAdapter(cartAdapter);
 
