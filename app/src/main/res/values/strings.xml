@@ -1,19 +1,170 @@
 <resources>
     <string name="app_name">ProductList</string>
     <string-array name="product_name">
-        <item>Earphones</item>
-        <item>Speakers</item>
-        <item>SmartPhones</item>
-        <item>Lamp</item>
-        <item>Vases</item>
+        <item>Artis PS-600VA 600VA Line Interactive UPS for Personal Computers  | Desktop PCs | Laptops | Routers | Networking Devices and Gaming Consoles</item>
+        <item>God Of War Ragnarok | Launch Edition | PS5 Game (PlayStation 5)</item>
+        <item>PS5 Grand Theft Auto V</item>
+        <item>CEDO OnePlus Nord CE 2 Lite Case Back Cover Shockproof Bumper Crystal Clear | 360 Degree Protection TPU+PC | Camera Protection | Acrylic Transparent Eagle Cover for OnePlus Nord CE 2 Lite (Black)</item>
+        <item>Cello Colourup Hobby Bag Of Assorted Stationery | Colour Pencils | Colouring Kit | Colouring Set | Crayons Colour Set | Crayons Colour Set | Kids Colouring Set Colour Pencils | Diwali Gifts</item>
+        <item>Party Propz Green Dinosaur Theme Stationary Set For Kids - 7Pcs Stationary Kit Return Gifts For Boys</item>
+        <item>Casio MJ-12D 150 Steps Check and Correct Desktop Calculator</item>
+        <item>Parker Vector GT Fountain Pen | Matte Black</item>
+        <item>LOréal Paris Shampoo | For Damaged and Weak Hair | With Pro-Keratin + Ceramide | Total Repair 5 | 1ltr</item>
+        <item>Mamaearth Rice Face Wash With Rice Water    and Niacinamide for Glass Skin - 100 ml</item>
+        <item>Mamaearth CoCo Tinted 100% Natural Lip Balm for women | with Cocoa and Vitamin E - 2 g</item>
+        <item>Canon EOS 1500D 24.1 Digital SLR Camera (Black) with EF S18-55 is II Lens</item>
+        <item>Nikon D7500 20.9MP Digital SLR Camera (Black) with AF-S DX NIKKOR 18-140mm f/3.5-5.6G ED VR Lens</item>
+        <item>insta360 ONE X2 Action Camera|5.7k 360 Capture| FlowState Stabilization| Ultra Bright Screen| Waterproof 10m|4-Mic 360 Audio |Time Shift | Voice Control | Invisible Selfie Stick | Optical Zoom | Black</item>
+        <item>Echo Dot (3rd Gen) – New and improved smart speaker with Alexa (Black)</item>
+        <item>Echo Dot (4th Gen | 2020 release)| Smart speaker with Alexa (Black)</item>
+        <item>Bestonl Bot Robot Pioneer Colorful Lights and Music | All Direction Movement | Dancing Robot Toys for Boys and Girls</item>
+        <item>Nileey Double Sided 360 Degree Remote Control Rechargeable Stunt Car Toy with LED Lights for Kids (Multicolor)</item>
+        <item>HASTHIP® Garden Candle Lantern - Solar Powered - Flickering Effect - Amber LED - 15cm by Festive Lights</item>
+        <item>Desidiya® Crystal Lamp |16 Color Changing Rose Crystal Diamond Table Lamp |USB Rechargeable Touch Bedside Lamp Night Light with Remote Control | for Bedroom Living Room Party Dinner Decor</item>
+    </string-array>
+
+    <string-array name="home_desc">
+        <item> \n 600VA/360W Desktop PC UPS. Generator Compatible. Wide input Range: 140-300V. With Cold Start Function   and AVR which regulates voltage automatically. \n \n \n
+Heavy Duty 7AH battery 3 Output Sockets connect upto 3 devices. With a maximum backup of 45 minutes* depending on load/Devices connected. (Max backup with PC+Monitor+Router is 15-20 mins) \n \n
+Micro Load detection ensures no cut off even with micro loads such as only Wifi routers. Auto Restart and Cold Start capability helps start PC directly with UPS when Mains power is unavailable \n \n
+Micro-controller insures high reliability. Simulated Sine wave Output. Compact Size   and Light weight. Extremely Silent operation. Blazing fast transfer time of just 2-4 milliseconds! Fast Charging: 4 Hours for 90% charge \n \n
+Audible Alarms. Led Indicator. BIS India Certified Safe UPS. 2 Years walk in service center Warranty on internal Battery and Entire Unit. Dimensions: 14cm x 10cm x 27 cm. Toll Free No: 1800 123 8195. Email: inquiry@artis.in</item>
+        <item> \n Those who break fate: Atreus seeks knowledge to help him understand the prophecy of "Loki" and what role he is to play in Ragnarök. \n \n Kratos must decide whether he will be chained by the fear of repeating his mistakes or break free of his past to be the father Atreus needs. \n \n
+Weapons of war : The Leviathan Axe Blades of Chaos and Guardian Shield return alongside a host of new abilities for both Kratos and Atreus. As they take on gods and monsters from across the Nine Realms Kratoss deadly Spartan skills will be tested like never before as he fights to protect his family. \n \n
+Explore the realms :Journey to dangerous and stunning landscapes and face a wide variety of enemy creatures monsters and Norse gods as Kratos and Atreus search for answers and allies.</item>
+        <item> \n Experience entertainment blockbusters Grand Theft Auto V and GTA Online — now for PlayStation 5
+Enhanced fidelity   and performance new graphics modes up to 4K 60FPS HDR options ray tracing   and more
+Plus all-new enhancements to the ever-evolving world of GTA Online \n \n
+Exclusive new content Career Builder New Menu Design All current previous updates for GTA Online
+Experience GTA Online a dynamic and ever-evolving online universe for up to 30 players</item>
+        <item> \n DISCLAIMER: Compatible with OnePlus Nord CE 2 Lite mobile only.
+TPU+PC(Acrylic Hard Cover) - The back case made of TPU and acrylic hard cover.TPU can protect corner guard of your Phone better and acrylic hard cover can display the original beauty of the phone. \n \n
+CAMERA PROTECTION - Raised bezels lift camera off flat surfaces thus protecting the camera from scratches scuff marks and accidents
+PERFECT CUT-OUTS - Full access to user interface camera lens headphone jack speakerphone and microphone. Allows charging without removing the case
+            \n \n
+RAISED LIP FOR SCREEN PROTECTION - This Back Case is designed and tested to be compatible with most screen protectors and also supports bilateral wireless charging.</item>
+        <item> \n Cello ColourUp Hobby Bag is a comprehensive colouring and stationery range ideal for kids and all art lovers
+This Hobby Bag comes with Oil Pastels Jumbo Wax Crayons Sketch Pen Coloured Gel Pens 1 Mechanical Pencil Blue ink Gel Pen 1 Activity Book
+Its a great gift for kids because of the attractive adventure-themed colouring set. \n \n
+The crayons in this Hobby Bag are built with 2x stronger build quality due to which there will be no breakage issues. \n \n
+The Cello ColourUp Hobby Bag is a safe to use colouring set as it has non-toxic materials adhering to European Toy standards</item>
+        <item> \n Occasion	Birthday \n \n
+Colour	Dinosaur Stationery Set with Pouch \n \n
+Included Components	Ruler Pencil Case Pencil Sharpener Eraser Carry Pouch\n \n
+Theme	Animal\n \n
+Material	Metal Wood Fabric\n \n
+Net Quantity	7\n \n
+Item Dimensions LxWxH	23 x 20 x 2.5 Centimeters\n \n
+Brand	Party Propz</item>
+        <item>Regular keys like % square root and Memory \n \n
+Dedicated +/- and Backspace Key. Plastic keys\n \n
+Indian Comma Marker for easy reading of numbers in Lakh  and Crore. Can be set to show numbers in Million  and Billion also.\n \n
+Operation symbol on display (+ -. x ÷) indicates the status of operation you are currently performing
+Key Rollover: Key operations are stored in a buffer so nothing is lost even during high-speed input\n \n
+Dual Powered - Solar  and Battery Solar powered when light is sufficient battery powered when light is insufficient.\n \n
+Product Dimension: 30.1(H) x 123(W) x 140(D)</item>
+        <item>Brand	Parker \n \n
+Writing instrument form	Fountain Pen \n \n
+Colour	Golden color \n \n
+Age Range (Description)	Adult \n \n
+Material	Alloy Steel</item>
+        <item> \n Total Repair 5 shampoo for damaged dry lifeless dull or weak hair Fights against the five visible signs of damaged hair: hair fall dryness roughness dullness and split ends \n \n
+Restores hair fibres so they are stronger silkier and smoother with healthy looking shine \n \n
+First apply shampoo to deep clean then spread conditioner leave 3-5min rinse Style with serum and supplement with weekly mask to nourish and protect
+\n \n Pro-Keratin conditioning formula reinforces hair Strength and resilience to wear and tear Ceramide restores smoothness and lleaves hair soft and healthy looking \n \n
+Contents: 1x LOréal Paris Total Repair 5 Shampoo For Damaged and Weak Hair With Pro-Keratin + Ceramide Volume: 1ltr</item>
+        <item> \n GENTLY CLEANSES SKIN: The first step to glass skin! Cleanse away dirt and grime with Rice Face Wash that gently cleanses without stripping your skin of essential moisture. \n \n
+HYDRATES SKIN: The secret’s out - hydrated skin glows from within! Rice Face Wash cleanses and hydrates your skin at the same time  leaving you with supple skin.\n \n
+BRIGHTENS SKIN TONE: Time to turn on brightness. Rich in antioxidants  Rice Face Wash brightens your skin tone and also reduces blemishes  leaving you with clearer and radiant skin.\n \n
+MADE SAFE CERTIFIED: Time to glow  naturally! Rice Face Wash is dermatologically tested and Made Safe Certified making it absolutely safe for all skin types.\n \n
+arget Audience Keywords: Unisex Adult</item>
+        <item> \n 12 HOUR MOISTURIZATION WITH NATURAL TINT: Get that 12-hour moisture lock for your lips with Mamaearth CoCo 100% Natural Tinted Lip Balm. \n \n Formulated with Cocoa Butter Vitamin E  and Coconut Oil it gives your lips a burst of hydration and a gorgeous brown tint. \n \n
+HEALS DRY  and CHAPPED LIPS: No more dry and chapped lips. Time to pout it out with the creamy goodness of Cocoa Butter Vitamin E and Coconut Oil. Get long lasting hydration and nourishment for soft and supple lips.  \n \n
+100% NATURAL AND MADE SAFE CERTIFIED: Mamaearth CoCo Tinted 100% Natural Lip Balm brings you the perfect blend of makeup and skincare. Its Made Safe Certified and is formulated with the best of naturally nourishing ingredients for utmost care and the perfect tint. The best natural care for your delicate lips. The Lip balm is free from Sulfates Parabens SLS Petroleum Artificial Preservatives  and Colors.  \n \n
+SUITABLE FOR ALL SKIN TYPES: This lip balm is dermatologically tested Made Safe Certified  and is suitable for all skin types.</item>
+        <item> /n Sensor: APS-C CMOS Sensor with 24.1 MP (high resolution for large prints and image cropping). Transmission frequency (central frequency):Frequency: 2 412 to 2 462MHz. Standard diopter :-2.5 - +0.5m-1 (dpt);ISO: 100-6400 sensitivity range (critical for obtaining grain-free pictures especially in low light) /n /n
+Image Processor: DIGIC 4+ with 9 autofocus points (important for speed and accuracy of autofocus and burst photography);Video Resolution: Full HD video with fully manual control and selectable frame rates (great for precision and high-quality video work)/n /n
+Connectivity: WiFi NFC and Bluetooth built-in (useful for remotely controlling your camera and transferring pictures wirelessly as you shoot)
+Lens Mount: EF-S mount compatible with all EF and EF-S lenses (crop-sensor mount versatile and compact especially when used with EF-S lenses); Country of Origin: Taiwan/n /n
+Compatible Mountings: Universal Tripod Mount; Photo Sensor Technology: Size:[Unit:Frames Per Second Value:Aps-C ] Technology:[Value:Cmos ]</item>
+        <item> \n Brand	Nikon \n \n
+Model Name	D7500\n \n
+Form Factor	DSLR\n \n
+Effective Still Resolution	20.9 MP\n \n
+Special Feature	Special effects modes (night vision; super vivid; pop; photo illustration; toy camera effect; miniature effect; selective color;Special effects modes (night vision; super vivid; pop; photo illustration; toy camera effect; miniature effect; selective color; \n \n
+Optical Zoom	5 x\n \n
+Colour	Black\n \n
+Connector Type	Bluetooth Wi-Fi\n \n
+Screen Size	3.2 Inches\n \n
+Photo Sensor Size	APS-C fps\n \n \n
+
+About this item
+20.9MP DX-Format CMOS Sensor SnapBridge Bluetooth and Wi-Fi\n \n
+4K UHD Video Recording at 30 fps\n \n
+Multi-CAM 3500FX II 51-Point AF System\n \n
+Native ISO 51200 Expanded ISO 1640000\n \n
+180k-Pixel RGB Sensor and Group Area AF\n \n
+Country of Origin: Japan</item>
+        <item> \n Steady cam mode single lense stable capture \n \n
+360 Cam mode dual lense 5.7k capture\n \n
+Flowstate stablisation the best stablization in game\n \n
+Horizon lock level the horizon AI Editing\n \n
+Steady cam mode single lense stable capture.Use Environment : -4°F to 104°F (-20℃ to 40℃)\n \n
+360 Cam mode dual lense 5.7k capture\n \n
+Flowstate stablisation the best stablization in game\n \n
+Horizon lock level the horizon AI Editing</item>
+        <item>\n With a new speaker and design Echo Dot is a voice-controlled smart speaker with Alexa designed for any room. Just ask for music news information control compatible smart home devices and more. You can either use the crisp and clear built-in speaker or connect Echo Dot to your own other speakers using Bluetooth or 3.5mm audio cable. \n \n
+            Alexa the brain behind Echo Dot is built in the cloud so it is always getting smarter. The more you use Dot the more Alexa adapts to your speech patterns and vocabulary. Using Alexa is as simple as asking a question – just ask and Alexa will respond instantly \n \n
+        Echo Dot streams music from Amazon Prime Music JioSaavn Gaana Hungama Music and Spotify - just ask for your favorite artist or song or request a specific genre or mood. Search for music by album decade or let Alexa pick the music for you. Or wake up to your favorite music by setting a musical alarm. With Amazon Prime Music you can also create and manage your personal playlist.\n \n
+        Voice Control your home \n \n
+        Use Echo Dot to switch on the geyser before getting out of bed or dim the lights from the couch to watch a movie – all without lifting a finger or even raising your voice. Echo Dot works with compatible smart home devices - either WiFi based or those that ship with their own hub.\n \n</item>
+        <item> \nThis combo contains 2 Echo Dots (4th Gen) and 1 Wipro 9W smart color bulb. Use this combo to experience the magic of controlling your lights using just your voice (with Alexa) or remotely (through an App). You can also set smart routines: dim it automatically at 10pm or turn it on at 7pm. Only Wi-Fi needed - no additional hub or setup required \n \n
+Echo Dot (4th Gen) has a new spherical design and improved bass performance compared to Echo Dot (3rd Gen)\n \n
+Get started with Smart home: It is simple to make your home smart and use voice to control lights. Extend this experience to other appliances like ACs TVs geysers using smart plugs (to be purchased separately)\n \n
+Hands-free music control: Stream millions of songs in your favorite language from Amazon Prime Music Spotify JioSaavn Gaana or Apple Music\n \n
+Versatile usage: use Echo Dot as a standalone speaker or connect it to other speakers/headphones to enjoy audio on your favorite devices. Or simply pair your phone with Echo Dot and use it as a Bluetooth speaker\n \n
+Voice makes everything simple: Just ask Alexa to easily pay your bills get news weather cricket scores nursery rhymes and stories!</item>
+        <item> \n BEST FOR GIFT PURPOSE: Wonderful gifts for your children. It’s an enjoyable toy with exciting actions which will surely capture their attention. Give it to them on Christmas Holiday or their Birthday. \n \n
+COMES WITH MUSIC: Your little one can listen to the sweet sounds made by a Robot! Children can spend hours making musical memories with this beautiful and high quality toy!\n \n
+PREMIUM MATERIALS: Galaxy Hi-Tech Bot Robot Pioneer is made of quality material safe simple and easy to use. Absolutely Safe for your Kids as it is Non-Toxic and goes through product safety certification inspection... buy once and enjoy for years!\n \n
+GREAT FUNCTIONS: Our Robot Pioneer can move forward and backward turn left and right. Hands can rotate and feet can move in all direction. Keep your little ones occupied with this Dancing and Moving Robot!\n \n
+EQUIPPED WITH LIGHTS: This toy is battery operated where the robot lights up and your Baby can learn to recognize different colors of the lights. Your kid is gonna definitely love this attractive robot!</item>
+        <item>\n★ Off-Road Easily: Oversizedsoft tires can adapt to various road. 2 powerful motors and 4 wheel drive system provides high-power for blue sports cars. This super electric remote control cars run fast  and can easily pass through sand grass roads and climb rocky\n \n
+★ Control Friendly：The stunt car move fast no matter what state it is in. Never worry about rollover. For the convenience of operation its remote control has been specially designed with only 2 joysticks.6 yr baby can easily play with bumper car\n \n
+★ Fast and Powerful: Equipped with 2.4 ghz transmitter and receiver which has an effective control distance of 100ft. High speed motor make coupe run about 6-7 mph（10km/h）\n \n
+★ Cool Gifts: To make the kids have a better experience we put steel screwdrivers and more rechargeable batteries in the box. tank must be the most expected outdoor gift for children on birthdays and Christmas</item>
+        <item> \n Solar Candle Lantern: The garden solar lights can be used as a pathway lights hanging lanterns or table lamps. It is made of sturdy plastic with IP55 waterproof rating corrosion resistance and can work well in rainy days. The plastic lighting room can prevent the lantern from rusting and can project beautiful patterns. \n \n
+Outdoor Lanterns Dimensions:10x10x15cm (approx) you can hang it wherever you want! It can add a warm atmosphere to your yard garden terrace party etc.\n \n
+Solar Lantern Light Unique Design: The hanging lantern has a very realistic candle shape coupled with the exterior courtyard shape making it very unique. The charming solar garden lamp is retro and elegant during the day and emits a warm amber light and projects beautiful patterns at night to illuminate the dark night!\n \n
+Environmental Protection and Energy Saving: Outdoor lanterns are 100% solar powered. You only need to place them in direct sunlight to charge for 6-8 hours. Then the garden lights will automatically turn on at dusk and turn off at dawn the next day. No wires no bulbs. Before charging in the sun make sure the button is in the "ON" position.\n \n
+15-day Free Return and Exchange: When you receive the decorative solar lights just turn on the switch at the bottom of the solar panel and place it in the dark then the light will turn on. If you have problems with your outdoor solar lights just contact us we provide 15 days free return and exchange service.</item>
+        <item>\n💎 High-quality Material - This 16-color crystal night light is made of high-quality PMMA material. The diamond cut surface technology makes the edge lines very smooth and does not hurt your hands. the light shines like a delicate rose blooming instantly creating a romantic atmosphere\n \n
+💎 Touch and Remote Control - You can touch the top of the light to turn on/off and adjust the color of the light. It can control 16 kinds of colors\n \n
+💎 Elegant Rose Light - Special 3D technology the 3D effect is like a diamond. The refraction crystal lamp is bright and colorful very practical. The exquisite crystal table lampshade adopts diamond cut surface to show the gorgeous temperament decorate your living room and create a comfortable and romantic atmosphere.\n \n
+💎 Decor Lamp - When the lights are turned off it is a dazzling crystal decoration which can not only decorate your bedroom living room closet dining table study room corridor etc.\n \n After turning on the light it is a beautiful night light that can change colors. It is the best gift for family and friends. You can also have a romantic candlelight dinner with your lover.</item>
     </string-array>
 
     <string-array name="product_prices">
-        <item>Rs 350</item>
-        <item>Rs 1500</item>
-        <item>Rs 17500</item>
-        <item>Rs 3500</item>
-        <item>Rs 5100</item>
+        <item>Rs 2299</item>
+        <item>Rs 4799</item>
+        <item>Rs 1999</item>
+        <item>Rs 229</item>
+        <item>Rs 374</item>
+        <item>Rs 283</item>
+        <item>Rs 418</item>
+        <item>Rs 463</item>
+        <item>Rs 605</item>
+        <item>Rs 225</item>
+        <item>Rs 254</item>
+        <item>Rs 35987</item>
+        <item>Rs 80500</item>
+        <item>Rs 32988</item>
+        <item>Rs 3499</item>
+        <item>Rs 4499</item>
+        <item>Rs 849</item>
+        <item>Rs 1349</item>
+        <item>Rs 1272</item>
+        <item>Rs 789</item>
     </string-array>
 
     <string-array name="images">
@@ -47,6 +198,222 @@
         <item>Apple iPhone 13 (128GB) - Starlight</item>
     </string-array>
 
+    <string-array name="phone_desc">
+        <item> \n About this item \n \n
+6.49" Inch 16.5cm FHD+ Punch-hole Display with 2400x1080 pixels. Larger screen to body ratio of 90.5%.Side Fingerprint Sensor\n \n
+Qualcomm Snapdragon 480 5G GPU 619 at 650 MHz Support 5G sim Powerful 2 GHz Octa-core processor  support LPDDR4X memory and latest UFS 2.1 gear 3 storage\n \n
+5000 mAh lithium polymer battery\n \n
+48MP Quad Camera 48MP Main + 2MP Macro + 2MP Depth Lens 8MP Front Camera\n \n
+Memory  Storage and SIM: 6GB RAM 128GB internal memory expandable up to 256GB Dual SIM nano+nano dual-standby 5G+5G. Color OS 11.1 based on Android v11.0 operating system\n \n
+Connector type: USB Type C\n \n
+Display type: LCD</item>
+        <item> \n About this item \n \n
+Processor: MediaTek Helio G25 Octa-core; Up to 2.0GHz clock speed\n \n
+Camera: 13 MP Rear camera with AI portrait| 5 MP front camera\n \n
+Display: 16.58 centimeters (6.53-inch) HD+ display with 720x1600 pixels and 20:9 aspect ratio\n \n
+Battery: 5000 mAH large battery with 10W wired charger in-box\n \n
+Memory  Storage and SIM: 2GB RAM | 32GB storage | Dual SIM (nano+nano) + Dedicated SD card slot\n \n
+The Selfie camera allows easy and convenient access to your phone with AI face unlock\n \n
+Form factor:Bar Operating system:MIUI 12</item>
+        <item>\nBrand	Redmi\n \n
+Model Name	Redmi A1\n \n
+Network Service Provider	Unlocked for All Carriers\n \n
+OS	Android Go\n \n
+Cellular Technology	4G\n \n
+About this item\n \n
+Display: 16.56cm HD+ Scratch resistant display\n \n
+Processor: MediaTek Helio A22 processor; up to 2.0GHz\n \n
+Camera: 8MP Dual camera | 5MP Front camera\n \n
+Memory  Storage and SIM: 2GB LPDDR4x RAM | 32GB storage expandable up to 512GB with dedicated SD card slot | Dual SIM (nano+nano) dual standby (4G+4G)\n \n
+Battery: 5000 mAh large battery with 10W in-box charger</item>
+        <item>\nBrand	Redmi \n \n
+Model Name	Redmi 10A\n \n
+Network Service Provider	Unlocked for All Carriers\n \n
+OS	MIUI 12.5\n \n
+Cellular Technology	LTE\n \n
+About this item\n \n
+Camera: 13MP Rear Camera | 5MP Front Camera\n \n
+Display: HD+(1600x700) IPS LCD display; 15.58 centimeters (6.53 inch); 20:9 aspect ratio\n \n
+Processor: MediaTek Helio G25 Octa-core processor; Up to 2.0 GHz clock speed\n \n
+Battery: 5000 mAh large battery with 10W fast charger in-box and Micro USB connectivity\n \n
+Memory  Storage and SIM:4GB RAM | 64GB storage expandable upto 512GB with dedicated SD card slot | Dual SIM (nano+nano) dual standby(4G+4G)</item>
+        <item>\nBrand	Samsung\n\n
+Model Name	Samsung M04\n\n
+Network Service Provider	Unlocked for All Carriers\n\n
+OS	Android 12.0\n\n
+Cellular Technology	4G\n\n
+About this item\n\n
+Powerful MediaTek Helio P35 Octa Core 2.3GHz with Android 12 One UI Core 4.1\n\n
+13MP+2MP Dual camera setup- True 13MP (F2.2) main camera + 2MP (F2.4) | 5MP (F2.2) front came\n\n
+16.55 centimeters (6.5-inch) LCD  HD+ resolution with 720 x 1600 pixels resolution  269 PPI with 16M color\n\n
+5000mAH lithium-ion battery  1 year manufacturer warranty for device and 6 months manufacturer warranty for in-box accessories including batteries from the date of purchase</item>
+        <item>\nAbout this item\n\n
+12+2+2MP triple rear camera (12MP main camera+2MP macro lens+2MP depth camera) with Portrait bokeh  macro lens  dazzle color mode  AI beautification | 8MP front camera. OTG : Supported NFC : No\n\n
+16.5 centimeters (6.5-inch) waterdrop multi touch screen with an 89% screen to body ratio | 1600 x 720 pixels resolution  269 ppi pixel density\n\n
+Memory  Storage and SIM: 6GB RAM | 128GB internal memory expandable up to 256GB | Dual SIM (nano+nano) dual-standby (4G+4G)\n\n
+Android Pie v9.0 based on ColorOS 6.1 operating system with 2.3GHz Mediatek 6765 octa core processor  IMG GE8320\n\n
+4230mAH lithium-polymer battery providing talk-time of 45 hours and standby time of 450 hours\n\n
+1 year manufacturer warranty for device and 6 months manufacturer warranty for in-box accessories including batteries from the date of purchase\n\n
+Box also includes: USB cable  Sim tray ejecter  pre-applied screen protector and protective case  booklet with warranty card and quick guide. The box does not include earphones</item>
+        <item>\nBrand	Samsung\n\n
+Model Name	Samsung Galaxy M13\n\n
+Network Service Provider	Vodafone\n\n
+OS	Android 12.0\n\n
+Cellular Technology	4G\n\n
+About this item\n\n
+6000mAh lithium-ion battery  1 year manufacturer warranty for device and 6 months manufacturer warranty for in-box accessories including batteries from the date of purchase\n\n
+Upto 12GB RAM with RAM Plus | 64GB internal memory expandable up to 1TB| Dual Sim (Nano)\n\n
+50MP+5MP+2MP Triple camera setup- True 50MP (F1.8) main camera +5MP(F2.2)+ 2MP (F2.4) | 8MP (F2.2) front cam\n\n
+Android 12 One UI Core 4 with a powerful Octa Core Processor\n\n
+16.72 centimeters (6.6-inch) FHD+ LCD - infinity O Display  FHD+ resolution with 1080 x 2408 pixels resolution  401 PPI with 16M color</item>
+        <item>\nBrand	Realme\n\n
+Model Name	Realme narzo 50i\n\n
+Network Service Provider	Unlocked for All Carriers\n\n
+OS	Android 11.0\n\n
+Cellular Technology	4G\n\n
+About this item\n\n
+2 GB RAM | 32 GB ROM | Expandable Upto 256 GB\n\n
+16.51 cm (6.5 inch) HD+ Display | 88.7% Screen-to-body Ratio | LCD Multi-touch Display | 1600-by-720-pixel Resolution | 400 nits Max Brightness (Typical)\n\n
+8MP Primary Camera (f/2.0 Aperture 4P Lens 4x  Digital Zoom Panoramic View  Portrait Mode  Expert  Timelapse  HDR  Beauty  Filter | 5MP AI Selfie Camera (f/2.2 aperture  portrait Mode  AI Beauty  HDR  Face-Recognition  Filter)\n\n
+5000 mAh Massive Battery | Supports Ultra Saving Mode\n\n
+Powerful Octa-core Processor | CPU: Octa-core CPU  up to 1.6GHz | GPU: IMG 8322\n\n</item>
+        <item>\nBrand	Redmi\n\n
+Model Name	Redmi 10A\n\n
+Network Service Provider	Unlocked for All Carriers\n\n
+OS	MIUI 12.5\n\n
+Cellular Technology	LTE\n\n
+About this item\n\n
+Camera: 13MP Rear Camera | 5MP Front Camera\n\n
+Display: HD+(1600x700) IPS LCD display; 15.58 centimeters (6.53 inch); 20:9 aspect ratio\n\n
+Processor: MediaTek Helio G25 Octa-core processor; Up to 2.0 GHz clock speed\n\n
+Battery: 5000 mAh large battery with 10W fast charger in-box and Micro USB connectivity\n\n
+Memory  Storage and SIM:4GB RAM | 64GB storage expandable upto 512GB with dedicated SD card slot | Dual SIM (nano+nano) dual standby(4G+4G)</item>
+        <item>\nBrand	Samsung\n\n
+Model Name	Samsung Galaxy S20 FE 5G\n\n
+Network Service Provider	VoiceStream Wireless Provider Type\n\n
+OS	Android 11.0\n\n
+Cellular Technology	5G\n\n
+About this item\n\n
+5G Ready powered by Qualcomm Snapdragon 865 Octa-Core processor  8GB RAM  128GB internal memory expandable up to 1TB  Android 11.0 operating system and dual SIM\n\n
+Triple Rear Camera Setup - 12MP (Dual Pixel) OIS F1.8 Wide Rear Camera + 8MP OIS Tele Camera + 12MP Ultra Wide | 30X Space Zoom  Single Take and Night Mode | 32MP F2.2 Front Punch Hole Camera\n\n
+6.5-inch(16.40 centimeters) Infinity-O Super AMOLED Display with 120Hz Refresh rate  1080 x 2400 (FHD+) Resolution "\n\n
+4500 mAh battery (Non -removable) with Super Fast Charging  FAst Wireless Charging and Finger Print sensor\n\n
+IP68 Rated  MicroSD Card Slot (Expandable upto 1 TB)  Dual Nano Sim  Hybrid Sim Slot  5G+5G Dual stand by\n\n
+5G Ready powered by Qualcomm Snapdragon 865 Octa-Core processor  8GB RAM  128GB internal memory expandable up to 1TB  Android 11.0 operating system and dual SIM\n\n
+Triple Rear Camera Setup - 12MP (Dual Pixel) OIS F1.8 Wide Rear Camera + 8MP OIS Tele Camera + 12MP Ultra Wide | 30X Space Zoom  Single Take and Night Mode | 32MP F2.2 Front Punch Hole Camera</item>
+        <item>\nBrand	Samsung\n\n
+Model Name	Samsung Galaxy S22 5G\n\n
+Network Service Provider	Unlocked for All Carriers\n\n
+OS	Android 12.0\n\n
+Cellular Technology	5G\n\n
+About this item\n\n
+Product Type - Cellular Phone\n\n
+Item Package Quantity - 1\n\n
+Ram Size - 8 Gb\n\n
+Storage - 128 Gb</item>
+        <item>\nBrand	Vivo\n\n
+Model Name	Y16\n\n
+Network Service Provider	Unlocked for All Carriers\n\n
+OS	FunTouch OS 12\n\n
+Cellular Technology	4G\n\n
+About this item\n\n
+13MP+2MP Rear Camera | 5MP Selfie Camera\n\n
+16.55 cm (6.51" inch) HD+ LCD Display\n\n
+Memory and SIM: 4GB RAM | 64GB internal memory\n\n
+10W fast charging with 5000mAh battery</item>
+        <item>\nBrand	OnePlus\n\n
+Model Name	OnePlus Nord CE 2 Lite 5G\n\n
+Network Service Provider	Unlocked for All Carriers\n\n
+OS	OxygenOS\n\n
+Cellular Technology	5G  4G LTE\n\n
+About this item\n\n
+Camera: 64MP Main Camera with EIS; 2MP Depth Lens and 2MP Macro Lens; Front (Selfie) Camera: 16MP Sony IMX471\n\n
+Camera Features: AI scene enhancement  Dual-View Video  HDR  Night Portrait  Panorama Mode  Retouch Filters  1080p video at 30 fps  SLO-MO: 720p video at 120 fps  TIME-LAPSE: 1080p video at 30 fps  Video editor  Face unlock  Screen flash  HDR  NIGHT  PORTRAIT  TIME-LAPSE  Retouch  Filters\n\n
+Display: 6.59 Inches; 120 Hz Refresh Rate; Support sRGB  Display P3; Resolution: 2412 x 1080 pixels 402ppi; Aspect Ratio: 20:9
+Display Features: Dark mode\n\n
+Operating System: Oxygen OS based on Android 12\n\n
+Processor: Qualcomm Snapdragon 695 5G\n\n
+Battery and Charging: 5000 mAh with 33W SuperVOOC</item>
+        <item>\nBrand	IQOO\n\n
+Model Name	IQOO Z6 44W by vivo\n\n
+Network Service Provider	Unlocked for All Carriers\n\n
+OS	Funtouch OS 12 Based On Android 12\n\n
+Cellular Technology	LTE\n\n
+About this item\n\n
+44W FlashCharge\n\n
+Snapdragon 680 comes with octa-core architecture design that adopts the new 6nm process  CPU increased by 25% and GPU performance increased by 10% compared with Qualcomm Snapdragon 662.\n\n
+Z6 is equipped with a FHD+ AMOLED dispaly to give a truly immersive display experience with true color contrast. The display provides a 180Hz Touch Sampling Rate in the gaming sessions for an enhanced touch response.\n\n
+50MP AI rear camera comes with a variety of smart AI camera features and effects to capture wonderful moments with ease.\n\n
+Cellular technology:lte  Form factor:bar  Human interface input:touch screen</item>
+        <item>\nBrand	IKALL\n\n
+Model Name	K350\n\n
+Network Service Provider	Unlocked for All Carriers\n\n
+OS	Android 10.0\n\n
+Cellular Technology	4G\n\n
+About this item\n\n
+6 Inch Display | Made in India | 4G VolTe\n\n
+3GB ram  32GB storage | Expandable Memory 64GB | Dual Sim\n\n
+Android 10 with 1.3 Ghz Quad Core\n\n
+8MP Rear Camera | 5MP Front Camera | Made in India\n\n
+1 Year manufacturing warranty for mobile and 6 months for accessories</item>
+        <item>\nBrand	Tecno\n\n
+Model Name	Phantom X2\n\n
+Network Service Provider	Unlocked\n\n
+OS	HiOS 12.0 based on Android 12\n\n
+Cellular Technology	5G\n\n
+About this item\n\n
+Worlds 1st 4nm Dimensity 9000 5G Processor | 5G Bands with 3CC Carrier aggregation and dual SIM dual active 5G | Segment best overall One Million Antutu score for beasty performance\n\n
+Extraordinary 64MP RGBW(G+P) OIS Ultra Clear Night Camera | accept 200% more light | Amazing Night Shot | 3D LUT | Wider P3 Color Gamut | Vivid Colors | Multiple Shooting Modes | 32MP Selfie camera\n\n
+6.8" FHD+ Dual Curved AMOLED display for truly brilliant vision | 120Hz Refresh rate | 360Hz Touch Sampling rate | Super smooth touch resonse\n\n
+8GB LPDDR5 RAM and UFS3.1 256GB ROM | MemFusion 2.1 RAM Extension upto 5GB to make the total RAM as 13GB | LPDDR5 RAM provide 1.5x faster speed than previous generation RAM\n\n
+Loop Design Award 2022 for a superior design | 71° ergonomic golden grip angle design makes it easy to hold for longer duration | 5160mAh segment best Battery | 45W In-box Charger | Anti-oil ultra fast In-display Fingerprint Sensor | NFC</item>
+        <item>\nBrand	Tecno\n\n
+Model Name	POVA 4\n\n
+Network Service Provider	Unlocked\n\n
+OS	HiOS 12.0 based on Android 12\n\n
+Cellular Technology	4G\n\n
+About this item\n\n
+6nm 2.2GHz powerful Helio G99 Processor | Intense Gaming with HyperEngine 2.0 Lite Game Engine and Panther Game Engine |No support for Africas frequency bands|Warranty In India Only\n\n
+6000mAh Incredibly powerful battery | 37 days Standby Time |167 Hours Music Playback|10minutes of Charge offers 10 Hours of Music Playback | STS Safe Battery Technology |18W Type C In-box Charger\n\n
+13GB Large RAM with 128GB uMCP ROM | 8GB LPDDR4x RAM with up to 5GB memory fusion RAM | 61% increase in average app startup speed\n\n
+50MP high-res dual Rear Camera|F1.6 large aperture with PDAF|Excellent Image Processing|SuperNight Shots|Professional Video Modes| 8MP Front Camera\n\n
+90Hz Refresh rate on 6.8"Dot-in display | Dual Stereo Speaker optimized by DTS Sound | Latest HiOS 12.0 based on Android 12 | NFC for quick contactless operations</item>
+
+        <item>\nBrand	Tecno\n\n
+Model Name	POVA 4\n\n
+Network Service Provider	Unlocked\n\n
+OS	HiOS 12.0 based on Android 12\n\n
+Cellular Technology	4G\n\n
+About this item\n\n
+6nm 2.2GHz powerful Helio G99 Processor | Intense Gaming with HyperEngine 2.0 Lite Game Engine and Panther Game Engine |No support for Africas frequency bands|Warranty In India Only\n\n
+6000mAh Incredibly powerful battery | 37 days Standby Time |167 Hours Music Playback|10minutes of Charge offers 10 Hours of Music Playback | STS Safe Battery Technology |18W Type C In-box Charger\n\n
+13GB Large RAM with 128GB uMCP ROM | 8GB LPDDR4x RAM with up to 5GB memory fusion RAM | 61% increase in average app startup speed\n\n
+50MP high-res dual Rear Camera|F1.6 large aperture with PDAF|Excellent Image Processing|SuperNight Shots|Professional Video Modes| 8MP Front Camera\n\n
+90Hz Refresh rate on 6.8"Dot-in display | Dual Stereo Speaker optimized by DTS Sound | Latest HiOS 12.0 based on Android 12 | NFC for quick contactless operations</item>
+        <item>\nBrand	Tecno\n\n
+Model Name	POVA 5G\n\n
+Network Service Provider	Unlocked for All Carriers\n\n
+OS	HiOS 8.0 based on Android 11  Android 11.0\n\n
+Cellular Technology	5G 4G 3G 2G\n\n
+About this item\n\n
+Dimensity 900 5G Processor : Ultra-efficient Octa Core 6nm processor with Arm Cortex-A78 CPU for incredible performance | 11 Bands 5G Supports with fully integrated 5G modem and Wi-Fi 6.0 support | Latest true Dual 5G SIM with Smart Network Switching| No support for Africas frequency bands\n\n
+11GB+128GB Memory: Experience a new height of speed with 8GB LPDDR5 physical RAM which can further be extended by up to 3GB with Virtual RAM  thus a total of Large 11GB RAM | 128GB UFS3.1 Flash memory for much faster data reading and writing speed | Upto 512GB Expandable memory for much bigger storage\n\n
+Segment leading 6.9"FHD+Dot-in display : 120Hz Screen Refresh rate for ultra smooth experience | Exact color accuracy and exceptional display visuals with 91% screen to body ratio | 180Hz Touch sampling rate for smoother touch response\n\n
+6000mAh battery: Best-in-segment 6000mAh powerful battery | 18W in-box Fast Charger can charge up to 50% in 33 minutes | Ultra Power Saving Mode | Battery Lab 2.1 optimizes the apps usage and provide smart power saving | Delivers up to 32 days standby time  183 Hours of Music playback and 55 Hours of calling\n\n
+50MP AI Triple Camera: Ultra clear primary camera with F1.6 large aperture for natural and vivid images in each scenario | RAW Super Night Algorithm for brilliant night shots | Advanced Video shoot modes like 4K Time-lapse  Ultra Steady Mode  Video Bokeh  960FPS Slow Motion and more | Intelligent Focus  Gender Specific Beauty tools  HDR Mode  Portrait modes enhance your memorable shot to a next level</item>
+        <item>\nBrand	Apple\n\n
+Model Name	IPhone\n\n
+Network Service Provider	Unlocked for All Carriers\n\n
+Operating System	IOS 14\n\n
+Cellular Technology	5G\n\n
+About this item\n\n
+15 cm (6.1-inch) Super Retina XDR display\n\n
+Cinematic mode adds shallow depth of field and shifts focus automatically in your videos\n\n
+Advanced dual-camera system with 12MP Wide and Ultra Wide cameras; Photographic Styles  Smart HDR 4  Night mode  4K Dolby Vision HDR recording\n\n
+12MP TrueDepth front camera with Night mode 4K Dolby Vision HDR recording\n\n
+A15 Bionic chip for lightning-fast performance</item>
+    </string-array>
+
     <string-array name="books">
         <item>Hindutva: Origin | Evolution and Future</item>
         <item>The Psychology of Money</item>
@@ -68,6 +435,52 @@
         <item>Ikigai: The Japanese secret to a long and happy life [Hardcover] García | Héctor and Miralles | Francesc</item>
         <item>A Cry of Honor: 04 (Sorcerers Ring) </item>
         <item>Rogue | Prisoner | Princess (Of Crowns and Glory-Book 2) </item>
+    </string-array>
+
+    <string-array name="books_desc">
+        <item>"A Magisterial work by Neelakandan to understand what Hindutva actually is and stands for." - Dr. Vikram Sampath "I have long admired Aravindan Neelakandan as one of the very few Indian thinkers who appreciate and acknowledge Western-derived science and modernity  while simultaneously remaining authentically grounded in Hindu tradition. There have been many books on the history of Hinduism and Hindutva  but this one is different  and significant  because it (correctly) takes a step back and identifies that our current situation is part of a global bio-psycho-sociological churn  something playing out over millennia  far beyond the lifespans of any one individual or organization or state. Aravindan  at his core  is a nature-lover and a scientist  and it is this perspective that suffuses this book and makes it special. While there is plenty of ground-breaking content within this expansive  encyclopedic book  I believe the sections on the neurobiological connections of Hindu meditative and ritual practice  which tie the history of Hinduism to the broader evolutionary inheritance of the human species  are going to be very impactful in the years to come." - Dr Anand Venkatraman Neuroscientist</item>
+        <item>Timeless lessons on wealth  greed  and happiness doing well with money isn?t necessarily about what you know. It?s about how you behave. And behavior is hard to teach  even to really smart people. How to manage money  invest it  and make business decisions are typically considered to involve a lot of mathematical calculations  where data and formulae tell us exactly what to do. But in the real world  people don?t make financial decisions on a spreadsheet. They make them at the dinner table  or in a meeting room  where personal history  your unique view of the world  ego  pride  marketing  and odd incentives are scrambled together. In the psychology of money  the author shares 19 short stories exploring the strange ways people think about money and teaches you how to make better sense of one of life?s most important matters.</item>
+        <item>The International Bestseller: DO IT TODAYAre you also tired of putting off your dreams until "tomorrow?" Guess what! Tomorrow never comes. Am I right? Ive procrastinated and putt off my desire to write a book for a decade. I always came up with excuses like  "it  s not the right time." Or  "I need to do more research." But in 2015 I got tired of this endless procrastination  and finally took action. Six months later  my first book was published. Look  we all have limited time on our hands. And we re getting closer to death every single minute. That shouldnt scare. That should motivate you!Time is limited  thats why we must do the things we want: Today.In this "best of" collection  I  ve handpicked 30 of my best articles that help you to overcome procrastination  improve your productivity  and achieve all the things you always wanted. Plus  I  ve written an extensive introduction about my life and work philosophy. And I  ve made many improvements and edits to the articles. So the content of this book is different from the articles on my site.In Do It Today  you  ll learn:1.Why we procrastinate and how we can overcome it2.How to increase your productivity without being stressful3.How to achieve more meaningful things in your life so you can enjoy it moreAre you ready to start reading this book? If so: Do it today-not tomorrow.</item>
+        <item>Do you often wonder whether you really have it in you to accomplish your goals  to win over obstacles  and to succeed in life? Through the empowering self-help manual you can  penned to promote personal growth and well-being for anyone who reads it  George Matthew Adams talks about things to be done to pave your way to a fulfilling  successful life—such as sitting for an hour in silence to shape your creative vision  going the extra mile in serving others  letting your character rule your work  studying your mistakes  learning to use time  and many more. Inculcate these habits  and your life will change. A powerful guide that asserts that you can do anything you set your mind to  you can is filled with quotes imparting wisdom of a man whose teachings have inspired millions—napoleon Hill  and commentary by the executive director of the Napoleon Hill foundation  don M. Green. “You yourself determine the height to which you shall climb. Have you the summit in view?”.</item>
+        <item>This is the unfettered story of Ashneer Grover-the favourite and misunderstood poster boy of Start-up India.
+Raw  gut-wrenching in its honesty and completely from the heart  this is storytelling at its finest.
+
+A young boy with a refugee tag growing up in Delhis Malviya Nagar outpaces his circumstances by becoming a rank-holder at the pinnacle of academic excellence in India-IIT Delhi. He goes on to do an MBA from the hallowed halls of IIM Ahmedabad  builds a career as an investment banker at Kotak Investment Banking and AmEx  and is pivotal in the making of two unicorns-Grofers  as CFO  and BharatPe  as co-founder.
+
+As a judge on the popular TV show Shark Tank India  Ashneer becomes a household name even as his life turns upside down. Controversy  media spotlight  garrulous social media chatter descend  making it difficult to distinguish fact from fiction.</item>
+        <item>Reading books is a kind of enjoyment. Reading books is a good habit. We bring you a different kinds of books. You can carry this book where ever you want. It is easy to carry. It can be an ideal gift to yourself and to your loved ones. Care instruction keep away from fire.</item>
+        <item>From novels  articles  essays  to countless short stories  a few biographies  and even works on history  politics  sociology and various other topics—H. G. Wells’ works are diverse in nature  garnering appreciation from readers and critics alike. In this exquisite hardbound edition  there exist three novels which stand apart from all others. They are a testament to the prestigious title of ‘the father of science fiction’ that has been accorded to Wells—The War of the Worlds  a story of a world reeling under attack by extra-terrestrials  The Invisible Man  which narrates the surreal tale of a young man as he roams around invisible to all  and The Time Machine  which captures the adventures and misadventures of the characters when they travel through time. This is an edition that holds Wells’ best writing ever.</item>
+        <item>From criticism  essays  reviews  to novels  poetry  short stories  plays  and even children’s fiction  The witty and versatile Oscar Wilde wrote a lot. Amongst all these are two of his masterstrokes  works that earned him laurels and established his fame as a writer. This beautiful leather-bound edition  with gilded edges and beautiful endpapers  holds these critically acclaimed pieces—the importance of Being earnest  a play that has been revived many times and adapted for radio  television  film  operas  musicals  and the picture of Dorian Gray  Wilde’s only novel that became his most-read and well-known work.</item>
+        <item>Love... does it mean running around the trees or vacationing in Switzerland  singing tra-la-la in the snow? Is it about gifting teddy bears and roses to your partner?After losing everything she holds dear... her love  her parents  and even her singing  Samaira is dejected. She is at her lowest point in life and has no idea what she wants.Vivian is the successful and dynamic head of Creative Tanks and dreams of being the top entrepreneur in India.When their paths cross  sparks fly and they are drawn to each other. The aura of mystery around her tugs at Vivian?s heartstrings.While Samaira seems intent on running away from love  hope  and her aspirations  Vivian makes it his mission to bring her back on track.Thus begins an intriguing journey for both  from the end to new beginnings. They chase broken dreams against all odds  inspiring one another. As they walk the arduous path of life  will they climb the ladder of success together? Or will they crash and burn?</item>
+        <item>\nWhat if you ran away from your life today?Twenty years later  three people are looking for you.One is dying to meet you again.The other wishes you had never met them.The third wishes they could have met you at least once.You are one person. Arent you? But you are not the same person to each of them.Find the answers about your own life in this story about searching for love and discovering yourself. Join a broken but rising YouTube star Alara  a struggling but hopeful stand-up comedian Aarav  and a zany but zen beach shack owner Ricky. Together  take the journey to seek the truth behind the famous singer Elishas disappearance somewhere by the deep sea in Goa.Will you be able to find Elisha? Or will you end up finding yourself?</item>
+        <item>The Umbrella was like a flower  a great blue flower that had sprung up on the dry brown hillside.In exchange for her lucky leopards claw pendant  Binya acquires a beautiful blue umbrella that makes her the envy of everyone in her village  especially Ram Bharosa  the shop-keeper. Ruskin Bonds short and humorous novella  set in the picturesque hills of Garhwal  perfectly captures life in a village  where both heroism and redemption can be found.</item>
+        <item>Despite warnings from Lord Canterville that their new home is haunted and that several family have fled form it in the middle of the night the Otis family chooses to go forward with their relocation. Almost immediately the Otis Family discovers that the stories are true and that their house is haunted by the ghost of Sir Simon. It is Sir Simons intent not to share the house with anyone  but the Otis family is not like previous families that Sir Simon has scared off in the past. Narrated by the ghost himself  this Gothic ghost story takes the reader on many unexpected twists and turns. Wilde at his comic best.</item>
+        <item>Suspense  intrigue  and mystery! Twelve stories with twelve different plots make The Adventures of Sherlock Holmes a must read for all those who love detective stories. Set in the backdrop of 19th century England  Sherlock Holmes and his friend Dr. Watson solve some of the most fascinating cases  from jewel robbery to murder. Join Holmes and Watson as they journey across the most puzzling mysteries of their lives.</item>
+        <item>The Power of Your Subconscious Mind is one of the most promising self improvement books that you can gift to yourself or your loved ones. This book is designed to help you improve your relationships  health  and also to give you an internal strength that makes every hurdle look small. The book brings together best of both the worlds – scientific research as well as spiritual wisdom. It used the combined ideas to explain how our subconscious mind has the power to change our lives. The book explains how by understanding and learning to control our subconscious mind  we can welcome a world of prosperity  happiness and success. This book will act as a guide and help you understand the depth of your subconscious  get rid of fears and attract what you desire simply by changing your beliefs. Having sold millions of copies  this book and its ideas have changed the lives of many all over the world.</item>
+        <item>\nNatasha  Riya  Anjali and Katherine were best friends in college - each different from the other yet inseparable - until that night.\n\n
+
+It was the night that began with a bottle of whisky and a game of Ouija but ended with the death of Sania  their unlikeable hostel mate. The friends vowed never to discuss that fateful night  a pact that had kept their friendship and guilt dormant for the last twenty years.\n\n\n
+
+But now  someone has begun to mess with them  threatening to reveal the truth that only Sania knew. Is it a hacker playing on their guilt or has Sania  s ghost really returned to avenge her death?\n\n\n
+
+As the faceless enemy closes in on them  the friends come together once again to recount what really happened that night. But when the story is retold by each of them  the pieces don  t fit. Because none of them is telling the whole truth . . .
+</item>
+        <item>\nIn the summer of 2006  Emma Price watched helplessly as her six-year-old sons red coat was fished out of the River Ouse. It was the tragic story of the year - a little boy  Aiden  wandered away from school during a terrible flood  fell into the river  and drowned.\n\n\n
+
+His body was never recovered.\n\n
+
+Ten years later  Emma has finally rediscovered the joy in life. She  s married  pregnant  and in control again...\n\n
+
+... until Aiden returns.</item>
+        <item>Arya is a young RAW recruit  pumped up about his first assignment as reinforcement to a veteran spymaster – Virat and his team. In a mind-boggling turn of events  Arya finds himself being interrogated by the very terrorist he is after – Mir. Barely has he escaped that he learns an excruciating fact about Virat and team. They have killed undercover agents of the CIA while hunting Mir. Hunted by the ruthless CIA  he can survive only using his wit and courage. On the run  declared rogue  he fights lone battles with enemy intelligence agencies. He creates a vivid deception  not only to throw CIA off the track  but also to get the actual traitor out in the open. He eventually gets his man  but then realizes that a much more devious plan is at work  with the real mastermind attempting to blacklist RAW as revenge for their role during Bangladesh liberation war of 1971. Arya evolves into the perfect weapon  but will he be in time to save RAW and his country’s repute? Or turn out to be a pawn in the game of master spies and espionage?</item>
+        <item>THE INTERNATIONAL BESTSELLER We all have an ikigai. Its the Japanese word for ‘a reason to live’ or ‘a reason to jump out of bed in the morning’. It’s the place where your needs  desires  ambitions  and satisfaction meet. A place of balance. Small wonder that finding your ikigai is closely linked to living longer. Finding your ikigai is easier than you might think. This book will help you work out what your own ikigai really is  and equip you to change your life. You have a purpose in this world: your skills  your interests  your desires and your history have made you the perfect candidate for something. All you have to do is find it. Do that  and you can make every single day of your life joyful and meaningful. ‘I read it and it’s bewitched me ever since. I’m spellbound.’ Chris Evans Ikigai gently unlocks simple secrets we can all use to live long  meaningful  happy lives. Science-based studies weave beautifully into honest  straight-talking conversation you won’t be able to put down. Warm  patient  and kind  this book pulls you gently along your own journey rather than pushing you from behind. Neil Pasricha  bestselling author of The Happiness Equation</item>
+        <item>""THE SORCERERS RING has all the ingredients for an instant success: plots  counterplots  mystery  valiant knights  and blossoming relationships replete with broken hearts  deception and betrayal. It will keep you entertained for hours  and will satisfy all ages. Recommended for the permanent library of all fantasy readers." --Books and Movie Reviews  Roberto Mattos In A CRY OF HONOR (Book #4 in the Sorcerer  s Ring)  Thor has returned from The Hundred as a hardened warrior  and now he must learn what it means to battle for his homeland  to battle for life and death. The McClouds have raided deep into MacGil territory--deeper than ever before in the history of the Ring--and as Thor rides into an ambush  it will fall on his head to fend off the attack and save King  s Court. Godfrey has been poisoned by his brother by a very rare and potent poison  and his fate lies in Gwendolyn  s hands  as she does whatever she can to save her brother from death. Gareth has fallen deeper into a state of paranoia and discontent  hiring his own tribe of savages as a personal fighting force and giving them Silver Hall--ousting The Silver and causing a rift in King  s Court that threatens to blow up into a civil war. He also schemes to have the fierce Nevaruns take Gwendolyn away  selling her off in marriage without her consent. Thor  s friendships deepen  as they journey to new places  face unexpected monsters and fight side by side in unimaginable battle. Thor journeys to his hometown and  in an epic confrontation with his father  he learns a great secret of his past  of who he is  who his mother is--and of his destiny. With the most advanced training he  s ever received from Argon  he begins to tap powers he didn  t know he had  becoming more powerful each day. As his relationship with Gwen deepens  he returns to King  s Court in the hopes of proposing to her--but it may already be too late. Andronicus  armed with an informer  leads his million-man Empire army to once again attempt to breach the Canyon and crush the Ring. And just as things seem like they can  t get any worse at King  s Court  the story ends with a shocking twist. Will Godfrey survive? Will Gareth be ousted? Will King  s Court split in two? Will the Empire invade? Will Gwendolyn end up with Thor? And will Thor finally learn the secret of his destiny? With its sophisticated world-building and characterization  A CRY OF HONOR is an epic tale of friends and lovers  of rivals and suitors  of knights and dragons  of intrigues and political machinations  of coming of age  of broken hearts  of deception  ambition and betrayal. It is a tale of honor and courage  of fate and destiny  of sorcery. It is a fantasy that brings us into a world we will never forget  and which will appeal to all ages and genders. At 85 000 words  it is the longest of all the books in the series! "Grabbed my attention from the beginning and did not let go....This story is an amazing adventure that is fast paced and action packed from the very beginning. There is not a dull moment to be found." --Paranormal Romance Guild {regarding Turned} "Jam packed with action  romance  adventure  and suspense. Get your hands on this one and fall in love all over again." --vampirebooksite.com (regarding Turned) "A great plot  and this especially was the kind of book you will have trouble putting down at night. The ending was a cliffhanger that was so spectacular that you will immediately want to buy the next book  just to see what happens." --The Dallas Examiner {regarding Loved} "</item>
+        <item>\n“Morgan Rice has come up with what promises to be another brilliant series  immersing us in a fantasy of valor  honor  courage  magic and faith in your destiny. Morgan has managed again to produce a strong set of characters that make us cheer for them on every page.…Recommended for the permanent library of all readers that love a well-written fantasy.”
+--Books and Movie Reviews  Roberto Mattos (regarding Rise of the Dragons)\n\n\n
+
+ROGUE  PRISONER  PRINCESS is book #2 in Morgan Rice’s bestselling epic fantasy series OF CROWNS AND GLORY  which begins with SLAVE  WARRIOR  QUEEN (Book #1).\n\n\n
+
+17 year old Ceres  a beautiful  poor girl from the Empire city of Delos  finds herself forced  by royal decree  to fight in the Stade  the brutal arena where warriors from all corners of the world come to kill each other. Pitted against ferocious opponents  her chances of survival are slim. Her only chance lies in drawing on her innermost powers  and making the transition  once and for all  from slave to warrior.</item>
     </string-array>
 
     <string-array name="booksprice">
@@ -118,17 +531,17 @@
 
     <string-array name="laptops">
         <item>HP 14s | Ryzen 5–5500U 16GB RAM/512GB SSD 14-inches (35.6 cm) FHD | IPS | Micro-Edge Display/AMD Radeon Graphics/Alexa/Win 11/Backlit KB/Dual Speakers/MSO 2021/1.46 Kg | 14s- fy1003AU  | Windows 11 Home</item>
-        <item>Lenovo IdeaPad 3 11th Gen Intel Core i3 15.6" FHD Thin  &amp;amp;amp; Light Laptop(8GB/512GB SSD/Windows 11/Office 2021/2Yr Warranty/3months Xbox Game Pass/Platinum Grey/1.7Kg) | 81X800LGIN</item>
+        <item>Lenovo IdeaPad 3 11th Gen Intel Core i3 15.6" FHD Thin     and Light Laptop(8GB/512GB SSD/Windows 11/Office 2021/2Yr Warranty/3months Xbox Game Pass/Platinum Grey/1.7Kg) | 81X800LGIN</item>
         <item>MSI Katana GF76 | Intel 11th Gen. i7–11800H | 43CM FHD 144Hz Gaming Laptop (16GB/512GB NVMe SSD/Windows 11 Home/Nvidia RTX3050 4GB GDDR6/Black/2.6Kg) | 11UC-848IN</item>
         <item>MSI Gaming Sword 15 | Intel 12th Gen. i5–12500H | 40CM FHD 144Hz Gaming Laptop (16GB/1TB NVMe SSD/Windows 11 Home/Nvidia RTX 3050 4GB GDDR6/ Black/2.6Kg) | A12UC-467IN</item>
         <item>HP 15s | 12th Gen Intel Core i5 8GB RAM/512GB SSD 15.6-inch(39.6 cm) Micro-Edge Anti-Glare FHD Laptop/Intel Iris Xe Graphics/Alexa/Dual Speakers/Win 11/MSO 2021/1.41 Kg | 15s- fq5111TU</item>
         <item>Dell Alienware x14 Gaming Laptop | Intel i7–12700H | 14 (35.5cm) FHD 144Hz 400nits GSYNC+ Advanced Optimus |32GB DDR5 | 1TB SSD | Nvidia RTX 3060 6GB | Dolby Atmos | Lunar Light (1.84 kgs) D569939WIN9</item>
         <item>Dell New Alienware x15 R2 Gaming Laptop | Intel i9–12900H | Win11+MSO 21  | 32GB LP DDR5 | 1TB SSD | NVIDIA RTX 3080 Ti (16GB GDDR6) | 15.6" (39.62Cms) FHD 360Hz 300nits | AlienFX KB (D569942WIN9 | 2.34Kgs)</item>
         <item>Dell Alienware Aurora (R13) Gaming Desktop | Intel i7–12700KF | 16GB | 1TB + 512GB SSD | NVIDIA RTX 3070 (8GB GDDR6 LHR) | Win 11 + MSO 21 | Lunar Light | 16.5Kgs (D269920WIN9)</item>
-        <item>Lenovo IdeaCentre Gaming 5 Desktop (AMD Ryzen 5 5600G/8GB/512GB SSD/Windows 11/NVIDIA GeForce GTX 1660 Super 6GB GDDR6 Graphics/WiFi 5/Bluetooth 5.0/USB Keyboard  &amp;amp;amp; Mouse/Raven Black) | 90RW005DIN</item>
+        <item>Lenovo IdeaCentre Gaming 5 Desktop (AMD Ryzen 5 5600G/8GB/512GB SSD/Windows 11/NVIDIA GeForce GTX 1660 Super 6GB GDDR6 Graphics/WiFi 5/Bluetooth 5.0/USB Keyboard     and Mouse/Raven Black) | 90RW005DIN</item>
         <item>KandE KD DMTR Gaming Desktop PC with Intel Core i7–6700 I 8GB DDR4 RAM I 256GB NVME SSD - 1TB HDD I 4GB GT730 Graphic Card I WiFi Ready I HDMI I USB I RGB Fans with Windows 10</item>
         <item>ViewSonic VA2215-H Full HD 1080p 22 Inch LED Backlit Display Gaming Monitor | AMD FreeSync™ 75Hz | SuperClear | 3 Side Borderless | Tilt | Eye Care | Flicker Free | HDMI | VGA and Audio-Out</item>
-        <item>Viewsonic Vx2458-C-Mhd 24 Inch (60.96 cm) Full Hd Led 1920 X 1080 X1080 Pixels | 1Ms | Curved LCD Gaming Monitor | Hdmi  &amp;amp;amp; Dp | Refresh Rate 144Hz | Eye Care | Flicker-Free and Blue Light Filter | Black</item>
+        <item>Viewsonic Vx2458-C-Mhd 24 Inch (60.96 cm) Full Hd Led 1920 X 1080 X1080 Pixels | 1Ms | Curved LCD Gaming Monitor | Hdmi     and Dp | Refresh Rate 144Hz | Eye Care | Flicker-Free and Blue Light Filter | Black</item>
         <item>BenQ EW3280U 32-Inch 4K UHD HDRi Entertainment and Gaming Monitor | IPS | USB-C | HDMI | DP | 3840x2160 | DCI-P3 | Display HDR 400 | Speakers | Remote Control | Anti-Glare | Flicker-Free | Bezel-Less | FreeSync</item>
         <item>Zebronics Zeb-Transformer Gaming Keyboard and Mouse Combo (USB | Braided Cable)</item>
         <item>Ant Esports KM500 Pro Backlit Gaming Keyboard and Mouse Combo</item>
@@ -137,6 +550,294 @@
         <item>MSI Gaming GeForce RTX 4090 24GB GDRR6X 384-Bit HDMI/DP Nvlink Tri-Frozr 3 Ada Lovelace Architecture Graphics Card (RTX 4090 Gaming Trio 24G)</item>
         <item>Intel Core i9 (12th Gen) i9–12900KS Hexadeca-core (16 Core) 2.50 GHz Processor</item>
         <item>Cooler Master MWE 550 Bronze V2 Power Supply Non-Modular | 80 Plus Bronze Certified | 120mm HDB Fan | DC-to-DC Circuit Design | ATX 2.52 Version | 550 Watt</item>
+    </string-array>
+
+    <string-array name="laptops_desc">
+        <item>\nBrand HP \n\n
+Model Name	14s- fy1003AU\n\n
+Screen Size	14 Inches\n\n
+Colour	Natural Silver\n\n
+CPU Model	AMD Ryzen 5 5500U\n\n
+RAM Memory Installed Size	16 GB\n\n
+Operating System	Windows 11 Home\n\n
+Special Feature	Full HD  Micro-Edge Display\n\n
+Graphics Card Description	Integrated\n\n
+Graphics Coprocessor	AMD Radeon Graphics\n\n
+See more\n\n
+About this item\n\n
+Processor   and Memory: AMD  amd_ryzen_5_5500u  5 5500U  4 GHz  16GB RAM  RAM Expandable up to 16GB\n\n
+Operating System   and Software: Windows 11 Home operating system  Microsoft Office 365;Internet Security Included\n\n
+Storage: SSD  0GB  0GB SSD\n\n
+Display: 35.6 inches  OLED display  1920 x 1080 resolution  INVALID DATA Hz refresh rate\n\n
+Ports   and Connectivity: 2 USB 3.0 Ports 0 USB 2.0 Ports 1 HDMI Ports with Bluetooth;Miracast\n\n
+Features: Integrated graphics INVALID DATA 0GB graphics RAM 0 hours average battery life\n\n
+Warranty: 1 year manufacturer warranty on the device from the date of purchase. In case of any technical/product related queries  please call \n\n1800-258-7170 or 1860-258-3079</item>
+        <item>\nBrand	Lenovo\n\n
+Model Name	Ideapad\n\n
+Screen Size	15.6 Inches\n\n
+Colour	Platinum Grey\n\n
+Hard Disk Size	512 GB\n\n
+CPU Model	Core i3\n\n
+RAM Memory Installed Size	8 GB\n\n
+Operating System	Windows 11 Home\n\n
+Special Feature	Anti Glare Screen  Light Weight  Thin\n\n
+Graphics Card Description	Integrated\n\n
+See more\n\n
+About this item\n\n
+Processor   and Memory: Intel  core_i3  11th Gen Intel Core i3-1115G4  3 GHz  8GB RAM  RAM Expandable up to 12GB\n\n
+Operating System   and Software: Windows 11 Home operating system  Windows® 11 Home 64  English;Pre-Installed: MS Office Home and Student 2021 Included\n\n
+Storage: SSD  0GB  512GB SSD\n\n
+Display: 15.6 inches  LED display  1920X1080 resolution  INVALID DATA Hz refresh rate\n\n
+Ports   and Connectivity: 2 USB 3.0 Ports 1 USB 2.0 Ports 1 HDMI Ports with Bluetooth;Wi-Fi\n\n
+Features: Integrated graphics Intel Iris Xe Graphics 0GB graphics RAM 7 hours average battery life\n\n
+Warranty: 2 Years Onsite Warranty</item>
+        <item>\nBrand	MSI\n\n
+Model Name	Katana GF76 11UC-848IN\n\n
+Screen Size	44 Centimetres\n\n
+Colour	Black\n\n
+CPU Model	Intel Core i7\n\n
+RAM Memory Installed Size	16 GB\n\n
+Operating System	Windows 11 Home\n\n
+Special Feature	Light Weight  Backlit Keyboard  Built-in Microphone\n\n
+Graphics Card Description	Dedicated\n\n
+CPU Speed	4600 MHz\n\n
+See more\n\n
+About this item\n\n
+Processor: 11th Generation Intel Core i7-11800H Up To 4.60GHz;Operating System: Pre-loaded Windows 11 Home with lifetime validity |Preinstalled \n\nSoftware: Nvidia GeForce Experience Nahimic 3 MSI Center Gaming Mode MSI App player | In the box: Laptop  Adapter\n\n
+Display:44CM FHD (1920*1080)  144Hz 45% NTSC;Memory   and Storage: 8GBx2 DDR4 3200MHz RAM  expandable to 64 GB | Storage: 512GB NVMe PCIe Gen3x4 SSD\n\n
+Dedicated Graphics: NVIDIA GeForce RTX 3050 GDDR6 4GB;"Thin and light design | Laptop weight: 2.6kg "; Keyboard: Backlight Keyboard (Single-Color  Red);Camera: HD type (30fps@720p) | Microphone: Built-in microphone\n\n
+1x Type-C USB3.2 Gen1 2x Type-A USB3.2 Gen1 1x Type-A USB2.0 1x RJ45 1x (4K @ 60Hz) HDMI;This genuine MSI laptop comes with 2 year Carry-in   and On-site \n\nwarranty from MSI covering manufacturing defects and not covering physical damage  burn  liquid damage. For more details visit MSI India Website | For any technical/product related queries contact the brand\n\n
+Human Interface Input: Microphonekeyboard; Resolution: 1080p1280 X 720</item>
+        <item>\nBrand	MSI\n\n
+Model Name	Sword 15\n\n
+Screen Size	40 Inches\n\n
+Colour	White\n\n
+CPU Model	Intel Core i7\n\n
+RAM Memory Installed Size	16 GB\n\n
+Operating System	Windows 11 Home\n\n
+Special Feature	Light Weight  Backlit Keyboard  Thin  Built-in Microphone\n\n
+Graphics Card Description	Dedicated\n\n
+Graphics Coprocessor	NVIDIA GeForce RTX 3050\n\n
+See more\n\n
+About this item\n\n
+Processor   and Memory: Intel  apple_ci7  i5-12500H  4500 GHz  16GB RAM  RAM Expandable up to 64GB\n\n
+Operating System   and Software: Windows 11 Home operating system  MSI Center;Windows 11 Home Included\n\n
+Storage: SSD  0GB  1GB SSD\n\n
+Display: 40 inches  LED display  0 resolution  144 Hz refresh rate\n\n
+Ports   and Connectivity: 3 USB 3.0 Ports 1 USB 2.0 Ports 1 HDMI Ports with Bluetooth;Wi-Fi\n\n
+Features: Dedicated graphics INVALID DATA 4GB graphics RAM 0 hours average battery life\n\n
+Warranty: This genuine MSI laptop comes with 2 year Carry-in warranty from MSI covering manufacturing defects and not covering physical damage  burn  liquid damage. For more details visit MSI India Website | For any technical/product related queries contact the brand on: [022 4912 5588] or Mail at Indiaservicenb@msi.com;2 Years Warranty</item>
+        <item>\nBrand	HP \n\n
+Model Name	15s- fq5111TU\n\n
+Screen Size	15.6 Inches\n\n
+Colour	Natural Silver\n\n
+CPU Model	Core i5\n\n
+RAM Memory Installed Size	8 GB\n\n
+Operating System	Windows 11 Home\n\n
+Special Feature	FHD  Micro-Edge Display\n\n
+Graphics Card Description	Integrated\n\n
+Graphics Coprocessor	Intel Iris Xe Graphics\n\n
+See more\n\n
+About this item\n\n
+Processor   and Memory: Intel  Core_i5_2.8GHz  i5-1235U  4.4 GHz  8GB RAM  RAM Expandable up to 16GB\n\n
+Operating System   and Software: Windows 11 Home operating system  Microsoft Office 365;Internet Security Included\n\n
+Storage: SSD  0GB  0GB SSD\n\n
+Display: 39.6 inches  LED display  1920 x 1080 resolution  INVALID DATA Hz refresh rate\n\n
+Ports   and Connectivity: 0 USB 3.0 Ports 2 USB 2.0 Ports 1 HDMI Ports with Bluetooth;Wi-Fi;Miracast\n\n
+Features: Integrated graphics Intel Iris Xe Graphics 0GB graphics RAM 0 hours average battery life\n\n
+Warranty: 1 year manufacturer warranty on the device from the date of purchase. In case of any technical/product related queries  please call \n\n1800-258-7170 or 1860-258-3079</item>
+        <item>\nBrand	Dell\n\n
+Model Name	Alienware x14\n\n
+Screen Size	14 Inches\n\n
+Colour	Lunar Light\n\n
+CPU Model	Core i7\n\n
+RAM Memory Installed Size	16 GB\n\n
+Operating System	Windows 11\n\n
+Special Feature	Gaming\n\n
+Graphics Card Description	Dedicated\n\n
+Graphics Coprocessor	NVIDIA GeForce RTX 3050 Ti\n\n
+See more\n\n
+About this item\n\n
+Processor   and Memory: Intel  Core_i7_2.7_GHz  i7-12700H  3.5 GHz  16GB RAM  RAM Expandable up to 32GB\n\n
+Operating System   and Software: Windows 11 operating system  Microsoft Office 365 Included\n\n
+Storage: SSD  0GB  512GB SSD\n\n
+Display: 14 inches  Inches display  1920 x 1080 resolution  INVALID DATA Hz refresh rate\n\n
+Ports   and Connectivity: 2 USB 3.0 Ports 0 USB 2.0 Ports 0 HDMI Ports with Wi-Fi\n\n
+Features: Dedicated graphics INVALID DATA 4GB graphics RAM 0 hours average battery life\n\n
+Warranty: 1 Year Onsite Premium Support Plus (Includes ADP)</item>
+        <item>\nBrand	Dell\n\n
+Series	Alienware x15 R2\n\n
+Screen Size	15.6\n\n
+Colour	Lunar Light\n\n
+Hard Disk Size	1 TB\n\n
+CPU Model	Core i9\n\n
+RAM Memory Installed Size	32 GB\n\n
+Operating System	Windows\n\n
+Special Feature	Backlit Keyboard  Thin\n\n
+Graphics Card Description	Dedicated\n\n
+See more\n\n
+About this item\n\n
+Processor:12th Generation Intel Core i9-12900H (24MB Cache  up to 5 GHz  14 cores 20 Threads)  Memory   and Storage: 32GB LP DDR5 | 1TB Solid State Drive\n\n
+Display: Display: 15.6 inch FHD (1920 x 1080) Comfortview Plus NVIDIA G-SYNC Advanced Optimus CV+ 1ms 360Hz 100% sRGB 300 nit\n\n
+Graphics: NVIDIA GEFORCE RTX 3080 Ti (16GB GDDR6)\n\n
+Alienware Cryotech Cooling Tech; Quad Fan Design; Alienware’s HyperEfficient Voltage Regulation technology Alienware Command Center allows for easy access to game settings\n\n
+Operating System   and Software: Windows 11 + Office H  andS 2021\n\n
+Alienware X-Series thin Backlit Keyboard with per-key AlienFX lightingLithium Ion (87 WHr  ) Battery with Alienware Battery Defender technology2.34 Kgs\n\n
+I/O Ports: USB 3.2 Gen 2 Type-A w/Powershare Type-C USB 3.2 Gen 2 Port with Power Delivery (5V/3A)  HDMI 2.1  Thunderbolt 4  Micro SD  DC In  Global\n\n Headset</item>
+        <item>\nSpecific Uses For Product	Gaming\n\n
+Brand	Dell\n\n
+Operating System	Windows 11\n\n
+RAM Memory Installed Size	16 GB\n\n
+Series	Alienware Aurora (R13)\n\n
+Included Components	No Monitor  System Power Cord (India)\n\n
+CPU Model	Core i7\n\n
+Colour	Lunar Light\n\n
+CPU Manufacturer	Intel\n\n
+Connectivity Technology	Bluetooth  USB\n\n
+See more\n\n
+About this item\n\n
+Processor: i7-12700KF  3.60 GHz Up to 5.00 GHz (25MB 12 Cores)\n\n
+RAM   and Storage: 16GB DDR5   and1TB HDD + 512GB SSD\n\n
+Graphics   and Display: NVIDIA GEFORCE RTX 3070 (8GB GDDR6 LHR)   and No Monitor\n\n
+Software  WiFi   and BT: Win 11 + Office H  andS 2021  Killer Wi-Fi 6 1675 (2x2) 802.11ax Wireless and Bluetooth 5.2\n\n
+FRONT PORTS 1.Headphone/Line Out 2. (2x) USB 3.2 Gen 1 ports. (1x) USB 3.2 Gen 1 port with Powershare technology 3. USB 3.2 Gen 2 Type-C with Powershare\n technology REAR PORTS 4. Rear Surround Output 5. SPDIF Digital Output (TOSLINK) 6. Side Surround Output 7. Microphone In 8. Line Out 9.\n USB 3.2 Gen 2 Type-C (10Gbps) 10. USB 3.2 Gen 2x2 Type-C (20Gbps) 11. (2x) USB 2.0 Type A 12. SPDIF Digital Output (Coax) 13. Center/Subwoofer Output \n14. Line In 15. (2x) USB 2.0 Type A 16. (2x) USB 3.2 Gen 1 Type-A (5Gbps) 17. RJ-45 Killer E3100 Gigabit Ethernet</item>
+        <item>\nSpecific Uses For Product	Gaming\n\n
+Brand	Lenovo\n\n
+Operating System	Windows 11 Home\n\n
+RAM Memory Installed Size	16 GB\n\n
+Model Name	IdeaCentre Gaming\n\n
+Mounting Hardware	User Manual  Desktop  Mouse  Keyboard  Power Cable\n\n
+CPU Model	Ryzen 5 5600G\n\n
+Colour	Raven Black\n\n
+CPU Manufacturer	AMD\n\n
+Connector Type	Wi-Fi  Bluetooth  USB\n\n
+See more\n\n
+About this item\n\n
+Processor: AMD Ryzen 5 5600G | Speed: 3.9 GHz (Base) - 4.4 GHz (Max) | 6 Cores | 12 Threads | 3MB L2/ 16MB L3 Cache\n\n
+OS: Pre-Loaded Windows 11 Home with Lifetime Validity\n\n
+Memory and Storage: 16GB DDR4-3200 RAM  expandable up to 32GB | Storage: 512GB SSD\n\n
+Graphics: NVIDIA GeForce RTX 3060 12GB GDDR6 Graphics\n\n
+Cooling : 380W Power Supply | Rear Fan + Additional front fan | Optimize gameplay with 3 performance modes (Balance  Quiet   Performance)\n\n
+Connectivity: WiFi 5 (11ac  2x2) | Bluetooth 5.0\n\n
+Ports: 1x USB-A 3.2 Gen 1 | 1x USB-A 3.2 Gen 2 | 1x USB-C 3.2 Gen 1 (Data Transfer and 5V@3A charging) | 4x USB-A 2.0 | 1x 3.5mm Jack | 1x Ethernet (RJ-45) | 1x HDMI 1.4 | 1x VGA | 1x audio-out (3.5mm) | Without CD Drive</item>
+        <item>\nSpecific Uses For Product	Gaming\n\n
+Brand	KandE\n\n
+Operating System	Windows\n\n
+RAM Memory Installed Size	8 GB\n\n
+Series	KD_DMTR\n\n
+CPU Model	Intel Core i7\n\n
+Colour	Black\n\n
+CPU Manufacturer	Intel\n\n
+Number of HDMI Ports	1\n\n
+CPU Speed	3.2 GHz\n\n
+See more\n\n
+About this item\n\n
+Powered by 6th Gen Intel Core i7-6700 processor  8GB RAM and 256GB NVME SSD + 1TB HDD for faster performance and storage.\n\n
+4GB NVIDIA GeForce GT730 graphics card delivers exceptional visuals on your games   and movies.\n\n
+Multiple connectivity options including HDMI  USB ports   and RGB fans lets you connect a variety of peripherals easily.\n\n
+Wi-Fi Ready – Connect to the internet wirelessly with ease.\n\n
+Preloaded with Windows 10 64-bit OS for enhanced productivity and multitasking.</item>
+        <item>\nBrand	ViewSonic\n\n
+Item Dimensions LxWxH	49.2 x 37.7 x 18.8 Centimeters\n\n
+Voltage	230 Volts (AC)\n\n
+Colour	Midnight gray\n\n
+Item Weight	2.4 Kilograms\n\n
+About this item\n\n
+FULL HD MONITOR : 21.5 Inch 1080p monitor with Eyecare technology and wide viewing angle of 178 degree\n
+GAMING : With AMD FreeSync technology  it eliminates screen tearing and choppy frame rates to provide seamless  flawlessly smooth visuals in every scene.\n
+VIEWMODE : Game  Movie  Web  Text and Mono presets enhance gamma curve  color temperature  contrast  and brightness to deliver an optimized viewing experience for different uses\n
+COMFORTABLE VIEWING : Flicker-Free technology and a Blue Light Filter help to eliminate eye strain from extended viewing periods.\n
+CONNECTIVITY : HDMI and VGA cconnectivtity options for accessing Full HD Resolution of 1920 x 1080</item>
+        <item>\nScreen Size	32 Inches\n\n
+Display Resolution Maximum	3840x2160\n\n
+Brand	BenQ\n\n
+Special Feature	USB Type-C  Built-in Speakers  Blue Light Filter  Wall Mountable  Tilt Adjustment  Flicker-Free\n\n
+Refresh Rate	60\n\n
+About this item\n\n
+STUNNING 4K DISPLAY : Enjoy immaculate 16:9 image quality with 4K UHD 3840x2160 resolution and 95% DCI-P3 wide color gamut on an IPS panel\n\n
+EXPERIENCE MORE: Proprietary HDRi enhances HDR content with intelligent control  clarity refinement  and vivid colors. AMD FreeSync improves video   and \ngaming performance
+BUILT-IN SPEAKERS : True tone sounds from industry-leading built-in 2.1 channel speakers to elevate your audiovisual experience.\n\n
+EASY ACCESS: Access preferred settings with a remote control  5-key Navigator  and a volume wheel\n\n
+EYE-CARE TECHNOLOGY: Offers long-awaited comfort to your eyes with B.I.+  low blue light  flicker-free  ePaper  eye reminder  and color weakness features\n\n
+CONNECTIVITY: HDMI 2.0 x2  Display Port 1.4 x1  USB-C x1  Headphone Jack x1</item>
+        <item>\nBrand	ZEBRONICS \n\n
+Colour	Black\n\n
+Connector Type	Wired\n\n
+Special Feature	Mouse and KeyboardCombo set  Wireless: No  Both are USB interface  Gmaing Keyboard  1 year warranty\n\n
+Movement Detection Technology	Laser\n\n
+About this item\n\n
+Multicolor LED ( 4 modes - 3 light modes and 1 off mode ) Integrated media control Windows key Disable / Enable function\n\n
+All Keys Disable / Enable function   All Keys Disable / Enable function\n\n
+2-steps stand design  Laser keycaps\n\n
+Aluminum body  Backlight LED On / Off function\n\n
+Braided cable  high quality USB connector</item>
+        <item>\nAbout this item\n\n
+Rainbow LED Backlit for Fantastic Game Enjoyment – Ant Esports KM540  2020 New version rainbow backlit gaming keyboard and mouse combo with multiple colours brings you to the fantastic gaming world.\n\n
+Independent Crater Structure for Longer Service Life -The key life of Ant Esports gaming keyboard can reach 50 million  which is twice of the normal wired computer keyboard  ensuring the durability.\n\n
+Adjustable DPI   and Programmable PC Gaming Mouse - Advanced Gaming Optical Sensor  4 Adjustable DPI - 800/1600/2400/3200 dpi meet your different needs.\n\n
+Wide Compatibility - The keyboard is slip-resistant designed to avoid accident water  coffee splashing  extending service life. This Combo is compatibility with Win 2000/3/XP/Vista/Win7/8/10/Mac OS\n\n
+7 Programmable Button : 7 programmable button allows you to design your own mouse.</item>
+        <item>\nSpecific Uses For Product	Gaming\n\n
+Brand	Electrobot\n\n
+Personal computer design type	Computer Tower\n\n
+Operating System	Windows\n\n
+Memory Storage Capacity	256 GB\n\n
+RAM Memory Installed Size	16 GB\n\n
+Series	Shadow\n\n
+CPU Model	Core i7 Family\n\n
+Colour	Black\n\n
+CPU Manufacturer	Intel\n\n
+See more\n\n
+About this item\n\n
+INTEL I7 - 9700K - 3.60Ghz to 4.90Ghz  8 Core and 8 Threads and Aerocool Cyclon 4 ARGB HeatSink for CPU\n\n
+Z390 Motherboard Chipset   16GB DDR4 3000 Mhz RAM (8X2)\n\n
+Geforce RTX 3060 12GB GDDR6  Power Supply - 750 Watt\n\n
+Storage - 256GB SSD  1TB Harddisk\n\n
+Cabinet - Silverstone Fara R1 Pro Mid-Tower RGB PC Gaming Case including - 4 x 120mm Dual Square Ring RGB LED Fans Included</item>
+        <item>\nBrand	HyperX\n\n
+Model Name	Cloud Alpha Pro\n\n
+Colour	Black\n\n
+Form Factor	Over Ear\n\n
+Connector Type	Wired\n\n
+About this item\n\n
+HyperX Dual chamber drivers for more distinction and less distortion\n\n
+Signature award-winning HyperX comfort  Type: Circumaural  closed back\n\n
+Durable aluminium frame with expanded headband\n\n
+Detachable braided cable with convenient in-line audio control  detachable noise cancellation microphone. Impedance: 65 Ω\n\n
+Microphone Frequency response: 50Hz-18 000Hz\n\n
+HyperX Dual chamber drivers for more distinction and less distortion\n\n
+Signature award-winning HyperX comfort  Type: Circumaural  closed back</item>
+        <item>\nGraphics Coprocessor	NVIDIA GeForce RTX 4090\n\n
+Brand	MSI\n\n
+Graphics RAM Size	24 GB\n\n
+Video Output Interface	DisplayPort  HDMI\n\n
+Graphics Chipset Brand	NVIDIA\n\n
+About this item\n\n
+Chipset: GeForce RTX 4090\n\n
+Video Memory: 24GB GDDR6X\n\n
+Memory Interface: 384-bit\n\n
+Output: DisplayPort x 3 (v1.4a) / HDMI 2.1 x 1\n\n
+Digital maximum resolution: 7680 x 4320</item>
+        <item></item>
+        <item>\nBrand	Intel\n\n
+CPU Manufacturer	Intel\n\n
+CPU Model	Core i9\n\n
+CPU Socket	Socket LGA-1700\n\n
+Platform	Windows 10\n\n
+About this item\n\n
+14 MB L2 + 30 MB L3 cache memory provides excellent hit rate in short access time enabling improved system performance\n\n
+Built-in Intel UHD Graphics 770 controller for great graphics and visual quality</item>
+        <item>\nModel Name	MWE 550 Bronze V2 230v\n\n
+Brand	Cooler Master\n\n
+Connector Type	ATX\n\n
+Audio Wattage	550 Watts\n\n
+Form Factor	ATX\n\n
+About this item\n\n
+Compliance with latest ATX 12V V2.52 specification ensures power requirement for new age multi-core processors and Graphics card are properly met.\n\n
+New generation circuit design such as DC-to-DC + LLC circuits offer reliable  stable output to all connected components under gaming load.\n\n
+Certified 80 PLUS Bronze Efficiency guarantees a typical efficiency of 88% under normal operating conditions thus saving energy.\n\n
+All flat cables take up less space and are easier to manipulate within the chassis improving ease of build and air airflow.\n\n
+The MWE Series comes with a standard limited manufacturing warranty of 5 years from the date of purchase for complete peace of mind.</item>
     </string-array>
 
     <string-array name="laptop_prices">
@@ -171,18 +872,218 @@
         <item>Liffo LX-1001 Solid Wooden Hockey Sticks for Men and Women Practice and Beginner Level</item>
         <item>A L F A Magnum Wooden Hockey Stick with Sticker Finish</item>
         <item>Syn6 FIFA PRO SPEC Football/Soccer Ball Size-4 White Red</item>
-        <item>FITFLEX Hand Stiched Football Size 5 (with Pump ) (Red  &amp;amp; Yellow)</item>
+        <item>FITFLEX Hand Stiched Football Size 5 (with Pump ) (Red     and Yellow)</item>
         <item>iMay 45" Recurve Bow and Arrows Set Outdoor Archery Beginner Gift Longbow Kit with 9 Arrows 2 Target Face 18 Lb for Teen</item>
         <item>Armor Archery Bow and Arrow Professional kit for Men | Original | Recurve Bow for Hunting Adults | Left and Right Handed Hunting Training</item>
         <item>Sparx Men SM-500 Black Golden Sports Shoes</item>
         <item>Campus Womens Alexa Running Shoes</item>
         <item>KROSSFIT Sports Spin Bike with 10 kg Flywheel for Home Use</item>
-        <item>Hykes Knee Cap Open-Patella Brace Dual Side Stabilizer for Arthritic Pain Relief  | Ligament Injuries  | Protection Against Reinjury  | Arthritis  | Gym  &amp; Sports Support for Men and Women</item>
-        <item>SLOVIC Anti-Fog Swimming Goggle | Universal Fit | Leak-Proof | Easy to Adjust Push-Button Straps | Padded Frames  &amp; Anti-Shatter Wide Field Lens |  UV-Protection</item>
+        <item>Hykes Knee Cap Open-Patella Brace Dual Side Stabilizer for Arthritic Pain Relief  | Ligament Injuries  | Protection Against Reinjury  | Arthritis  | Gym     and Sports Support for Men and Women</item>
+        <item>SLOVIC Anti-Fog Swimming Goggle | Universal Fit | Leak-Proof | Easy to Adjust Push-Button Straps | Padded Frames     and Anti-Shatter Wide Field Lens |  UV-Protection</item>
         <item>Nivia Classic Silicone Adult Swimming Cap (Black)</item>
-        <item>Cultsport  | Adjustable Dumbbells (Upto 24kg) for Men  &amp; Women with Free Personal Dietician for Fitness and Home Workout</item>
+        <item>Cultsport  | Adjustable Dumbbells (Upto 24kg) for Men     and Women with Free Personal Dietician for Fitness and Home Workout</item>
         <item>Gee Volleyball Net Both Side All Nylon (Black)</item>
         <item>Strauss Stainless-Steel Water Bottle  | 750 ml (Multicolor)</item>
+    </string-array>
+
+    <string-array name="sports_desc">
+        <item> \n Brand	Li-Ning \n\n
+Grip Size	3 3/8 inches\n\n
+Sport	Badminton\n\n
+Material	Aluminum\n\n
+Frame Material	Aluminium\n\n
+About this item\n\n
+HYBRID CONSTRUCTION - The Li-Ning Mega Power racket has a hybrid 2 piece construction that makes the racket more balanced and sturdy with Li-Nings meticulous craftwork. Duralumin material with a mix of Ferrum and aluminum forms a highly durable composite that withstands high tension and powerful smashes.\n\n
+SMASH POWER FRAME - The Li-Ning Smash Power Frame technology helps improve the overall racket performance with reduced air resistance and aids in the smooth maneuverability of the racket.\n\n
+WEIGHT and TENSION - The Li-Ning Mega Power racket weighs 95 grams and can withstand string tension of up to 24 Lbs. These factors make it an ideal badminton racket for all those starting to play the game or trying to know it better.\n\n
+ULTRA SMASH SPEED SHAFT - The Li-Ning Mega Power racket helps balance the rebound and anti-torsion performance of the racket and facilitates smooth power transmission.\n\n
+FREE FULL COVER - The Li-Ning Mega Power racket comes equipped with a high-quality full cover to keep it safe and secure.</item>
+        <item>\nSize	87 grams\n\n
+Brand	Li-Ning\n\n
+Grip Size	4 1/2 inches\n\n
+Sport	Badminton\n\n
+Material	Carbon Fibre\n\n
+About this item\n\n
+Included Components: 1 Turbo X III Badminton Strung Racket + Free Full Racket Cover || Carbon Fibre || 87 grams\n\n
+Suitable For: Seniors | Beginner Level\n\n
+Max Racket Tension: 30 lbs\n\n
+Faster Swings: Using the Aerotec Beam system | the racket is built with an extremely low drag coefficient to ensure faster swings and high intensity to optimize the players performance in every shot.\n\n
+Powerful Strikes: TB Nanometer technology combines carbon fiber and resin more closely | to provide better elasticity | stability and durability | to bring you more power in every strike.</item>
+        <item>\nSize	Full Size\n\n
+Sport	Cricket\n\n
+Brand	Heega Choice of Champion\n\n
+Material	Wood\n\n
+Colour	Black\n\n
+About this item\n\n
+Heega cricket bat is made of superior quality material which provides durable performance. Singapore Cane Handle with Grip to hold the bat firmly | without slipping while playing shots. Comes with a Bat care kit Comprising of Face tape andEdges fibre tape roll for defense against moisture and increasing strength and durability of the bat.\n\n
+Heega Bat Handle is equipped with twelve peace cane handle for maximum flexibility and strong grip
+Machine Pre-knocked cricket Bat(10000 Knocks) that will ease your knocking process and will enhance the life | strength and punch of the bat. Still | Recommended to do manual knocking on the edges and toe area before playing professional.\n\n
+Bat Grip Technology: Extra Soft | Ergonomically Shaped and Vibration dampening</item>
+        <item>\nSize	SH\n\n
+Sport	Cricket\n\n
+Brand	STRAUSS\n\n
+Material	Wood\n\n
+Colour	Stroke-1000 | (Beige)\n\n
+About this item\n\n
+Height and Width: Strauss Cricket Bat (short handle) having 85cm lenght | 11cm width and 4cm height. This Bat is Massive edges and having superior quality. Strauss Bat comes in full Adult size. This bat is environment friendly and easy to carry anywhere.\n\n
+Recommended for all Ages: It is recommended for all Age groups (kids | Boys | Girls and Adults). Beginners and Adults easily play cricket with this wood Bat. Made of Kashmir Willow Light Weight Cricket Bat.\n\n
+Comfortable grip: Cushioned Rubber Grips gives a extra Comfort while playing Cricket. High quality material gives you play more and enjoy the sport. \n\nYou can easily do daily practice using Slog bat and hitting the ball very well. Excellent powerful handle grip is best feature that increased durability.\n\n
+Lightweight: This Lightweight Cricket Bat give players the freedom to get the perfect shots | especially for young players and newbies to cricket. Advanced wood technology brings you to ensure long lifespan and durability.This wood Bat has a unique shape
+Size and Box Contents: 1 Cricket Bat</item>
+        <item>\nBrand	DSC\n\n
+Colour	Navy\n\n
+Age Range	Kid\n\n
+Size	L\n\n
+Model Name	1503517\n\n
+About this item\n\n
+Features: Durable Layered shell for increased protection | Durable Cricket Helmet | Contemporary Design | Visibility between Faceguard and Peak as per International standards | Adjustable back support strap for desired fit and comfort | Removable and washable sweatband | Lightweight- 720 gm approx | Made in India.\n\n
+Best Bit: Professional Cricket Helmet | Below Rs. 6000.\n\n
+Suitable for: Men | Women | Boys | Kids and Junior Level Players.\n\n
+Material: Outer Shell: High Impact Resistant Regular ABS shell covered with super fine cloth | Inner EPS liner for increased safety | Impact resistance | Inner Mesh: Shock Resistant | Sweat Absorbent | Breathable U Foam lining to keep dry | clean and comfortable | Cushioned with twill TOWEL Fabric for comfort fir | Black powder coated Spring Steel Visor with Aero dynamic design.\n\n
+Face Guard: Titanium Face Guard with Moulded Ear Flap.</item>
+        <item>\nMade up with Solid Wood material attractive and durable\n\n
+Attractive | durable and high grip to use Ideal for kids | men | women | adult\n\n
+One Hockey Stick One Ball\n\n
+TRUE SATISFACTION SERVICE : Best quality and service is our goal | if you have problem ” Please Contact With us. We promise to leave you without any worries | please buy with confidence.</item>
+        <item>\nSeven Ply Head Treated With Glass Fibre Throughout The Handle\n\n
+Comes With ALFA PU GRIP\n\n
+PROUDLY MADE IN INDIA</item>
+        <item>\nBrand	SYN6\n\n
+Material	Rubber\n\n
+Colour	White |Red\n\n
+Sport	Soccer</item>
+        <item>\nBrand	FITFLEX\n\n
+Material	Rubber\n\n
+Colour	Red and Yellow\n\n
+Sport	Soccer\n\n
+About this item\n\n
+Fine and Furnished Quality.\n\n
+Package Content :1 Piece Football with 1 Air pump\n\n
+Provide Better Quality To Our Customers.\n\n
+The Ball Is Meant For Very Light Play And Not For Playing On Rough Ground.</item>
+        <item>\nColour: Blue\n\n
+➹Ideal Youth bow set for introducing archery to children Teens (Youth/Junior).\n\n
+➹Ambidextrous riser design for Use with right and left handed Shooters.\n\n
+➹44 inches overall length with 22 - 24 inch draw length and 16-20 lb draw weight.Must be installed with the assistance of parents.\n\n
+➹Suggested age: 10 years old or More than 10 years old.\n\n
+➹PACKAGE :1 x Bow | 9 x Target Fiberglass Arrows | 2 x Target Faces</item>
+        <item>\nModel Name	87574\n\n
+Brand	Armor\n\n
+Colour	Silver\n\n
+Material	Plastic\n\n
+About this item\n\n
+GOOD QUALITY ARCHERY SET ADULTS. Durable bow risers | strong fiberglass limbs can maintain sufficient resistance and stretch after using rigorous quality inspection and testing.\n\n
+ARCHERY BOWS FOR ADULTS AND BEGINNERS. The two-handed recurve takedown bow can be used independently with the left and right hands.
+100th sales support. Any problem | feel free to contact us. We will give you the most satisfactory solution.\n\n
+AVAILABLE IN RIGHT HANDED HUNTER SHOOTER ARCHER. A good hunting takedown bow is perfect for target shooting practice sports game training. This is a right-handed bow | a right-handed bow means drawing an arrow on the string with your right hand | holding the bow with your left hand where the arrow rests | and holding the arrow with your right eye to determine the perfect destination.\n\n
+UNBELIEVABLE STRONG STURDY TAKEDOWN BOW. Not too heavy | not too light | very well made and sturdy. The handle is ergonomically designed and comfortable to hold even at full he draw. Edge also ensures a very clean move for beginners. The riser is made of aluminum alloy and is solid.</item>
+        <item>\nProduct Details\n\n
+Material TypeMesh\n\n
+Closure TypeLace-Up\n\n
+Heel TypeFlat\n\n
+Care InstructionsWipe with a clean | dry cloth to remove dust\n\n
+Country of OriginIndia\n\n
+About this Item\n\n
+Material:MESH\n\n
+Lifestyle:Casual\n\n
+Heel Type:Flats</item>
+        <item>\nProduct Details\n\n
+Material TypeMesh\n\n
+Closure TypeLace-Up\n\n
+Heel TypeNo Heel\n\n
+Water Resistance LevelNot Water Resistant\n\n
+Country of OriginIndia\n\n
+About this Item\n\n
+Outer Material: Mesh\n\n
+Closure Type: Lace-Up\n\n
+Toe Style: Round Toe\n\n
+Warranty Type: Manufacturer\n\n
+Warranty Description: 30 days\n\n
+Description\n\n
+The product will be an excellent pick for you. It ensures an easy maintenance.\n\n
+
+Additional Information\n\n
+ManufacturerCampus | D-1 |Udhyog Nagar |Main Rohtak Road | Peeragarhi Chowk | New Delhi-110041\n\n
+PackerKHASRA NO -98/25 |SWARN PARK KAMRUDDIN NAGAR ROAD NEAR GIRIRAJ DHARAM KANTA  |MUNDKA |NEW DELHI-110041\n\n
+ImporterCampus Activewear Pvt. Ltd. | C9and10 Salaqui Industrial Area | Dehradun 248197\n\n
+Item Weight1 g\n\n
+Item Dimensions LxWxH28.2 x 20.3 x 10.6 Centimeters\n\n
+Net Quantity2 count\n\n
+Included Components1 pair of shoes\n\n
+Generic NameRunning Shoes
+</item>
+        <item>\nBrand	BeatXP\n\n
+Item Weight	17.92 Kilograms\n\n
+Colour	Black\n\n
+Material	Alloy Steel\n\n
+Item Dimensions LxWxH	95 x 21 x 61 Centimeters\n\n
+About this item\n\n
+✅[EASY INSTALLATION and SUPPORT SERVICE] : beatXP Air Bike comes with an easy-to-follow Instruction Manual so that you can set it up easily. For a free video session or installation you can Call +91 7303 762 766 or email to support@beatxp.com {Our customer support arranges a third-party technician for minimal charges.\n\n
+✅ [STEEL CONSTRUCTION]: This air-bike comes with high-density foam hand grips and its slip resistant pedals lend to both comfort and performance. This air bike will let your experience a complete cardio routine without leaving the comfort of your home. It is easy to assemble and use.\n\n
+✅ [TUNE EVERYONE INTO FITNESS] : The best exercise equipment for home to burn more calories than any other fitness routine | Simplify your and your family fitness workout with this Air bike. It also Includes a twister exercise machine for home to carve out excess belly fat and keep your waist toned.\n\n
+✅ [EASY INTERFACE]: It has a digital display meter which displays your exercise time | revolutions per minute (rpm) calories burnt. This air bike also gives you an accurate readout of your accomplishments.\n\n
+✅[USER COMFORT]: The BeatXP Fitness cycle is ergonomically designed for your comfort ability with a large adjustable seat cushion. Its handlebars are packed with high-density foam which will prevent you from experiencing stiffness of the back | strains | and muscle aches and sit upright as you work out. The strapped pedals are designed to adjust to your comfort with minimum fuss.\n\n
+✅ [BELT DRIVE RESISTANCE]: Belt requires limited maintenance | improves pedalling technique | permits less momentum-based recovery | makes the rider work efficiently | and operates quietly.\n\n
+✅ [6-MONTH WARRANTY] : It’s a promise! A 6-month warranty on our exercise bikes for manufacturing defects to ensure the best customer experience.</item>
+        <item>\nBrand	Hykes\n\n
+Size	One Size\n\n
+Specific Uses For Product	Swelling | Arthritis\n\n
+Age Range (Description)	Adult\n\n
+Special Feature	Adjustable\n\n
+About this item\n\n
+Fine grade open - patella knee support: open patella knee brace made with fine material and helps with patella tracking | providing added support | whilst the durable | helps warm muscles and joints | provides support to injured ligaments | tendons | helps to relieve pain associated with arthritis | aching joints | muscles | meniscus tears | acl | mcl | strains and sprains\n\n
+One size and fully adjustable compression for best fit: universal size (one size fits most) | fits the left or right knee and is unisex suitable for men and women. Velcro straps helps you to wrap the brace as tightly as required | ensuring it fits knees of all sizes | and allowing you to readjust as swelling subsides\n\n
+Effective and multi use: this knee wrap is made of breathable material retains heat and speeds up recovery period. Also it can be used for gym | weight lifting and for any sport | walking | running | cross fit | fitness | soccer | football | hiking | basketball | volleyball | skiing | tennis | cycling | badminton | dance | cricket and to recover faster from injury\n\n
+Stability and compression: dual side stabilizer springs give extra support | designed to apply graduated compression without restraining your leg movement and provides the necessary warmth and improves the blood circulation and muscular recovery | increases mobility and motion</item>
+        <item>\nBrand	SLOVIC\n\n
+Lens Material	Glass\n\n
+Ultraviolet Light Protection	UV Protection\n\n
+About this item\n\n
+PRO-SWIMMING GLASSES: Designed for professional swimmers | Slovic Swimming Goggles are a great addition to make your swimming sessions safer | more comfortable and enjoyable.\n\n
+ANTI-FOG LENS: Tested for fog in humid conditions | the lens remains clear giving you the best views underwater.\n\n
+UNIVERSAL FIT: Easy to adjust push buttons are snappy to adjust and make the goggles easily fit any head size.\n\n
+TANGLE-FREE: No more tangling or hair pulling while adjusting | the straps never tangle and are designed to keep you distraction-free.\n\n
+UV-PROTECTION: See underwater and get UV protection | it’s a complete safety kit in your backpack. SHATTER-PROOF: Safe and built to last these glasses will be by your side for a long time to come.</item>
+        <item>\nColour	Black\n\n
+Material	Plastic\n\n
+Brand	Nivia\n\n
+Target Audience	Unisex-Adults\n\n
+About this item\n\n
+Reduces drag in the water while protecting hair against chlorine and sun exposure\n\n
+Keeps hair away from eyes and face while swimming\n\n
+Created with the most durable material.</item>
+        <item>\nBrand	CULTSPORT\n\n
+Colour	Black\n\n
+Item Weight	24000 Grams\n\n
+Material	Stainless Steel\n\n
+Product Dimensions	52L x 31W Centimeters\n\n
+About this item\n\n
+Weight of dumbbells from small to large\n\n
+Non-slip handle\n\n
+Material: High strength silicone steel sheet | quick-change sheet\n\n
+15 gears adjustable to: 2.5 to 24 Kg</item>
+        <item>\nSize	Standard\n\n
+Colour	Black\n\n
+Brand	GEE\n\n
+Material	Nylon\n\n
+Sport	Volleyball\n\n
+About this item\n\n
+Size: Standard Size for Games Practice | School | Outdoor | Indoor\n\n
+Material: All Nylon Four side tape\n\n
+Colour: Black Mashes and white tape\n\n
+Package Content: 1 Volleyball Net in box packing\n\n
+Country of origin: INDIA</item>
+        <item>\nBrand	STRAUSS\n\n
+Material	Stainless Steel\n\n
+Bottle Type	Flip cap\n\n
+Colour	Black\n\n
+Capacity	750 Milliliters\n\n
+About this item\n\n
+QUALITY AND DESIGN - The water bottle is made of fine quality food grade stainless steel material. It has a classic design which includes a lid on the mouth of the bottle which opens with just a push from the bottom.\n\n
+PERFECT FOR LIFESTYLE - Safe and hygienic with easy to clean wide mouth. The bottle is durable and the perfect choice for those with an active lifestyle and numerous places to be. Compact and sleek it is portable and convenient to use\n\n
+CONVENIENT SIZE - The bottle has a capacity which is enough to fulfill your daily hydration needs while doing physical activities. The bottle fits in any bag making its size convenient in all aspects.\n\n
+BEST USEAGE - Office/School/College/Gym/Picnic/Home/Fridge. The bottle has multiple uses | right from numerous outdoor activities like hiking | yoga exercises to using it for you office and work from home set up as well.\n\n
+MATERIAL TYPE - Stainless Steel | No. of pieces -1 | Capacity: 750ml; Colour: Black</item>
     </string-array>
 
     <string-array name="sports_prices">
@@ -207,4 +1108,603 @@
         <item>Rs 449</item>
         <item>Rs 318</item>
     </string-array>
+
+    <string-array name="clothes">
+        <item>Diverse Mens Regular Fit Formal Shirt</item>
+        <item>Brand - Symbol Mens Regular Fit Shirt</item>
+        <item>JERKYN Unisex Solid Hoodie Sweatshirt</item>
+        <item>ADRO Mens Believe Design Printed Cotton Hoodies</item>
+        <item>F GALLERY Stylish Printed Fleece Sweatshirts for Men</item>
+        <item>Tenebrose Jujutsu Kaisen Anime Hoodie Cotton Hooded Sweatshirt with Fleece for Winter gojo Printed Hoodies for Men</item>
+        <item>MARK LOUIIS Womens Regular Fit Track pants</item>
+        <item>PROTEENS Womens Relaxed Track Pants</item>
+        <item>To The Nines Mens Polyester Tie (Pack Of 1) (rdblpgly-lp11_Red)</item>
+        <item>Axlon Mirror Pre Tied Reversible Metallic Mirror Tie Pocket Square and Brooch Pin Bow Tie for Men - Honey Comb (Free Size | Black Silver)</item>
+        <item>Axlon Mens Double Suede Velvet Bow Tie For Men</item>
+        <item>Lyriq Shirt for Men||Shirts for Men||Shirt||Formal Shirts for Men||Shirt for Men</item>
+        <item>SOBHAGYAWATI HEAVY LACE SAREE</item>
+        <item>Symbol Womens Reversible</item>
+        <item>QUECY® Women Cotton Solid Long Sleeves Hooded Jacket</item>
+        <item>DisolveWomens Cute Pajama full Sleeve and Sleepwear Soft Nightwear pajama Pack of 1 Size (28 till 34) Assorted Color</item>
+        <item>Jockey Womens Basic Lounge Pants</item>
+        <item>Jockey Womens Supreme Lounge Pants</item>
+        <item>JUNEBERRY Cotton Blend Tie-Dye Round Neck Half Sleeve Regular Fit Printed T-Shirt for Women    and Girls</item>
+        <item>Boldfit Winter Wear for Women Winter Cap for Men Woolen Cap for Men Beanie Cap for Men Winter Gloves for Men Winter Clothing Set for Women    and Men. Mufflers for Men Neck Warmer Winter Clothes for Women</item>
+    </string-array>
+
+    <string-array name="clothes_desc">
+        <item>\nProduct Details\n\n
+Material Composition100% Cotton\n\n
+StyleRegular\n\n
+PatternPrinted\n\n
+Care InstructionsMachine Wash\n\n
+About this Item\n\n
+Material - 100% Cotton\n\n
+Full sleeve | Collar style - Classic collar; Cuff style - Single cuff\n\n
+Pattern - Printed Men’s Formal Shirt\n\n
+Double yoke for extra durability and stiffness; Patch pocket at chest\n\n
+Made in India</item>
+        <item>\nMaterial Composition100% Cotton\n\n
+StyleCasual\n\n
+Neck StyleState\n\n
+PatternCheckered\n\n
+Country of OriginIndia\n\n
+About this Item\n\n
+Long sleeve\n\n
+Regular Fit\n\n
+Made in India</item>
+        <item>\nProduct Details\n\n
+Material Composition70% Cotton | 30% Polyester\n\n
+StyleBlouson\n\n
+Neck StyleHooded Neck\n\n
+PatternSolid\n\n
+About this Item\n\n
+Fabric: Cotton Blend\n\n
+Neck: Hooded | Pattern: Solid\n\n
+Pocket: Front Pocket\n\n
+These Hoodies for men and women are perfect to make you feel warm during this winter season</item>
+        <item>\nProduct Details\n\n
+Material Composition100% Cotton\n\n
+StyleRegular\n\n
+Neck StyleHooded Neck\n\n
+PatternGraphicprint\n\n
+Country of OriginIndia\n\n
+About this Item\n\n
+Wash Care : Do Not Bleach | Wash it with similar colours | Machine wash cold | Dry in Shade.\n\n
+Fit Type : Regular Fit | Full Sleeves.; Colour : Black | Fabric : 100% Pure Cotton (Eco Friendly)</item>
+        <item>\nProduct Details\n\n
+Material CompositionSpun Fleece\n\n
+StyleCasual\n\n
+Neck StyleHooded Neck\n\n
+PatternColorBlock\n\n
+About this Item\n\n
+Fabric: Spun Fleece; Pattern: Printed ; Sleeves Type: Full Sleeves\n\n
+Neck Style: Round and Hooded Neck Style ; Fit Type: Regular Fit Sweatshirts\n\n
+Closure Type: Pull On ; Feature: Designer Printed Sweatshirts for Men\n\n
+Note: Color slightly may differ from the color shown in image due to photographic light effect or differences in screen display resolutions. MADE IN INDIA.\n\n
+Sleeve Type: Long Sleeve; Pattern Type: Colorblock; Age Range Description: Adult; Department Name: Unisex-Adult\n\n
+Additional Information\n\n
+ManufacturerRaj Shobha Home Decor\n\n
+Item Weight400 g
+</item>
+        <item>\nProduct Details\n\n
+Material Composition100% Cotton\n\n
+StyleHoodie\n\n
+Neck StyleHooded Neck\n\n
+PatternGraphic\n\n
+About this Item\n\n
+Tenebrose hoodie for men are made from finest 100% ring spun super combed cotton fibers which makes huddies hand feel soft and comfortable\n\n
+hoddie has internal loop knit fleece which will keeps you warm and comfortable in winter</item>
+        <item>\nProduct Details\n\n
+Material Composition97% COTTON\n\n
+Care InstructionsREGULAR WASH\n\n
+PatternStriped\n\n
+Fit TypeRegular\n\n
+About this Item\n\n
+Fabric: Cotton\n\n
+Style: Trackpants ;Pattern: Striped\n\n
+Rise: High Rise ;Closure: Elastic ;Length: Ankle length\n\n
+Age Range Description: Adult; Style Name:</item>
+        <item>\nProduct Details\n\n
+Material CompositionCotton\n\n
+Care InstructionsMachine Wash\n\n
+Item Type NameTrack Pants\n\n
+PatternOther\n\n
+Country of OriginIndia\n\n
+About this Item\n\n
+Care Instructions: Gentle Machine Wash in Lukewarm Water::Do Not Bleach\n\n
+Specially Designed to match your desire for comfort</item>
+        <item>\nProduct Details\n\n
+Material TypePolyester\n\n
+StyleBow Tie\n\n
+MaterialPolyester\n\n
+Country of OriginIndia\n\n
+About this Item\n\n
+Set comprises of Tie | Pocket Square and Lapel Pin in elegant box packaging\n\n
+We focus on tie many years | good quality interlining makes our ties heavy weighted and elastic | which are easily designed for a perfect knot. It also can be used as a thoughtful gift.\n\n
+Adopting the soft and good texture | it is comfortable to wear and to touch | which is must-have accessory for any successful men. Made of high material | can be used for long time.\n\n
+Tie Width: 3 inches (7.5 cm); Tie Length: Standard; Handkerchief size: 10 inches x 10 inches (25 cm x 25 cm); Material: High Quality Microfiber ; Crafts: jacquard woven tie.\n\n
+For more high quality tie with unbeatable price |please click our brand name"VIBHAVARI" |we have 500+ style for choose.</item>
+        <item>\nMaterial TypeSilk\n\n
+StyleBow Tie\n\n
+MaterialSilk\n\n
+Care InstructionsWet Wipe Clean With Cloth\n\n
+Country of OriginIndia\n\n
+About this Item\n\n
+Colour: Black Silver\n\n
+Colour: Black Silver\n\n
+Colour: Black Silver\n\n
+Stylish tie for men. Light weight and easy to wear.</item>
+        <item>\nProduct Details\n\n
+Material TypePolyester\n\n
+StyleBow Tie\n\n
+MaterialPolyester\n\n
+Care InstructionsDry Clean Only\n\n
+Country of OriginIndia\n\n
+About this Item\n\n
+Adjustable Free Size\n\n
+Matching Accessories\n\n
+Made from original velvet fabric\n\n
+Handmade In India</item>
+        <item>\nProduct Details\n\n
+Material CompositionPolycotton\n\n
+StyleWestern\n\n
+Neck StyleState\n\n
+PatternPrinted\n\n
+Country of OriginIndia\n\n
+About this Item\n\n
+Care Instructions: Dry Clean Only\n\n
+Fit Type: Slim Fit\n\n
+Stylish Half sleeve Casual Printed Shirts and Party Wear Casual shirts\n\n
+100% Premium lycra | Pre Washed for an extremely soft finish and Rich look\n\n
+Disclaimer: Product colour may slightly vary due to photographic lighting sources or your monitor settings\n\n
+Modern slim fit ( we have updated our size chart | please refer the size chart for new measurements before ordering)</item>
+        <item>\nProduct Details\n\n
+Material CompositionVichitra Silk\n\n
+Weave TypePlain\n\n
+Design NameLace\n\n
+Care InstructionsHand Wash Only\n\n
+Country of OriginIndia\n\n
+About this Item\n\n
+Work :: Beautiful Solid Sari with Lace Border work and Pallu with Thread work Tassles\n\n
+Fabric :: Saree - Vichitra Silk | Blouse - Vichitra Silk\n\n
+Color :: Saree - Beige|Blouse - Beige\n\n
+Saree - 5.5Mtr | Blouse - 0.8Mtr (Need To Be Stitched As Per Size And Fit)\n\n
+This saree is suitable for get stylish contemporary look in functions | parties | reception | festive occasions | marriage ceremony | get together | evening and gifting to loved ones</item>
+        <item>\nProduct Details\n\n
+Material TypePolyester\n\n
+StyleReversible Jacket\n\n
+PatternSolid\n\n
+Care InstructionsDry Clean Only\n\n
+About this Item\n\n
+Regular fit | full sleeve Reversible Jacket in a different color each side | giving you more style options\n\n
+This jacket packs neatly into a built-in pouch making it compact and portable for travel\n\n
+Material: 100% Polyester</item>
+        <item>\nProduct Details\n\n
+Material TypeCotton\n\n
+Neck StyleHooded Neck\n\n
+PatternSolid\n\n
+Care InstructionsHand Wash Only\n\n
+About this Item\n\n
+Women Winter jacket: Made Of Cotton  |Soft And Lighweight Fabric | Breathable And Comfortable To Wear.\n\n
+Beautiful College Style Winter Jackets Loose | Soft And Comfortable | Simple And Versatile.\n\n
+Occasion: Simple Stylish Jacket For Women Perfect For Daily Wear | Home Wear | Office | Shopping | Date | Trip | Gathering | Etc. Easy To Match  | Great For Wear Winter.\n\n
+Instructions: Wash in cold water\n\n
+Please refer to the size measurement in image before ordering.</item>
+        <item>\nProduct Details\n\n
+Care InstructionsHand Wash Only\n\n
+Country of OriginChina\n\n
+About this Item\n\n
+Warm and Cozy Polar Fleece Lounge / Sleep / Casual / Walking Pant\n\n
+Ultra-soft fleece fabric to keep you warm and cozy Brushed Mid Weight All Season Fabric\n\n
+Comfort and Design ; he pj pants are fitted with a functional drawstring for an individual fit\n\n
+24/7Anywear Anytime Generous Fit ; Perfect for Lounging / Sleep or an evening Jog\n\n
+24/7Anywear Anytime Generous Fit ; Perfect for Lounging / Sleep or an evening Jog East Care: Simply toss the fun sleep pants into the washing machine for a hassle-free clean. Unlike other pajama pants | they don’t lose shape or shrink excessively when washed | saving you the stress of accounting for shrinkage when deciding on the fit.</item>
+        <item>\nProduct Details\n\n
+Material Composition92% Cotton | 8% Spandex\n\n
+Care InstructionsGentle Wash | Do Not Dry Clean | Do Not Bleach | Wash Inside Out | Wash With Like Colors | Low Iron | Line Dry In Shade | Tumble Dry Low | Do Not Iron On Label/Embroidery\n\n
+Item Type NamePANTS\n\n
+PatternBlack\n\n
+About this Item\n\n
+Style Number:1301\n\n
+Material composition:92%Cotton 8%Spandex\n\n
+Super combed Cotton Elastane stretch fabric\n\n
+Comfortable waistband with drawstring\n\n
+Convenient side pockets\n\n
+Slim fit</item>
+        <item>\nProduct Details\n\n
+Material Composition92% Cotton | 8% Spandex\n\n
+Care InstructionsGentle Wash | Do Not Dry Clean | Do Not Bleach | Wash Inside Out | Wash With Like Colors | Low Iron | Line Dry In Shade | Tumble Dry Low | Do Not Iron On Label/Embroidery\n\n
+Item Type NamePANTS\n\n
+PatternBlack\n\n
+About this Item\n\n
+Style Number:1301\n\n
+Material composition:92%Cotton 8%Spandex\n\n
+Super combed Cotton Elastane stretch fabric\n\n
+Comfortable waistband with drawstring\n\n
+Convenient side pockets\n\n
+Slim fit</item>
+        <item>\nProduct Details\n\n
+Material CompositionCotton Blend\n\n
+StyleWestern\n\n
+Neck StyleRound Neck\n\n
+PatternTie Dye\n\n
+About this Item\n\n
+Care Instructions: Wash with similar colours · Wash cold · Wash (and dry) inside out\n\n
+Neck Type: Round Neck; Sleeve Type: Half Sleeves | Fit: Oversize Loose Fit; Pattern: Tie-Dye\n\n
+Design and style: Trending Color combination design with gives extra ordinary casual look.\n\n
+Pairing: Pair this tie-dye casual half sleeve printed t-shirt with jeans and get noticeable and eye catching look.\n\n
+Material and quality: Premium bio-washed soft and smooth skin friendly Cotton blend material.</item>
+        <item>\n3-IN-1 WINTER HAT SCARF GLOVES SET. Keep your head | ears | face | neck and hands warm in winter! This set is perfect for freezing cold winter. All in classic black color | suits good with most colors of clothes.\n\n
+UNISEX DUAL-LAYERED BEANIE: Our beanie hats for men and women are lined with a super soft fleece that instantly locks in heat | whether youre out on a morning jog or walking a dog at night | is a great option for cold climates. Mens knit winter beanie hat can cover ears | aim to enjoy the windy weather with warm and soft hat without extra ear warmer.\n\n
+CLASSIC STYLISH KNITTED: Precise knitting mixed yarn fashion beanie and gloves | creating a nice and fashionable look design | matches with any wardrobe like cardigans | sweaters | tops or other formal and casual winter clothes.\n\n
+ONE SIZE FITS ALL: We use stretchable materials so that the hat and gloves can adapt to various head shapes and hands size | whether small head or big head even basketball head. They are easy to wear or take off | combine plenty of stretch and a snug fit | are suitable for most women and men.\n\n
+WHEN TO WEAR. Throw this soft hat | scarf | gloves on for any chilly outdoor activity. Great for the playground | at a pumpkin patch | during Christmas season | in a stroller | at a parade | on a play date | at school or in the best spot. Also makes a great gift.</item>
+    </string-array>
+
+    <string-array name="clothes_prices">
+    <item>Rs 609</item>
+    <item>Rs 519</item>
+    <item>Rs 649</item>
+    <item>Rs 989</item>
+    <item>Rs 494</item>
+    <item>Rs 949</item>
+    <item>Rs 699</item>
+    <item>Rs 508</item>
+    <item>Rs 446</item>
+    <item>Rs 929</item>
+    <item>Rs 399</item>
+    <item>Rs 449</item>
+    <item>Rs 416</item>
+    <item>Rs 887</item>
+    <item>Rs 3827</item>
+    <item>Rs 398</item>
+    <item>Rs 849</item>
+    <item>Rs 830</item>
+    <item>Rs 335</item>
+    <item>Rs 389</item>
+</string-array>
+
+    <string-array name="games">
+        <item>Acer 139 cm (55 inches) I Series 4K Ultra HD Android Smart LED TV AR55AR2851UDFL (Black)</item>
+        <item>TCL 163.9 cm (65 inches) ONKYO Soundbar Series 4K Ultra HD Certified Android Smart QLED TV 65C815 (Metallic Black)</item>
+        <item>Kodak 139 cm (55 inches) Bezel-Less Design Series 4K Ultra HD Smart Android LED TV 55UHDX7XPROBL (Black)</item>
+        <item>Westinghouse 139 cm (55 inches) 4K Ultra HD Smart Certified Android LED TV WH55UD45 (Black)</item>
+        <item>Sony Bravia 139 cm (55 inches) 4K Ultra HD Smart LED Google TV KD-55X74K (Black)</item>
+        <item>Sony Bravia 108 cm (43 inches) 4K Ultra HD Smart Android LED TV KD-43X75 (Black) (2021 Model) | with Alexa Compatibility</item>
+        <item>Sony WH-1000XM5 Wireless Industry Leading Active Noise Cancelling Headphones | 8 Mics for Clear Calling | 30Hr Battery | 3 Min Quick Charge = 3 Hours Playback | Multi Point Connectivity | Alexa - Black</item>
+        <item>JBL Quantum 300 | Wired Over Ear Gaming Headphone with Mic | Quantum Surround Sound | 3.5mm to USB Type-A Adapter | PC | Mobile | Laptop | PS4 | Xbox    and VR Compatible (Black)</item>
+        <item>JBL Flip 4 | Wireless Portable Bluetooth Speaker with Mic | Signature Sound with Bass Radiator | Vibrant Colors with Rugged Fabric Design | Connect+ | IPX7 Waterproof    and AUX (Black)</item>
+        <item>JB SUPER Bass Portable Wireless Bluetooth Speaker with inbuilt Phone Stand Built-in mic | TF Card Slot | USB Port - Multi Color</item>
+        <item>Samsung 198 L 4 Star Inverter Direct-Cool Single Door Refrigerator (RR21T2H2XCR/HL | Camellia Purple | Base Stand with Drawer)</item>
+        <item>LG 215 L 4 Star Inverter Direct-Cool Single Door Refrigerator (GL-B221ASCY | Scarlet Charm | Moist N Fresh)</item>
+        <item>Whirlpool 190 L 4 Star Inverter Direct-Cool Single Door Refrigerator with Anti-bacterial gasket(WDE 205 PRM 4S INV MAGNUM STEEL | Magnum Steel)</item>
+        <item>Carote Non Stick Cookware Set | Nonstick Induction Set Combo | Set of 4(24cm Fry Pan | 16cm Saucepan | 24cm Sauce Pot | 28cm Biryani Pot | 16cm Lid | 24cm Lid | 28cm LidGreen)</item>
+        <item>Cello Instyle Vacuum Insulated Flask with Jacket | Hot and Cold Water Bottle | Double Walled Stainless Steel Bottle for Travel | Home | Office | School | 500ml | Silver</item>
+        <item>LIGHT ANGLE Wooden Decorative Surface Mounted Classic Wall Fabric Lamp for Home Decor (W-Coral)</item>
+        <item>SYSKA 9W B22D Led Cool Day Light Bulb | Pack Of 2 (Ssk-Srl)</item>
+        <item>wipro Ns9400 9-Watt B22D Wifi Smart Led Bulb With Music Sync Compatible With Amazon Alexa And Google Assistant ( Warm White/Neutral White/White | Standard )</item>
+        <item>LG 1.5 Ton 3 Star DUAL Inverter Split AC (Copper | Super Convertible 5-in-1 Cooling | HD Filter with Anti-Virus Protection | 2022 Model | PS-Q18RNXA1 | White)</item>
+        <item>IFB 6 Kg 5 Star Front Load Washing Machine 2X Power Dual Steam (DIVA AQUA BXS 6008 | White    and Black | Active Color Protection | Hard Water Wash)</item>
+    </string-array>
+
+    <string-array name="games_desc">
+        <item>\nCOMBINED DELIVERY and INSTALLATION : Get brand-approved installation at the same time as delivery (Wall mount may be chargeable) Details\n\n
+Eligible for Free Open Box Inspection Details \n\n
+Screen Size	55 Inches\n\n
+Brand	Acer\n\n
+Supported Internet Services	Netflix | Prime Video | MX Player | Zee5 | Sony Liv | Voot | Youtube | Disney+Hotstar\n\n
+Display Technology	LED\n\n
+Resolution	4K\n\n
+Refresh Rate	60 Hz\n\n
+Special Feature	Android 11 | Dual Band Wifi | 2 way Bluetooth | MEMC | Blue Light Reduction |Intelligent Frame Stabilization Engine | Dynamic Signal Calibration | Wide Colour Gamut+ | 1.07 Billion Colours | HDR10+ with HLG | UHD Upscaling | Digital Noise Reduction | Micro Dimming | Dolby Audio | Supported Application : Netflix | Youtube | Prime Video | Amazon Music | Hotstar |Spotify | Voot | VootKids | MxPlayer | SonyLiv | Hungama | Zee5 | Eros NowAndroid 11 | Dual Band Wifi | 2 way Bluetooth | MEMC | Blue Light Reduction |Intelligent Frame Stabilization Engine… See more\n\n
+Model Name	Acer 139 cm (55 inches) i series 4K Ultra HD Android Smart LED TV AR55AR2851UDFL (Black) (2022 Model) | with Android 11Acer 139 cm (55 inches) i series 4K Ultra HD Android Smart LED TV AR55AR2851UDFL (Black) (2022 Model) | with… See more\n\n
+Mounting Hardware	1 LED TV | 1 Remote | 2 AAA Battery | 1 User Manual | 1 Table Top Stand | 4 Screws | 1 Warranty Card\n\n
+Connector Type	USB | Ethernet | HDMI | Built in Dual band wifi</item>
+        <item>\nEligible for Free Open Box Inspection Details \n\n
+Screen Size	65 Inches\n\n
+Brand	TCL\n\n
+Supported Internet Services	Netflix | Google CST | YouTube\n\n
+Display Technology	QLED\n\n
+Resolution	4K\n\n
+Refresh Rate	120 hertz\n\n
+Model Name	C815\n\n
+Mounting Hardware	1 LED TV | 1 Table Top Stand | 1 User Manual | 1 Warranty Card | 1 Remote Control | 2 AAA Batteries\n\n
+Connector Type	Wi-Fi\n\n
+Colour	Black\n\n
+See less\n\n
+About this item\n\n
+Resolution: 4K Ultra HD (3840x2160) | Refresh Rate : MEMC 60 Hz\n\n
+Connectivity Input: 3 HDMI ports to connect set top box | laptop | projector| 2 USB ports to connect hard drives and other USB devices\n\n
+Sound: 30 + 20 Watts Output | ONKYO Audio System |Dolby ATMOS | DTS | buil-in Woofer | 2 Speaker\n\n
+Smart TV Features: Built-In Wifi |Hands free voice control |4K Android TV+HDR 10 |AI-Google Assistant | Certified Android P| Screen Cast+T-cast |2GB RAM - 16GB ROM |5000+ Apps YouTube | Netflix | Prime video\n\n
+Display: QLED 4K UHD | A+ Grade LED Panel | Quantum Dot Display | Micro Dimming | MEMC | IPQ Engine | Full screen (Bezel less) | Metallic design | Ultra slim design\n\n
+Warranty Information: 2 year comprehensive warranty provided by the manufacturer from date of purchase\n\n
+Installation: For Installation | Wall Mounting | Demo Of This Product Once Delivered | Directly Contact Brand Support (Visit Brand website for Toll free numebrs) and Provide Products Model Name And Sellers Details Mentioned On Your Invoice. The Service Center Will Allot You A Convenient Slot For The Service</item>
+        <item>\nEligible for Free Open Box Inspection Details \n\n
+Screen Size	55 Inches\n\n
+Brand	Kodak\n\n
+Supported Internet Services	Prime Video | Zee5 | Oxygen Play | Eros Now | JioCinema | SonyLiv | Youtube | Hungama | Hotstar\n\n
+Display Technology	LED\n\n
+Resolution	4K\n\n
+Refresh Rate	60 Hz\n\n
+Model Name	7XPRO\n\n
+Mounting Hardware	1 LED TV | 1 Table Stand Base | 1 User Manual | 1 Warranty Card | 1 Remote Control |1 Wall Mount | 2 AAA Battery1 LED TV | 1 Table Stand Base | 1 User Manual | 1 Warranty Card | 1 Remote Control |1 Wall Mount | 2 AAA Battery See more\n\n
+Connector Type	Wi-Fi | USB | Ethernet | HDMI\n\n
+Colour	Black\n\n
+See less\n\n
+About this item\n\n
+Resolution : 4K Ultra HD (3840x2160) resolution | Refresh Rate : 60 Hertz | 178 Degree wide viewing angle\n\n
+Connectivity: 3 HDMI ports to connect set top box | Blu-ray speakers or a gaming console | 2 USB ports to connect hard drives or other USB devices | Bluetooth | Wi-FI\n\n
+Sound: 40 Watts Output | Powerful Speakers with Perfect Bass | Trusurround Technology\n\n
+Smart TV Features : Kodak LED TV provides experience that brings together your favorite streaming content on the home screen. Choose from a vast catalog of 6000+ movies and TV shows from Prime Video | Hotstar | Zee5 | Sony LIV and more | Apps: YouTube | Prime Video | Hotstar | Zee5 | SonyLiv and more |Chromescast available for perfect binging\n\n
+Display : HRD 10+ | 4k Display with 1 billion colours | Durable A+ Grade DLED panel | Ultra bright screen for flawless picture quality even in bright rooms\n\n
+Warranty Information: 1 Year warranty provided by Kodak TV from date of purchase\n\n
+Installation: Brand will contact for installation for this product once delivered. Contact Kodak TV for assistance (Please visit Brand website for toll free numbers) and provide products model name and sellers details mentioned on your invoice. The service center will allot you a convenient slot for the service\n\n
+Easy Returns: This product is eligible for replacement within 10 days of delivery in case of any product defects | damage or features not matching the description</item>
+        <item>\nScreen Size	55 Inches\n\n
+Brand	Westinghouse\n\n
+Supported Internet Services	Prime Video | Zee5 | Oxygen Play | Eros Now | JioCinema | SonyLiv | Youtube | Hungama | Hotstar\n\n
+Display Technology	LED\n\n
+Resolution	4K\n\n
+Refresh Rate	60 Hz\n\n
+Model Name	WH55UD45\n\n
+Mounting Hardware	1 LED TV | 1 Table Top Stand | 1 Wall Mount Bracket | 1 User Manual | 1 Warranty Card | 1 Remote Control\n\n
+Connector Type	Wi-Fi | USB | Ethernet | HDMI\n\n
+Colour	Black\n\n
+See less\n\n
+About this item\n\n
+Resolution : Ultra HD (4K) (3840 x 2160) resolution | Refresh Rate : 60 Hertz | 178 Degree wide viewing angle\n\n
+Connectivity: 3 HDMI ports to connect set top box | Blu-ray speakers or a gaming console | 2 USB ports to connect hard drives or other USB devices\n\n
+Sound: 40 Watts Output | Powerful Speakers with Crystal clear Audio\n\n
+Smart TV Features : Google Voice Assistance | Android 9.0 Pie | Smart Remote | Apps: YouTube | Prime Video | Hotstar | Zee5 | SonyLiv and more | Display Mirroring for compatible devices\n\n
+Display : Durable IPS Grade DLED panel | Ultra bright screen for flawless picture quality even in bright rooms\n\n
+Warranty Information: 1 Year warranty provided by Westinghouse TV from date of purchase\n\n
+Support Information : Brand will contact for installation for this product once delivered. Contact Westinghouse TV for assistance (Please visit brand website for toll free numbers) and provide products model name and sellers details mentioned on your invoice. The service center will allot you a convenient slot for the service\n\n
+Easy Returns: This product is eligible for replacement within 10 days of delivery in case of any product defects | damage or features not matching the description</item>
+        <item>\nEligible for Free Open Box Inspection Details \n\n
+Screen Size	55 Inches\n\n
+Brand	Sony\n\n
+Supported Internet Services	Netflix | Zee5 | Hoichoi | Amazon Prime Video | Voot | SonyLiv | Disney+Hotstar |  and Many More\n\n
+Display Technology	LED\n\n
+Resolution	4K\n\n
+Refresh Rate	60 Hz\n\n
+Special Feature	Google TV | Watchlist | Voice Search | Google Play | Chromecast | Netflix | Amazon Prime Video | Additional Features: Apple Airplay | Apple Homekit | AlexaGoogle TV | Watchlist | Voice Search | Google Play | Chromecast | Netflix | Amazon Prime Video | Additional Feature… See more
+Model Name	Bravia\n\n
+Mounting Hardware	1 LED TV | 1 Warranty Card | 1 AC Power Cord | 1 Remote Control | 1 Table-Top Stand | 1 User Manual | 2 AAA Batteries1 LED TV | 1 Warranty Card | 1 AC Power Cord | 1 Remote Control | 1 Table-Top Stand | 1 User Manual | 2 AAA Batteries See more
+Connector Type	Wi-Fi | USB | Ethernet | HDMI\n\n
+See less\n\n
+About this item\n\n
+Resolution: 4K Ultra HD (3840 x 2160) | Refresh Rate: 60 Hertz | 178 Degree wide viewing angle\n\n
+Connectivity: 3 HDMI ports to connect set top box | Blu Ray players | gaming console | 2 USB ports to connect hard drives and other USB devices\n\n
+Sound : 20 Watts Output | Open Baffle Speaker| Dolby Audio | Clear Phase\n\n
+Smart TV Features: Google TV | Watchlist | Voice Search | Google Play | Chromecast | Netflix | Amazon Prime Video | Additional Features: Apple Airplay | Apple Homekit |Alexa\n\n
+Display: X1 4K Processor | 4K HDR | Live Colour| 4K X Reality Pro | Motion Flow XR200\n\n
+Warranty Information: 1 year warranty provided by the manufacture from the date of purchase\n\n
+Installation: Brand will contact for installation for this product once delivered. Contact Sony for assistance (Please visit brand website for toll free numbers) and provide products model name and sellers details mentioned on your invoice. The service center will allot you a convenient slot for the service\n\n
+Easy returns: This product is eligible for replacement within 10 days of delivery in case of any product defects | damage or features not matching the description provided</item>
+        <item>\nBrand will contact for free installation. Contact brand for assistance @ 1800-103-7799. Service will be delayed in regions with CoVID related restrictions. Details\n\n
+Screen Size	43 Inches\n\n
+Brand	Sony\n\n
+Supported Internet Services	Netflix | Prime Video | Zee5 | Eros Now | JioCinema | SonyLiv | Youtube | Hungama | Hotstar\n\n
+Display Technology	4K UHD\n\n
+Resolution	4K\n\n
+Refresh Rate	60 Hz\n\n
+Special Feature	4K HDR | 4K GAMING | X1 4K PROCESSOR | LIVE COLOR | ANDROID TV |DOLBY AUDIO | BLUETOOTH | Supported Apps : Netflix | Youtube | Prime Video | Hotstar | SonyLiv | Hungama | JioCinema | Zee5 | Eros Now4K HDR | 4K GAMING | X1 4K PROCESSOR | LIVE COLOR | ANDROID TV |DOLBY AUDIO | BLUETOOTH | Supported… See more\n\n
+Model Name	KD-43X75\n\n
+Mounting Hardware	1 LED TV | 1 Warranty Card |1 AC Adapter | 1 AC Power Cord | 1 Remote Control | 1 Table-Top Stand | 1 User Manual | 2 AAA Batteries1 LED TV | 1 Warranty Card |1 AC Adapter | 1 AC Power Cord | 1 Remote Control | 1 Table-Top Stand | 1 User Manual | 2… See more\n\n
+Connector Type	Wi-Fi\n\n
+See less\n\n
+About this item\n\n
+Resolution: 4K Ultra HD (3840 x 2160) | Refresh Rate: 60 hertz\n\n
+Connectivity: 3 HDMI ports to connect set top box | Blu Ray players | gaming console | 2 USB ports to connect hard drives and other USB devices\n\n
+Sound : 20 Watts Output | Bass Reflex speakers | Dolby Audio\n\n
+Smart TV Features: Android TV | Voice Search | Google Play | Chromecast | Netflix | HDR Gaming | Additional Features: Alexa\n\n
+Display: X1 | 4K HDR | Live Colour Display | 4K X-Reality Pro | Motionflow XR\n\n
+Warranty Information: 1 year warranty provided by the manufacture from the date of purchase\n\n
+Installation: Brand will contact for installation for this product once delivered. Contact Sony for assistance (Please visit brand website for toll free numbers) and provide products model name and sellers details mentioned on your invoice. The service center will allot you a convenient slot for the service\n\n
+Easy returns: This product is eligible for replacement within 10 days of delivery in case of any product defects | damage or features not matching the description provided</item>
+        <item>\nBrand	Sony\n\n
+Model Name	WH1000XM5/BMIN\n\n
+Colour	Black\n\n
+Form Factor	Over Ear\n\n
+Connector Type	Wireless\n\n
+About this item\n\n
+Industry Leading noise cancellation-two processors control 8 microphones for unprecedented noise cancellation. With Auto NC Optimizer | noise cancelling is automatically optimized based on your wearing conditions and environment.\n\n
+Industry-leading call quality with our Precise Voice Pickup Technology uses four beamforming microphones and an AI-based noise reduction algorithm
+Magnificent Sound | engineered to perfection with the new Integrated Processor V1\n\n
+Crystal clear hands-free calling with 4 beamforming microphones | precise voice pickup | and advanced audio signal processing.
+Up to 30-hour battery life with quick charging (3 min charge for 3 hours of playback)\n\n
+Ultra-comfortable | lightweight design with soft fit leather\n\n
+Multipoint connection allows you to quickly switch between devices</item>
+        <item>\nBrand	JBL\n\n
+Model Name	QUANTUM\n\n
+Colour	Black\n\n
+Form Factor	Over Ear\n\n
+Connector Type	Wired\n\n
+About this item\n\n
+JBL Quantum surround powered by the JBL Quantum engine PC software\n\n
+50mm neodymium drivers delivering JBL Quantum Sound Signature | a sound curve designed specifically for gaming\n\n
+Flip-up Voice focus Directional Boom mic for crystal clear communications. Frequency response range (Hz) 20 Hz - 20 kHz\n\n
+Compatible with all gaming platforms including PC gaming | Xbox | PlayStation | Nintendo | Switch | Mobile | Mac and VR\n\n
+User friendly JBL Quantum Engine PC software customization suite for Different user profiles  and Microphone Setting modifications\n\n
+Lightweight and durable headband with memory foam cushioning and detachable ear cushions\n\n
+Whats in the box : JBL Quantum 300 headset | USB audio adapter | Windshield foam for boom microphone | QSG / Warranty card / Safety sheet\n\n
+1 year manufacturer’s warranty</item>
+        <item>\nBrand	JBL\n\n
+Model Name	Flip 4\n\n
+Speaker Type	Portable Bluetooth Speakers\n\n
+Connector Type	Bluetooth\n\n
+Special Feature	Waterproof\n\n
+About this item\n\n
+WIRELESS BLUETOOTH STREAMING: Wirelessly connect up to 2 smartphones or tablets to the speaker and take turns playing impressive stereo sound.\n\n
+12 HOURS OF PLAYTIME: Built-in 3000mAh rechargeable Li-ion battery supports up to 12 hours of playtime.\n\n
+IPX7 WATERPROOF: No more worrying about rain or spills; you can even submerge Flip 4 in water.\n\n
+JBL CONNECT+: Link more than 100 JBL Connect+ enabled speakers together to amplify the party.\n\n
+SPEAKERPHONE: Take crystal clear calls from your speaker with the touch of a button thanks to the noise and echo-cancelling speakerphone.\n\n
+VOICE ASSISTANT INTEGRATION: Access Siri or Google Now from your JBL speaker with a simple button press.\n\n
+LIFESTYLE MATERIAL: The durable fabric material and rugged rubber housing allows your speaker to outlast all of your adventures.\n\n
+JBL BASS RADIATOR: Hear the bass | feel the bass | see the bass. Dual external passive radiators demonstrate just how powerful your speaker is.\n\n
+What’s in the box: 1 x JBL Flip 4 Speaker | 1 x JBL Micro USB Cable | 1 x Safety Sheet | 1 x Quick Start Guide | Warranty Card</item>
+        <item>\nBrand	JB SUPER \n\n
+Model Name	JB721BS\n\n
+Speaker Type	Soundbar\n\n
+Connectivity Technology	Wireless | Bluetooth | Auxiliary | USB\n\n
+Special Feature	Wireless | Portable | Bluetooth\n\n
+About this item\n\n
+JB Super : Compact  and Powerful Certified Wireless Portable Mobile Bluetooth Speaker Delivers Powerful Sound And Robust Bass\n\n
+Portable Mobile Bluetooth Speaker With Good Battery Backup\n\n
+Long Playtime  and Super Bass Splash proof Wireless Bluetooth Speaker\n\n
+Power Source: USB Cable. Extra-long and rechargeable 1200mAh allows you enjoy up to 5 hours of playing time.</item>
+        <item>\n Style name: 198 L - Camellia Purple - Base Stand with Drawer \n\n
+This product comes ready to use  and does not require installation. Details\n\n
+Eligible for Free Open Box Inspection Details \n\n
+The star rating changes are as per BEE guidelines on or before 1st Jan 2023\n\n
+Direct-cool refrigerator : Economical and Cooling without fluctuation\n\n
+Capacity 198 liters: Suitable for families with 2 to 3 members and bachelors\n\n
+Energy rating 4 Star : high efficiency model\n\n
+1 year comprehensive warranty on product | 20 years on compressor\n\n
+Digital Inverter Compressor\n\n
+Shelf type: Spill proof toughened glass; base stand drawer\n\n
+Inside box: 1 unit Refrigerator  and 1 Unit user manual\n\n
+Spl. Features: Fresh Room | clear lamp view | runs on home inverter | safe clean back | Base stand drawer| deep door guard | Voltage range : 100V - 300V</item>
+        <item>\nThis product comes ready to use  and does not require installation. Details\n\n
+Eligible for Free Open Box Inspection Details \n\n
+Brand	LG\n\n
+Capacity	215 litres\n\n
+Configuration	Compact Freezer-on-Top\n\n
+Energy Star	4 Star\n\n
+Colour	Scarlet Charm\n\n
+About this item\n\n
+The star rating changes are as per BEE guidelines on or before 1st Jan 2023\n\n
+Direct-cool refrigerator: Economical and Cooling without fluctuation\n\n
+Capacity 215 liters: Suitable for families with 2 to 3 members and bachelors\n\n
+Energy rating 4 Star: High energy efficiency\n\n
+Manufacturer warranty: 1 year on product | 10 years on compressor *T andC\n\n
+Smart inverter compressor: Unmatched performance | great savings and super silent operation\n\n
+Shelf type: Spill proof toughened glass\n\n
+Inside box: 1 unit Refrigerator  and 1 Unit user manual\n\n
+Spl. Features: Moist ‘n’ Fresh is an innovative lattice-patterned box cover which maintains the moisture at the optimal level | anti-bacterial gasket | Fastest Ice Making | Anti rat bite | Vegetable basket with 21 liters capacity | Tray egg | 3+3 Door basket (full size/half size) | Lock | Works without stabilizer: 90v ~ 310v | Solar Smart* | Chiller zone | Humidity controller</item>
+        <item>\n This product comes ready to use  and does not require installation. Details \n\n
+Eligible for Free Open Box Inspection Details \n\n
+Brand	Whirlpool\n\n
+Capacity	190 litres\n\n
+Configuration	Freezer-on-Top\n\n
+Energy Star	4 Star\n\n
+Colour	Magnum Steel\n\n
+About this item\n\n
+The star rating changes are as per BEE guidelines on or before 1st Jan 2023\n\n
+Direct-cool refrigerator; 190 litres capacity. Convertible Refrigerator : No\n\n
+Energy Rating: 4 Star\n\n
+Warranty: 1 year on product | 10 years on compressor\n\n
+Direct cool refrigerator | 190 L\n\n
+Intellisense inverter technology with starting voltage of 95v  and 25 years of vde certification\n\n
+Up to 9 hour cooling retention during power cuts\n\n
+Spacious storage - store up to 3 2L bottles in bottle rack\n\n
+Insulated capillary technology  and laminar airflow\n\n
+Stabilizer free operation (range: 130 V - 300 V)</item>
+        <item>\nMaterial	Granite Non stick\n\n
+Colour	Green\n\n
+Brand	CAROTE\n\n
+Size	Set of 4\n\n
+Handle Material	Bakelite\n\n
+About this item\n\n
+✅ SAFE GRANITE NON-STICK Cookware Set: Imported PFOA-free non-stick tech makes this pan set a healthier choice. Performace-oriented granite material is ideal for perfect frying | browning | searing purposes and various India recipes.\n\n
+🍳COST-EFFECTIVE  and DURABLE: 4mm extra thickness  and 5 layers of ILAG Granitec material tested to strictest European standards  and Scratch-resistance give sufficient rigidity to last longer. Meet exquisite tasted food | unbeatable performance | and healthy lifestyle with Carote pan set all at once.\n\n
+👏 MINIMAL USE OF OIL  and FAST EVEN HEAT: With little or no usage of oil | it is conductive to low-fat and low-oil cooking. It boasts the even heat distribution | energy saving heat storage technology.\n\n
+💦 ESAY CLEAN  and ERGONOMIC HANDLE: No rivets. Easy to clean with just a little hot water. This frying pan set makes the cleaning and maintenance of this product an easy task.\n\n
+☎️ FULL 24-MONTH WARRANTY: Carote is committed to providing cost-effective cookware. All your needs will be satisfied with us. We can be reachable 24h/7d/365d.</item>
+        <item>\nInsulation Type: Cello life style Flask features double walled vaccum insulation with inner copper coating that retains the temperature | keeping beverages hot or cold for a prolonged period of time.\n\n
+This reusable double wall steel water bottle is made from 304 grade stainless steel both inside and out and is leak proof | durable | unbreakable | rust proof | odour free and 100% food grade\n\n
+Easy Pouring and Drinking- Simple threaded lid of the flask is easy to use | It makes pouring and drinking hassle-free and spill-free. The lid of this bottle doubles up as a cup for drinking.\n\n
+Pre-condition bottle with hot water if using for hot beverage and cold water if using for cold.\n\n
+Material Type: Stainless steel | Color- Silver | Capacity- 1000ml | Pack content- 1 flask with Jacket</item>
+        <item>\nBrand	LIGHT ANGLE\n\n
+Colour	Coral\n\n
+Material	Fabric\n\n
+Finish Type	Antique\n\n
+Style	Classic\n\n
+Switch Installation Type	Surface\n\n
+About this item\n\n
+Material: Wood Color Brown | Fabric lamp shade\n\n
+QUALITY : High Quality Wood base used with rope which gives a premium look\n\n
+DECORATION:- Best suited for Dining Room | Bedroom | Living Room | Bar | Restaurants | for home in use -Door and Outdoor\n\n
+Good Quality Product For Rich And Royal Look.\n\n
+Care Instruction: Normal wash with water or Colin is suggested.</item>
+        <item>\nBrand	SYSKA \n\n
+Light Type	LED\n\n
+Special Feature	Energy Efficient\n\n
+Wattage	9 Watts\n\n
+Bulb Base	B22D\n\n
+Light Colour	White\n\n
+Voltage	90 Volts\n\n
+Net Quantity	2 count\n\n
+Colour Temperature	6500 Kelvin\n\n
+Number of Items	2\n\n
+See less\n\n
+About this item\n\n
+💡 [ WIDE APPLICATION ]: Energy efficient led light bulbs for every room: bedroom | living room | kitchen | garage | bathroom | etc.; 💡 [ EASY TO INSTALL ]: The base diameter is 22mm | you can easily install it. The standard light bulbs get full bright and stable lights for your space without waiting after turning the switch on.\n\n
+💡[ ENERGY-SAVING ]: 9Watt > 900Lumens Eco-friendly daylight led light bulbs to replace light bulbs 100 watt | consume 90% less energy compared to incandescent bulbs | saving big money on energy bills.[Input Voltage ]- AC 90-300V | 50Hz | [CRI]- >80. [ 9 W Dimension- L x B x H cm ]- 5.6 x 5.6 x 10.1
+💡[ LONG LASTING ] : A+ energy efficient led light bulb equivalent are a great replacement for incandescent | halogen | and CFL lamps | last 20 times longer | up to 50000 hrs lifetime(based on hours of use each day).\n\n
+💡 [ DESIGNED FOR YOUR WELL-BEING ]: Lower Power Consumption | No UV/IR light | safe to use | Replacement for CFL  | Wide Operating Voltage | Eco-Friendly | Good for Eyes and Visibility.\n\n
+Finish Type: Coated</item>
+        <item>\nBrand	Wipro \n\n
+Light Type	LED\n\n
+Special Feature	Dimmable\n\n
+Wattage	9 Watts\n\n
+Bulb Base	B22D\n\n
+Specific Uses	Photography\n\n
+Light Colour	Warm White\n\n
+Net Quantity	1 count\n\n
+Colour Temperature	6500 Kelvin\n\n
+Number of Items	1\n\n
+See less\n\n
+About this item\n\n
+Music Sync Function: Let your light dance by changing colours with the rhythm of your favourite music\n\n
+Control from anywhere: Forgot to turn off your lights? Now control lights from anywhere in the World with Wipro Smart Home App\n\n
+16 Million Colour - Explore endless lighting possibilities with 16mn Colour Options to create perfect space for enjoying parties | festivals or a movie night\n\n
+Voice Control : Control lights with your voice using Amazon Alexa  and Google Assistant\n\n
+Dimmable – Save more energy by change brightness of lights between 10%-100% as per requirement</item>
+        <item>\nBrand	LG \n\n
+Capacity	1.5 Tons\n\n
+Special Feature	Inverter Compressor | Remote Controlled | Fast Cooling | Auto Clean\n\n
+Energy Star	3 Star\n\n
+Seasonal Energy Efficiency Ratio (SEER)	4\n\n
+About this item\n\n
+Split AC with inverter compressor: variable speed compressor which adjusts power depending on heat load. It is most energy efficient and has lowest-noise operation\n\n
+Capacity: 1.5 Ton Suitable for medium sized rooms (111 to 150 sq ft.)\n\n
+Energy Rating: 3 Star - Energy efficiency | Annual Energy Consumption: 685.26 Units per year | ISEER Value: 5.2 (Please Refer Energy Label On Product Page Or Contact Brand For More Details)\n\n
+Manufacturer Warranty: 1 Year on Product | 5 Years on PCB and 10 Years on Compressor with gas charging (T andC)\n\n
+Copper With ocean black protection: Prevents from rust  and corrosion; Increase durability; Uninterrupted cooling</item>
+        <item>\nEligible for Free Open Box Inspection Details \n\n
+Fully-automatic front-loading washing machine; 6.5 kg capacity\n\n
+Energy Rating: 5 Star\n\n
+3 years on product | 10 years on motor\n\n
+Capacity 6.5kg: Suitable for families with 4 to 5 members</item>
+    </string-array>
+
+    <string-array name="game_prices">
+        <item>Rs 29999</item>
+        <item>Rs 50990</item>
+        <item>Rs 28999</item>
+        <item>Rs 28499</item>
+        <item>Rs 57990</item>
+        <item>Rs 44490</item>
+        <item>Rs 26989</item>
+        <item>Rs 5199</item>
+        <item>Rs 6499</item>
+        <item>Rs 689</item>
+        <item>Rs 16590</item>
+        <item>Rs 17490</item>
+        <item>Rs 14490</item>
+        <item>Rs 3759</item>
+        <item>Rs548</item>
+        <item>Rs 759</item>
+        <item>Rs 146</item>
+        <item>Rs 635</item>
+        <item>Rs 35990</item>
+        <item>Rs 22990</item>
+    </string-array>
+
+
 </resources>

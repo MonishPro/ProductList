@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
         {
             String [] products=resources.getStringArray(R.array.product_name);
             String [] prices=resources.getStringArray(R.array.product_prices);
-            int [] images= {R.drawable.earphones,R.drawable.speakers,R.drawable.smartphone,R.drawable.lamp,R.drawable.vase};
+            int [] images={R.raw.home1,R.raw.home2,R.raw.home3,R.raw.home4,R.raw.home5,R.raw.home6,R.raw.home7,R.raw.home8,R.raw.home9,R.raw.home10,R.raw.home11,R.raw.home12,R.raw.home13,R.raw.home14,R.raw.home15,R.raw.home16,R.raw.home17,R.raw.home18,R.raw.home19,R.raw.home20};
 
             imageshare(images);
 
@@ -134,6 +134,42 @@ public class MainActivity extends AppCompatActivity {
 
             buttonarea();
         }
+        else if(code==6)
+        {
+            String [] products=resources.getStringArray(R.array.clothes);
+            String [] prices=resources.getStringArray(R.array.clothes_prices);
+            int [] images={R.raw.clothes1,R.raw.clothes2,R.raw.clothes3,R.raw.clothes4,R.raw.clothes5,R.raw.clothes6,R.raw.clothes7,R.raw.clothes8,R.raw.clothes9,R.raw.clothes10,R.raw.clothes11,R.raw.clothes12,R.raw.clothes13,R.raw.clothes14,R.raw.clothes15,R.raw.clothes16,R.raw.clothes17,R.raw.clothes18,R.raw.clothes19,R.raw.clothes20};
+
+            imageshare(images);
+
+            recyclerView=findViewById(R.id.recycler);
+
+            monishadapter=new Monishadapter(products,prices,images,this);
+
+            recyclerView.setAdapter(monishadapter);
+
+            recyclerView.setLayoutManager(new LinearLayoutManager(this));
+
+            buttonarea();
+        }
+        else if(code==5)
+        {
+            String [] products=resources.getStringArray(R.array.games);
+            String [] prices=resources.getStringArray(R.array.game_prices);
+            int[] images={R.raw.tv1,R.raw.tv2,R.raw.tv3,R.raw.tv4,R.raw.tv5,R.raw.tv6,R.raw.tv7,R.raw.tv9,R.raw.tv9,R.raw.tv10,R.raw.tv11,R.raw.tv12,R.raw.tv13,R.raw.tv14,R.raw.tv15,R.raw.tv16,R.raw.tv17,R.raw.tv18,R.raw.tv19,R.raw.tv20};
+
+            imageshare(images);
+
+            recyclerView=findViewById(R.id.recycler);
+
+            monishadapter=new Monishadapter(products,prices,images,this);
+
+            recyclerView.setAdapter(monishadapter);
+
+            recyclerView.setLayoutManager(new LinearLayoutManager(this));
+
+            buttonarea();
+        }
         cart.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -187,7 +223,7 @@ public class MainActivity extends AppCompatActivity {
                 code=0;
                 String [] products=resources.getStringArray(R.array.product_name);
                 String [] prices=resources.getStringArray(R.array.product_prices);
-                int [] images= {R.drawable.earphones,R.drawable.speakers,R.drawable.smartphone,R.drawable.lamp,R.drawable.vase};
+                int [] images={R.raw.home1,R.raw.home2,R.raw.home3,R.raw.home4,R.raw.home5,R.raw.home6,R.raw.home7,R.raw.home8,R.raw.home9,R.raw.home10,R.raw.home11,R.raw.home12,R.raw.home13,R.raw.home14,R.raw.home15,R.raw.home16,R.raw.home17,R.raw.home18,R.raw.home19,R.raw.home20};
 
                 monishadapter=new Monishadapter(products,prices,images,context);
 
@@ -291,14 +327,40 @@ public class MainActivity extends AppCompatActivity {
         button5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(MainActivity.this, "Hello 5", Toast.LENGTH_SHORT).show();
+                code=5;
+                Resources resources=getResources();
+                String [] products=resources.getStringArray(R.array.games);
+                String [] prices=resources.getStringArray(R.array.game_prices);
+                int[] images={R.raw.tv1,R.raw.tv2,R.raw.tv3,R.raw.tv4,R.raw.tv5,R.raw.tv6,R.raw.tv7,R.raw.tv9,R.raw.tv9,R.raw.tv10,R.raw.tv11,R.raw.tv12,R.raw.tv13,R.raw.tv14,R.raw.tv15,R.raw.tv16,R.raw.tv17,R.raw.tv18,R.raw.tv19,R.raw.tv20};
+
+                monishadapter=new Monishadapter(products,prices,images,context);
+
+                recyclerView.setAdapter(monishadapter);
+
+                recyclerView.setLayoutManager(new LinearLayoutManager(context));
+
+                ed.putInt("code",code);
+                ed.apply();
             }
         });
 
         button6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(MainActivity.this, "Hello 6", Toast.LENGTH_SHORT).show();
+                code=6;
+                Resources resources=getResources();
+                String [] products=resources.getStringArray(R.array.clothes);
+                String [] prices=resources.getStringArray(R.array.clothes_prices);
+                int [] images={R.raw.clothes1,R.raw.clothes2,R.raw.clothes3,R.raw.clothes4,R.raw.clothes5,R.raw.clothes6,R.raw.clothes7,R.raw.clothes8,R.raw.clothes9,R.raw.clothes10,R.raw.clothes11,R.raw.clothes12,R.raw.clothes13,R.raw.clothes14,R.raw.clothes15,R.raw.clothes16,R.raw.clothes17,R.raw.clothes18,R.raw.clothes19,R.raw.clothes20};
+
+                monishadapter=new Monishadapter(products,prices,images,context);
+
+                recyclerView.setAdapter(monishadapter);
+
+                recyclerView.setLayoutManager(new LinearLayoutManager(context));
+
+                ed.putInt("code",code);
+                ed.apply();
             }
         });
     }

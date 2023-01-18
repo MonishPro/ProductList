@@ -11,6 +11,7 @@ import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.Toast;
 
 public class CartList extends AppCompatActivity implements CartListInterface {
 private RecyclerView recyclerView;
@@ -247,5 +248,4 @@ CartAdapter cartAdapter;
         recyclerView.setAdapter(cartAdapter);
 
     }
-
 }

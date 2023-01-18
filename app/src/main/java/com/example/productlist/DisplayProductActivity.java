@@ -1,10 +1,14 @@
 package com.example.productlist;
 
+import static java.lang.Integer.getInteger;
+import static java.lang.Integer.parseInt;
+
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.content.res.Resources;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -31,22 +35,62 @@ public class DisplayProductActivity extends AppCompatActivity {
         imageView=findViewById(R.id.imageView3);
         Name=findViewById(R.id.tv_product_name);
         Price=findViewById(R.id.textView11);
-        Description=findViewById(R.id.textView14);
+        Description=findViewById(R.id.textView13);
         Back=findViewById(R.id.imageButton2);
         btnBuyNow =findViewById(R.id.btn_buy_now);
         Cart=findViewById(R.id.button3);
 
+        int postion=getIntent().getIntExtra("key",0);
         int productimage=getIntent().getIntExtra("key3",0);
         String productname=getIntent().getStringExtra("key1");
         String productprice=getIntent().getStringExtra("key2");
         int visibility=getIntent().getIntExtra("key4",1);
+
+        Resources resources=getResources();
+
+        SharedPreferences sharedPreferences=getSharedPreferences("Database",MODE_PRIVATE);
+        int code= sharedPreferences.getInt("code",0);
+        if(code==0)
+        {
+            String [] description= resources.getStringArray(R.array.home_desc);
+            resource(productname,productprice,productimage,description,postion);
+        }
+        else if(code==1)
+        {
+            String [] description= resources.getStringArray(R.array.phone_desc);
+            resource(productname,productprice,productimage,description,postion);
+        }
+        else if(code==2)
+        {
+            String [] description= resources.getStringArray(R.array.books_desc);
+            resource(productname,productprice,productimage,description,postion);
+        }
+        else if(code==3)
+        {
+            String [] description= resources.getStringArray(R.array.laptops_desc);
+            resource(productname,productprice,productimage,description,postion);
+        }
+        else if(code==4)
+        {
+            String [] description= resources.getStringArray(R.array.sports_desc);
+            resource(productname,productprice,productimage,description,postion);
+        }
+        else if(code==5)
+        {
+            String [] description= resources.getStringArray(R.array.games_desc);
+            resource(productname,productprice,productimage,description,postion);
+        }
+        else if(code==6)
+        {
+            String [] description= resources.getStringArray(R.array.clothes_desc);
+            resource(productname,productprice,productimage,description,postion);
+        }
 
         if(visibility==0)
         {
           Cart.setVisibility(View.INVISIBLE);
         }
 
-        resource(productname,productprice,productimage);
 
         Back.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -91,11 +135,12 @@ public class DisplayProductActivity extends AppCompatActivity {
         });
     }
 
-    void resource(String name,String price,int Image)
+    void resource(String name,String price,int Image,String [] description,int position)
     {
         Name.setText(name);
         Price.setText(price);
         imageView.setImageResource(Image);
+        Description.setText(description[position]);
     }
 
 }
