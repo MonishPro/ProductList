@@ -13,27 +13,28 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.productlist.CartAdapter;
+import com.example.productlist.CartList;
 import com.example.productlist.DisplayProductActivity;
 import com.example.productlist.R;
 import com.example.productlist.aman.BuyProductActivity;
 
+import java.util.ArrayList;
+
 public class OrderListAdapter extends RecyclerView.Adapter<OrderListAdapter.ViewHolder> {
 
-    private String[] productname;
-    private String[] productprices;
-    private int[] productimages;
+
     private Context context;
-    private OrderListInterface orderListInterface;
+    private ArrayList<OrderListModelClass> orderListDataHolder;
+    public static final String REQUEST_CODE = "request_code";
+    public static final String REQUEST_CODE_NAME = "OrderListAdapter";
+
 
     public OrderListAdapter() {
     }
 
-    public OrderListAdapter(String[] productname, String[] productprices, int[] productimages, Context context, OrderListInterface orderListInterface) {
-        this.productname = productname;
-        this.productprices = productprices;
-        this.productimages = productimages;
+    public OrderListAdapter(Context context, ArrayList<OrderListModelClass> orderListDataHolder) {
         this.context = context;
-        this.orderListInterface = orderListInterface;
+        this.orderListDataHolder = orderListDataHolder;
     }
 
     @NonNull
@@ -47,9 +48,18 @@ public class OrderListAdapter extends RecyclerView.Adapter<OrderListAdapter.View
 
     @Override
     public void onBindViewHolder(@NonNull OrderListAdapter.ViewHolder holder, int position) {
-        holder.productname.setText(productname[position]);
-        holder.productprices.setText(productprices[position]);
-        holder.productimagess.setImageResource(productimages[position]);
+        String productName = orderListDataHolder.get(position).getProductName();
+        String productPrice = orderListDataHolder.get(position).getProductPrice();
+        int productImage = orderListDataHolder.get(position).getProductImage();
+        String fullAddress = orderListDataHolder.get(position).getFullAddress();
+        String upi = orderListDataHolder.get(position).getUpi();
+        int priceInt = orderListDataHolder.get(position).getPriceInt();
+        int gst = orderListDataHolder.get(position).getGst();
+        int shippingCharge = orderListDataHolder.get(position).getShippingCharge();
+
+        holder.productname.setText(productName);
+        holder.productprices.setText(productPrice);
+        holder.productimagess.setImageResource(productImage);
 
         int a=position;
 
@@ -58,11 +68,8 @@ public class OrderListAdapter extends RecyclerView.Adapter<OrderListAdapter.View
             public void onClick(View view) {
 
                 Intent i=new Intent(context, DisplayProductActivity.class);
-                i.putExtra("key",a);
-                i.putExtra("key1",productname[a]);
-                i.putExtra("key2",productprices[a]);
-                i.putExtra("key3",productimages[a]);
-                i.putExtra("key4",0);
+                i.putExtra(REQUEST_CODE,REQUEST_CODE_NAME);
+                i.putExtra("orderListDataHolder",orderListDataHolder.get(position));
                 i.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                 context.startActivity(i);
             }
@@ -71,7 +78,7 @@ public class OrderListAdapter extends RecyclerView.Adapter<OrderListAdapter.View
 
     @Override
     public int getItemCount() {
-        return productname.length;
+        return orderListDataHolder.size();
     }
 
     public class ViewHolder extends RecyclerView.ViewHolder {

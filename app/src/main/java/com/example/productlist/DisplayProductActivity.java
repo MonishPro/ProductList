@@ -18,9 +18,11 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.productlist.aman.BuyProductActivity;
+import com.example.productlist.aman.OrderListAdapter;
 
 public class DisplayProductActivity extends AppCompatActivity {
 
+    private static final String REQUEST_CODE_NAME = "DisplayProductActivity";
     private ImageView imageView;
     private TextView Name,Price,Description;
     private ImageButton Back;
@@ -106,6 +108,7 @@ public class DisplayProductActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Toast.makeText(DisplayProductActivity.this, "Bought", Toast.LENGTH_SHORT).show();
                 Intent intent = new Intent(DisplayProductActivity.this, BuyProductActivity.class);
+                intent.putExtra(OrderListAdapter.REQUEST_CODE,REQUEST_CODE_NAME);
                 intent.putExtra("key1",productname);
                 intent.putExtra("key2",productprice);
                 intent.putExtra("key3",productimage);

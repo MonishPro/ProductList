@@ -97,16 +97,16 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/recyclerview_cart_list" />
 
-<!--    <androidx.recyclerview.widget.RecyclerView-->
-<!--        android:id="@+id/recyclerview_order_list"-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="210dp"-->
-<!--        android:layout_marginTop="20dp"-->
-<!--        android:orientation="horizontal"-->
-<!--        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"-->
-<!--        app:layout_constraintEnd_toEndOf="parent"-->
-<!--        app:layout_constraintStart_toStartOf="parent"-->
-<!--        app:layout_constraintTop_toBottomOf="@+id/tv_order_list"-->
-<!--        tools:listitem="@layout/cart_layout" />-->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerview_order_list"
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_order_list"
+        tools:listitem="@layout/cart_layout" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

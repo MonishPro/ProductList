@@ -51,7 +51,7 @@
         android:id="@+id/tv_payment"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="10dp"
         android:text="Order Details"
         android:textSize="24dp"
         android:textStyle="bold"
@@ -70,30 +70,30 @@
         app:layout_constraintTop_toBottomOf="@+id/tv_payment"
         tools:srcCompat="@drawable/earphones" />
 
-    <TextView
-        android:id="@+id/tv_product_name"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:text="Product Name"
-        app:layout_constraintEnd_toStartOf="@+id/guideline5"
-        app:layout_constraintStart_toStartOf="@+id/guideline4"
-        app:layout_constraintTop_toBottomOf="@+id/img_order_product" />
 
     <ScrollView
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="20dp"
         android:layout_marginBottom="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/guideline5"
         app:layout_constraintStart_toStartOf="@+id/guideline4"
-        app:layout_constraintTop_toBottomOf="@+id/tv_product_name">
+        app:layout_constraintTop_toBottomOf="@+id/img_order_product">
 
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tv_product_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Product Name"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
 
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/til_address_country"
@@ -170,8 +170,9 @@
                 android:id="@+id/tv_address"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
                 android:text="Address"
-                app:layout_constraintTop_toTopOf="parent" />
+                app:layout_constraintTop_toBottomOf="@+id/tv_product_name" />
 
             <TextView
                 android:id="@+id/tv_payment_info"
@@ -278,11 +279,11 @@
                 android:id="@+id/tv_error"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Complete the required field"
                 android:layout_marginBottom="10dp"
+                android:text="Complete the required field"
+                android:textColor="@color/design_default_color_error"
                 android:visibility="invisible"
-                app:layout_constraintBottom_toTopOf="@id/btn_confirm_order"
-                android:textColor="@color/design_default_color_error"/>
+                app:layout_constraintBottom_toTopOf="@id/btn_confirm_order" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>
