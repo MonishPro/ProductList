@@ -6,21 +6,16 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
 
-import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.productlist.CartList;
 import com.example.productlist.MainActivity;
 import com.example.productlist.databinding.ActivityBuyProductBinding;
-import com.google.android.gms.tasks.OnFailureListener;
-import com.google.android.gms.tasks.OnSuccessListener;
-import com.google.firebase.auth.FirebaseAuth;
-import com.google.firebase.database.ChildEventListener;
-import com.google.firebase.database.DatabaseReference;
-import com.google.firebase.database.FirebaseDatabase;
+import com.google.common.reflect.TypeToken;
 import com.google.gson.Gson;
 
+import java.lang.reflect.Type;
 import java.util.ArrayList;
+import java.util.List;
 
 public class BuyProductActivity extends AppCompatActivity {
 
@@ -100,9 +95,14 @@ public class BuyProductActivity extends AppCompatActivity {
         } else {
             String fullAddress = addressCountry + "," + addressState + "," + addressDistrict + "," + addressPinCode;
             orderListDataHolder = new ArrayList<>();
+            Gson gson = new Gson();
+            String orderListPreviousData =  sharedPreferences.getString(BuyProductActivity.ORDER_LIST, null);
+            Type type = new TypeToken<List<OrderListModelClass>>(){}.getType();
+            orderListDataHolder = gson.fromJson(orderListPreviousData, type);
+
             OrderListModelClass orderListModel = new OrderListModelClass(productName, productPrice, productImage, fullAddress, upi, priceInt, gst, shippingCharge);
             orderListDataHolder.add(orderListModel);
-            Gson gson = new Gson();
+            System.out.println(orderListDataHolder);
             String orderList = gson.toJson(orderListDataHolder);
 
             Toast.makeText(BuyProductActivity.this, "Saved!", Toast.LENGTH_SHORT).show();
