@@ -27,12 +27,14 @@ public class DisplayProductActivity extends AppCompatActivity {
     private TextView Name,Price,Description;
     private ImageButton Back;
     private Button btnBuyNow,Cart;
+    private SharedPreferences sharedPreferences;
 
     @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_display_product);
+        sharedPreferences = getSharedPreferences("Database",MODE_PRIVATE);
 
         imageView=findViewById(R.id.imageView3);
         Name=findViewById(R.id.tv_product_name);
@@ -119,7 +121,7 @@ public class DisplayProductActivity extends AppCompatActivity {
         Cart.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                SharedPreferences sharedPreferences=getSharedPreferences("Database",MODE_PRIVATE);
+
                 int length=sharedPreferences.getInt("data2",0);
                 SharedPreferences.Editor editor= sharedPreferences.edit();
 

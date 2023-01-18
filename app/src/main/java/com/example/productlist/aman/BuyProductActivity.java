@@ -18,6 +18,9 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.ChildEventListener;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+import com.google.gson.Gson;
+
+import java.util.ArrayList;
 
 public class BuyProductActivity extends AppCompatActivity {
 
@@ -26,6 +29,8 @@ public class BuyProductActivity extends AppCompatActivity {
     private String productName, productPrice;
     private int productImage;
     private int priceInt, gst, shippingCharge, total;
+    ArrayList<OrderListModelClass> orderListDataHolder;
+    public static final String ORDER_LIST = "order_list";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -94,13 +99,17 @@ public class BuyProductActivity extends AppCompatActivity {
             binding.tvError.setVisibility(View.VISIBLE);
         } else {
             String fullAddress = addressCountry + "," + addressState + "," + addressDistrict + "," + addressPinCode;
+            orderListDataHolder = new ArrayList<>();
             OrderListModelClass orderListModel = new OrderListModelClass(productName, productPrice, productImage, fullAddress, upi, priceInt, gst, shippingCharge);
-
+            orderListDataHolder.add(orderListModel);
+            Gson gson = new Gson();
+            String orderList = gson.toJson(orderListDataHolder);
 
             Toast.makeText(BuyProductActivity.this, "Saved!", Toast.LENGTH_SHORT).show();
             SharedPreferences.Editor editor = sharedPreferences.edit();
             editor.putString("address", fullAddress);
             editor.putString("upi", upi);
+            editor.putString(ORDER_LIST, orderList);
             editor.apply();
             Intent intent = new Intent(BuyProductActivity.this, ThankYouActivity.class);
             startActivity(intent);

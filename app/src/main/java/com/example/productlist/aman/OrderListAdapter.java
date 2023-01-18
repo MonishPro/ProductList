@@ -61,6 +61,7 @@ public class OrderListAdapter extends RecyclerView.Adapter<OrderListAdapter.View
         holder.productprices.setText(productPrice);
         holder.productimagess.setImageResource(productImage);
 
+
         int a=position;
 
         holder.itemView.setOnClickListener(new View.OnClickListener() {

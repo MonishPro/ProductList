@@ -57,4 +57,7 @@ dependencies {
     // TODO: Add the dependencies for Firebase products you want to use
     // When using the BoM, don't specify versions in Firebase dependencies
     implementation 'com.google.firebase:firebase-analytics'
+
+    //Gson
+    implementation 'com.google.code.gson:gson:2.10.1'
 }

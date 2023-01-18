@@ -15,23 +15,29 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.Toast;
 
+import com.example.productlist.aman.BuyProductActivity;
 import com.example.productlist.aman.OrderListAdapter;
 import com.example.productlist.aman.OrderListModelClass;
+import com.google.common.reflect.TypeToken;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.ChildEventListener;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+import com.google.gson.Gson;
 
+import java.lang.reflect.Type;
 import java.util.ArrayList;
+import java.util.List;
 
 public class CartList extends AppCompatActivity implements CartListInterface {
     public RecyclerView recyclerViewCartList, recyclerViewOrderList;
     private ImageView Back, Home;
     CartAdapter cartAdapter;
     OrderListAdapter orderListAdapter;
-    private ArrayList<OrderListModelClass> orderListDataHolder;
+    ArrayList<OrderListModelClass> orderListDataHolder;
+    private SharedPreferences sharedPreferences;
 
 
     @SuppressLint("MissingInflatedId")
@@ -39,6 +45,7 @@ public class CartList extends AppCompatActivity implements CartListInterface {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cart_list);
+        sharedPreferences=getSharedPreferences("Database",MODE_PRIVATE);
 
         Back = findViewById(R.id.imageButton9);
         Home = findViewById(R.id.imageButton10);
@@ -49,6 +56,8 @@ public class CartList extends AppCompatActivity implements CartListInterface {
         String productname = getIntent().getStringExtra("key1");
         String productprice = getIntent().getStringExtra("key2");
         int show = getIntent().getIntExtra("key5", 1);
+
+        onAddDataInOrderList();
 
         if (show == 1) {
             try {
@@ -259,7 +268,14 @@ public class CartList extends AppCompatActivity implements CartListInterface {
 
     }
 
-    public void onAddDataInOrderList(OrderListModelClass orderListModel) {
+    public void onAddDataInOrderList() {
+        Gson gson = new Gson();
+        String orderList =  sharedPreferences.getString(BuyProductActivity.ORDER_LIST, null);
+        Type type = new TypeToken<List<OrderListModelClass>>(){}.getType();
+        orderListDataHolder = gson.fromJson(orderList, type);
 
+        recyclerViewOrderList.setLayoutManager(new LinearLayoutManager(this));
+        orderListAdapter = new OrderListAdapter(CartList.this,orderListDataHolder);
+        recyclerViewOrderList.setAdapter(orderListAdapter);
     }
 }
