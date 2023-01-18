@@ -106,7 +106,6 @@ public class CartList extends AppCompatActivity implements CartListInterface {
                 pprice[length - 1] = productprice;
                 pimage[length - 1] = productimage;
 
-                recyclerViewCartList.setLayoutManager(new LinearLayoutManager(this));
                 cartAdapter = new CartAdapter(pname, pprice, pimage, getApplicationContext(), this);
                 recyclerViewCartList.setAdapter(cartAdapter);
 
@@ -124,7 +123,6 @@ public class CartList extends AppCompatActivity implements CartListInterface {
                 pprice[length - 1] = productprice;
                 pimage[length - 1] = productimage;
 
-                recyclerViewCartList.setLayoutManager(new LinearLayoutManager(this));
                 cartAdapter = new CartAdapter(pname, pprice, pimage, getApplicationContext(), this);
                 recyclerViewCartList.setAdapter(cartAdapter);
 
@@ -156,7 +154,7 @@ public class CartList extends AppCompatActivity implements CartListInterface {
                 pimage[i] = pimages[i];
             }
 
-            recyclerViewCartList.setLayoutManager(new LinearLayoutManager(this));
+
             cartAdapter = new CartAdapter(pname, pprice, pimage, getApplicationContext(), this);
             recyclerViewCartList.setAdapter(cartAdapter);
         }
@@ -259,7 +257,6 @@ public class CartList extends AppCompatActivity implements CartListInterface {
         Type type = new TypeToken<List<OrderListModelClass>>(){}.getType();
         orderListDataHolder = gson.fromJson(orderList, type);
 
-//        recyclerViewOrderList.setLayoutManager(new LinearLayoutManager(this));
         orderListAdapter = new OrderListAdapter(CartList.this,orderListDataHolder);
         recyclerViewOrderList.setAdapter(orderListAdapter);
     }
