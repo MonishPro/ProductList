@@ -262,7 +262,7 @@ public class CartList extends AppCompatActivity implements CartListInterface {
         ed.apply();
 
         recyclerViewCartList = findViewById(R.id.recyclerview_cart_list);
-        recyclerViewCartList.setLayoutManager(new LinearLayoutManager(this));
+//        recyclerViewCartList.setLayoutManager(new LinearLayoutManager(this));
         cartAdapter = new CartAdapter(pname, pprice, pimage, getApplicationContext(), this);
         recyclerViewCartList.setAdapter(cartAdapter);
 
@@ -274,7 +274,7 @@ public class CartList extends AppCompatActivity implements CartListInterface {
         Type type = new TypeToken<List<OrderListModelClass>>(){}.getType();
         orderListDataHolder = gson.fromJson(orderList, type);
 
-        recyclerViewOrderList.setLayoutManager(new LinearLayoutManager(this));
+//        recyclerViewOrderList.setLayoutManager(new LinearLayoutManager(this));
         orderListAdapter = new OrderListAdapter(CartList.this,orderListDataHolder);
         recyclerViewOrderList.setAdapter(orderListAdapter);
     }
