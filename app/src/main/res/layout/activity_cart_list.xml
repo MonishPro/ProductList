@@ -45,14 +45,14 @@
     </androidx.appcompat.widget.Toolbar>
 
 
-    <ImageView
-        android:id="@+id/imageButton10"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:layout_margin="20dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/toolbar"
-        app:srcCompat="@drawable/home2" />
+<!--    <ImageView-->
+<!--        android:id="@+id/imageButton10"-->
+<!--        android:layout_width="50dp"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:layout_margin="20dp"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/toolbar"-->
+<!--        app:srcCompat="@drawable/home2" />-->
 
 
     <androidx.recyclerview.widget.RecyclerView
@@ -72,15 +72,15 @@
         android:layout_width="103dp"
         android:layout_height="30dp"
         android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
         android:fontFamily="@font/akaya_telivigala"
         android:shadowColor="#000000"
         android:text="CartList"
-        android:layout_marginTop="10dp"
         android:textColor="?attr/colorOnSecondary"
         android:textSize="25sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton10" />
+        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
 
     <TextView
         android:id="@+id/tv_order_list"
