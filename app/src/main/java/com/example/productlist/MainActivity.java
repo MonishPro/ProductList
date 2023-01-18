@@ -181,7 +181,6 @@ public class MainActivity extends AppCompatActivity {
                         Intent i=new Intent(context,CartList.class);
                         i.putExtra("key5",show);
                         startActivity(i);
-                        finish();
                     }
                     else
                     {

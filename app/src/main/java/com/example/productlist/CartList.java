@@ -58,6 +58,19 @@ public class CartList extends AppCompatActivity implements CartListInterface {
         int show = getIntent().getIntExtra("key5", 1);
 
         onAddDataInOrderList();
+        Back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+//                        Intent i = new Intent(getApplicationContext(), DisplayProductActivity.class);
+//                        i.putExtra("key1", productname);
+//                        i.putExtra("key2", productprice);
+//                        i.putExtra("key3", productimage);
+//                        startActivity(i);
+                finish();
+
+            }
+        });
 
         if (show == 1) {
             try {
@@ -99,19 +112,6 @@ public class CartList extends AppCompatActivity implements CartListInterface {
 
                 stringstorage(pname, pprice, pimage);
 
-                Back.setOnClickListener(new View.OnClickListener() {
-                    @Override
-                    public void onClick(View view) {
-
-                        Intent i = new Intent(getApplicationContext(), DisplayProductActivity.class);
-                        i.putExtra("key1", productname);
-                        i.putExtra("key2", productprice);
-                        i.putExtra("key3", productimage);
-                        startActivity(i);
-                        finish();
-
-                    }
-                });
             } catch (Exception e) {
                 SharedPreferences sharedPreferences = getSharedPreferences("Database", MODE_PRIVATE);
                 int length = sharedPreferences.getInt("data2", 0);
@@ -129,23 +129,8 @@ public class CartList extends AppCompatActivity implements CartListInterface {
                 recyclerViewCartList.setAdapter(cartAdapter);
 
                 stringstorage(pname, pprice, pimage);
-
-                Back.setOnClickListener(new View.OnClickListener() {
-                    @Override
-                    public void onClick(View view) {
-
-                        Intent i = new Intent(getApplicationContext(), DisplayProductActivity.class);
-                        i.putExtra("key1", productname);
-                        i.putExtra("key2", productprice);
-                        i.putExtra("key3", productimage);
-                        startActivity(i);
-                        finish();
-
-                    }
-                });
             }
         } else {
-            Back.setVisibility(View.GONE);
             SharedPreferences sharedPreferences = getSharedPreferences("Database", MODE_PRIVATE);
             int length = sharedPreferences.getInt("data2", 0);
             String pnam = sharedPreferences.getString("data3", null);

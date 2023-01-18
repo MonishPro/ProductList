@@ -135,7 +135,6 @@ public class DisplayProductActivity extends AppCompatActivity {
                 editor.apply();
 
                 startActivity(i);
-                finish();
             }
         });
     }
