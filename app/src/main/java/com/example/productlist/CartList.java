@@ -243,6 +243,7 @@ public class CartList extends AppCompatActivity implements CartListInterface {
         String orderList =  sharedPreferences.getString(BuyProductActivity.ORDER_LIST, null);
         Type type = new TypeToken<List<OrderListModelClass>>(){}.getType();
         orderListDataHolder = gson.fromJson(orderList, type);
+        System.out.println(orderListDataHolder);
 
         orderListAdapter = new OrderListAdapter(CartList.this,orderListDataHolder);
         recyclerViewOrderList.setAdapter(orderListAdapter);

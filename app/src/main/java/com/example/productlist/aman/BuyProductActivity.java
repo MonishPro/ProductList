@@ -27,6 +27,7 @@ public class BuyProductActivity extends AppCompatActivity {
     private int priceInt, gst, shippingCharge, total;
     ArrayList<OrderListModelClass> orderListDataHolder;
     public static final String ORDER_LIST = "order_list";
+    private String orderList;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -90,32 +91,34 @@ public class BuyProductActivity extends AppCompatActivity {
         String addressDistrict = binding.tilAddressDistrict.getEditText().getText().toString();
         String addressPinCode = binding.tilAddressPincode.getEditText().getText().toString();
         String upi = binding.tilUpi.getEditText().getText().toString();
-        if (addressCountry.equals("") | addressState.equals("") | addressDistrict.equals("") | addressPinCode.equals("")
-                | upi.equals("")) {
+        if (addressCountry.equals("") || addressState.equals("") || addressDistrict.equals("") || addressPinCode.equals("")
+                || upi.equals("")) {
             binding.tvError.setVisibility(View.VISIBLE);
         } else {
             String fullAddress = addressCountry + "," + addressState + "," + addressDistrict + "," + addressPinCode;
-            orderListDataHolder = new ArrayList<>();
             Gson gson = new Gson();
-            String orderListPreviousData =  sharedPreferences.getString(BuyProductActivity.ORDER_LIST, null);
-            Type type = new TypeToken<List<OrderListModelClass>>(){}.getType();
-            orderListDataHolder = gson.fromJson(orderListPreviousData, type);
-
+            String orderListPreviousData = sharedPreferences.getString(BuyProductActivity.ORDER_LIST, "");
+            Type type = new TypeToken<List<OrderListModelClass>>() {
+            }.getType();
+            List<OrderListModelClass> orderListDataHolder;
+            if (orderListPreviousData.equals("")) {
+                orderListDataHolder = new ArrayList<>();
+            } else {
+                orderListDataHolder = gson.fromJson(orderListPreviousData, type);
+            }
             OrderListModelClass orderListModel = new OrderListModelClass(productName, productPrice, productImage, fullAddress, upi, priceInt, gst, shippingCharge);
             orderListDataHolder.add(orderListModel);
-            System.out.println(orderListDataHolder);
             String orderList = gson.toJson(orderListDataHolder);
-
-            Toast.makeText(BuyProductActivity.this, "Saved!", Toast.LENGTH_SHORT).show();
             SharedPreferences.Editor editor = sharedPreferences.edit();
             editor.putString("address", fullAddress);
             editor.putString("upi", upi);
             editor.putString(ORDER_LIST, orderList);
             editor.apply();
+            Toast.makeText(BuyProductActivity.this, "Saved!", Toast.LENGTH_SHORT).show();
             Intent intent = new Intent(BuyProductActivity.this, ThankYouActivity.class);
             startActivity(intent);
             finish();
-
         }
     }
+
 }
