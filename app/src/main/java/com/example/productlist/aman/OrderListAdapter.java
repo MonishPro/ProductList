@@ -51,11 +51,11 @@ public class OrderListAdapter extends RecyclerView.Adapter<OrderListAdapter.View
         String productName = orderListDataHolder.get(position).getProductName();
         String productPrice = orderListDataHolder.get(position).getProductPrice();
         int productImage = orderListDataHolder.get(position).getProductImage();
-        String fullAddress = orderListDataHolder.get(position).getFullAddress();
-        String upi = orderListDataHolder.get(position).getUpi();
-        int priceInt = orderListDataHolder.get(position).getPriceInt();
-        int gst = orderListDataHolder.get(position).getGst();
-        int shippingCharge = orderListDataHolder.get(position).getShippingCharge();
+//        String fullAddress = orderListDataHolder.get(position).getFullAddress();
+//        String upi = orderListDataHolder.get(position).getUpi();
+//        int priceInt = orderListDataHolder.get(position).getPriceInt();
+//        int gst = orderListDataHolder.get(position).getGst();
+//        int shippingCharge = orderListDataHolder.get(position).getShippingCharge();
 
         holder.productname.setText(productName);
         holder.productprices.setText(productPrice);

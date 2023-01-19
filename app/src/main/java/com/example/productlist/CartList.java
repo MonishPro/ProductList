@@ -43,7 +43,6 @@ public class CartList extends AppCompatActivity implements CartListInterface {
         sharedPreferences=getSharedPreferences("Database",MODE_PRIVATE);
 
         Back = findViewById(R.id.imageButton9);
-        Home = findViewById(R.id.imageButton10);
         recyclerViewCartList = findViewById(R.id.recyclerview_cart_list);
         recyclerViewOrderList = findViewById(R.id.recyclerview_order_list);
 
@@ -153,13 +152,6 @@ public class CartList extends AppCompatActivity implements CartListInterface {
             cartAdapter = new CartAdapter(pname, pprice, pimage, getApplicationContext(), this);
             recyclerViewCartList.setAdapter(cartAdapter);
         }
-
-        Home.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                finish();
-            }
-        });
     }
 
     void stringstorage(String[] pname, String[] pprice, int[] pimage) {
